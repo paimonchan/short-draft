@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-14 15:58",
+ "generated": "2026-11-14 18:37",
  "repo": "paimonchan/short-draft",
  "count": 17,
  "beats": 97,
- "camera_beats": 38,
- "words": 1177,
+ "camera_beats": 37,
+ "words": 1197,
  "hooks": 3,
  "statuses": {
   "draft": 0,
@@ -348,46 +348,46 @@
     "komedi",
     "sandal"
    ],
-   "logline": "Sirin mencari sandalnya dengan kepala sambil berdiri di depan pintu, dan ternyata sandal itu sedang diinjak kakinya sendiri.",
+   "logline": "Sandal Sirin nyangkut di belakang tumitnya sendiri; dia mencari ke kiri-kanan, lalu sadar sandalnya ikut jalan bersama kakinya.",
    "source": "agent (usulan + riset docs/01/02/05 story-draft)",
-   "hook": "Frame 1: satu sandal di kaki kanan, kaki kiri telanjang, dan sandal keduanya tergeletak di bawah kaki kirinya sendiri - pertanyaan: dia sadar nggak?",
+   "hook": "Frame 1: satu sandal terpakai di kaki kanan, dan sandal keduanya menggantung miring di tumit kaki kiri dengan sol menghadap ke atas - pertanyaan: kapan dia sadar?",
    "has_hook": true,
    "hook_signals": {
     "frame1": true,
     "question": true,
-    "motion": false
+    "motion": true
    },
-   "hook_score": 2,
+   "hook_score": 3,
    "beats": [
     {
      "n": 1,
-     "text": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di depan pintu dengan sandal sebelah kanan saja, kaki kiri telanjang, dan sandal keduanya tergeletak rata di lantai tepat di bawah telapak kaki kirinya",
+     "text": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di pintu dengan sandal sebelah kanan terpakai, dan sandal keduanya nyangkut di belakang kaus kaki kirinya - menggantung miring di tumit dengan sol menghadap ke atas",
      "camera": true,
-     "words": 35
+     "words": 37
     },
     {
      "n": 2,
-     "text": "sirin menunduk melihat kakinya, lalu memutar kepalanya ke kiri mencari, badannya sedikit berputar mengikuti arah pandangnya",
-     "camera": true,
-     "words": 16
-    },
-    {
-     "n": 3,
-     "text": "dia memutar kepalanya ke kanan, mengangkat tumit kirinya sedikit sehingga sandal di bawahnya bergeser, lalu menurunkannya lagi",
+     "text": "sirin memutar badannya pelan ke kiri sambil menunduk mencari ke lantai, sandal di tumitnya ikut terayun keluar",
      "camera": false,
      "words": 17
     },
     {
-     "n": 4,
-     "text": "sirin menunduk lagi ke arah kaki kirinya dan akhirnya melihat sandal itu menempel di bawah telapaknya",
+     "n": 3,
+     "text": "sirin memutar badannya kembali ke kanan, satu langkah kecil, matanya tetap menyapu lantai sementara sandal itu terayun ke arah lain",
      "camera": false,
-     "words": 16
+     "words": 20
+    },
+    {
+     "n": 4,
+     "text": "sirin berhenti dengan kedua kaki menapak lalu menunduk ke tumit kirinya sendiri, dan di situ sandal itu menggantung, solnya menghadap ke atas",
+     "camera": false,
+     "words": 22
     },
     {
      "n": 5,
-     "text": "dia mengangkat kaki kirinya sedikit, sandalnya jatuh rata, lalu dia menggeser telapak kakinya masuk ke sandal tanpa membungkuk",
+     "text": "sirin mengangkat kaki kirinya sedikit lalu menggoyangkannya dua kali, sandal itu lepas dan jatuh rata ke lantai, dia menggeser telapak kakinya masuk dan menggerakkan jari kakinya",
      "camera": false,
-     "words": 18
+     "words": 26
     },
     {
      "n": 6,
@@ -397,9 +397,9 @@
     }
    ],
    "beats_count": 6,
-   "camera_beats": 3,
-   "words": 121,
-   "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di depan pintu dengan sandal sebelah kanan saja, kaki kiri telanjang, dan sandal keduanya tergeletak rata di lantai t",
+   "camera_beats": 2,
+   "words": 141,
+   "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di pintu dengan sandal sebelah kanan terpakai, dan sandal keduanya nyangkut di belakang kaus kaki kirinya - menggantu",
    "has_notes": true,
    "has_frontmatter": true,
    "ready": 8,
@@ -431,7 +431,7 @@
      "label": "Ada arahan kamera/POV",
      "note": "biar bisa dipetakan jadi shot",
      "ok": true,
-     "value": 3
+     "value": 2
     },
     {
      "id": "setting",

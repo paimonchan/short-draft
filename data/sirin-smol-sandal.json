@@ -19,46 +19,46 @@
   "komedi",
   "sandal"
  ],
- "logline": "Sirin mencari sandalnya dengan kepala sambil berdiri di depan pintu, dan ternyata sandal itu sedang diinjak kakinya sendiri.",
+ "logline": "Sandal Sirin nyangkut di belakang tumitnya sendiri; dia mencari ke kiri-kanan, lalu sadar sandalnya ikut jalan bersama kakinya.",
  "source": "agent (usulan + riset docs/01/02/05 story-draft)",
- "hook": "Frame 1: satu sandal di kaki kanan, kaki kiri telanjang, dan sandal keduanya tergeletak di bawah kaki kirinya sendiri - pertanyaan: dia sadar nggak?",
+ "hook": "Frame 1: satu sandal terpakai di kaki kanan, dan sandal keduanya menggantung miring di tumit kaki kiri dengan sol menghadap ke atas - pertanyaan: kapan dia sadar?",
  "has_hook": true,
  "hook_signals": {
   "frame1": true,
   "question": true,
-  "motion": false
+  "motion": true
  },
- "hook_score": 2,
+ "hook_score": 3,
  "beats": [
   {
    "n": 1,
-   "text": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di depan pintu dengan sandal sebelah kanan saja, kaki kiri telanjang, dan sandal keduanya tergeletak rata di lantai tepat di bawah telapak kaki kirinya",
+   "text": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di pintu dengan sandal sebelah kanan terpakai, dan sandal keduanya nyangkut di belakang kaus kaki kirinya - menggantung miring di tumit dengan sol menghadap ke atas",
    "camera": true,
-   "words": 35
+   "words": 37
   },
   {
    "n": 2,
-   "text": "sirin menunduk melihat kakinya, lalu memutar kepalanya ke kiri mencari, badannya sedikit berputar mengikuti arah pandangnya",
-   "camera": true,
-   "words": 16
-  },
-  {
-   "n": 3,
-   "text": "dia memutar kepalanya ke kanan, mengangkat tumit kirinya sedikit sehingga sandal di bawahnya bergeser, lalu menurunkannya lagi",
+   "text": "sirin memutar badannya pelan ke kiri sambil menunduk mencari ke lantai, sandal di tumitnya ikut terayun keluar",
    "camera": false,
    "words": 17
   },
   {
-   "n": 4,
-   "text": "sirin menunduk lagi ke arah kaki kirinya dan akhirnya melihat sandal itu menempel di bawah telapaknya",
+   "n": 3,
+   "text": "sirin memutar badannya kembali ke kanan, satu langkah kecil, matanya tetap menyapu lantai sementara sandal itu terayun ke arah lain",
    "camera": false,
-   "words": 16
+   "words": 20
+  },
+  {
+   "n": 4,
+   "text": "sirin berhenti dengan kedua kaki menapak lalu menunduk ke tumit kirinya sendiri, dan di situ sandal itu menggantung, solnya menghadap ke atas",
+   "camera": false,
+   "words": 22
   },
   {
    "n": 5,
-   "text": "dia mengangkat kaki kirinya sedikit, sandalnya jatuh rata, lalu dia menggeser telapak kakinya masuk ke sandal tanpa membungkuk",
+   "text": "sirin mengangkat kaki kirinya sedikit lalu menggoyangkannya dua kali, sandal itu lepas dan jatuh rata ke lantai, dia menggeser telapak kakinya masuk dan menggerakkan jari kakinya",
    "camera": false,
-   "words": 18
+   "words": 26
   },
   {
    "n": 6,
@@ -68,9 +68,9 @@
   }
  ],
  "beats_count": 6,
- "camera_beats": 3,
- "words": 121,
- "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di depan pintu dengan sandal sebelah kanan saja, kaki kiri telanjang, dan sandal keduanya tergeletak rata di lantai t",
+ "camera_beats": 2,
+ "words": 141,
+ "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di pintu dengan sandal sebelah kanan terpakai, dan sandal keduanya nyangkut di belakang kaus kaki kirinya - menggantu",
  "has_notes": true,
  "has_frontmatter": true,
  "ready": 8,
@@ -102,7 +102,7 @@
    "label": "Ada arahan kamera/POV",
    "note": "biar bisa dipetakan jadi shot",
    "ok": true,
-   "value": 3
+   "value": 2
   },
   {
    "id": "setting",
@@ -137,6 +137,6 @@
  "notes_path": "drafts/sirin-smol-sandal/notes.md",
  "data": "data/sirin-smol-sandal.json",
  "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-sandal/draft.md",
- "notes": "# Catatan produksi - Sirin smol and sandal\n\nLane produksi: `cha_sirin_sandal_01`.\n\n## Perubahan draft (2026-11-14, v2)\n\nDraft awal menulis `badannya tidak bergerak sama sekali` saat mencari sandal, lalu\n`dia mengangkat kakinya` tanpa menyebut seberapa tinggi. Dua pola ini bermasalah:\n\n- \"tidak bergerak sama sekali\" = instruksi diam -> H3 memangkas gerakan seluruh klip.\n- \"mengangkat kaki\" tanpa batas -> model bisa mengangkat lutut setinggi pinggang (kejadian nyata\n  di lane eskrim: kaki terangkat seperti senam).\n\nAturan yang sekarang dipakai:\n\n- **Dia bergerak terus**: berputar sedikit mengikuti arah pandang, mengangkat **tumit** (bukan\n  lutut) sehingga sandal di bawahnya bergeser.\n- **Reveal tanpa gerak kamera besar**: sandal sudah terlihat sejak frame pertama di bawah kaki\n  kirinya; kamera hanya bergeser kecil. Jangan minta kamera memutar ke bawah.\n- **Angkat kaki minimal**: hanya cukup untuk membuat sandal jatuh, lalu telapak kaki digeser masuk.\n- **Tidak ada negasi berulang** (`tidak bergerak sama sekali`).\n- Kamera selalu bergerak: ikut berputar sedikit, turun saat dia menunduk, naik saat keluar pintu.\n\n## Peta beat -> segmen (~2,5 dtk/segmen, 6 segmen = 15 dtk)\n\n1. berdiri di pintu, satu sandal dipakai, satunya di bawah kaki kiri\n2. menunduk, putar kepala kiri, badan ikut berputar\n3. putar kepala kanan, angkat tumit kiri sedikit -> sandal bergeser\n4. menunduk lagi, akhirnya melihat sandal di bawah telapaknya\n5. angkat kaki sedikit, sandal jatuh, geser telapak masuk tanpa membungkuk\n6. buka pintu, jalan keluar dengan muka sama seperti frame pertama\n\n## Batasan H3 yang dipegang\n\n- Satu lokasi, satu take, maks 1 gerak kamera kecil per segmen.\n- Jangan tulis kosakata shot-type (`zoom`, `close-up`, `cut to`).\n- Jangan tulis kata freeze.\n- Kontak eksplisit: telapak kaki **menekan** sandal, sandal **jatuh rata**, kaki **masuk** ke sandal.\n- Gerak kepala (cari kiri-kanan) = gerak karakter, bukan gerak kamera - jangan dua-duanya sekaligus.\n\n## Opsi caption post-produksi (4-7 kata)\n\n1. \"sandalnya ada di kakinya sendiri\"\n2. \"cari: cuma pakai kepala\"\n3. \"usaha: satu tumit\"\n\n## Aset\n\n`E:\\Sanctuary\\Cha Sirin Sandal 01\\` - world entryway + look cari sandal (POV atas, dua kaki + muka\ndalam satu frame).",
- "raw": "---\ntitle: \"Sirin smol and sandal\"\nstatus: \"ongoing\"\ndate: \"2026-11-14\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_sandal_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (pintu depan, lantai kayu)\"\nlogline: \"Sirin mencari sandalnya dengan kepala sambil berdiri di depan pintu, dan ternyata sandal itu sedang diinjak kakinya sendiri.\"\nhook: \"Frame 1: satu sandal di kaki kanan, kaki kiri telanjang, dan sandal keduanya tergeletak di bawah kaki kirinya sendiri - pertanyaan: dia sadar nggak?\"\nsource: \"agent (usulan + riset docs/01/02/05 story-draft)\"\nduration: 15\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, sandal]\n---\n\n- POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di depan pintu dengan sandal sebelah kanan saja, kaki kiri telanjang, dan sandal keduanya tergeletak rata di lantai tepat di bawah telapak kaki kirinya\n- sirin menunduk melihat kakinya, lalu memutar kepalanya ke kiri mencari, badannya sedikit berputar mengikuti arah pandangnya\n- dia memutar kepalanya ke kanan, mengangkat tumit kirinya sedikit sehingga sandal di bawahnya bergeser, lalu menurunkannya lagi\n- sirin menunduk lagi ke arah kaki kirinya dan akhirnya melihat sandal itu menempel di bawah telapaknya\n- dia mengangkat kaki kirinya sedikit, sandalnya jatuh rata, lalu dia menggeser telapak kakinya masuk ke sandal tanpa membungkuk\n- sirin membuka pintu dengan satu tangan dan berjalan keluar dengan langkah dan muka yang persis sama seperti frame pertama\n"
+ "notes": "# Catatan produksi - Sirin smol and sandal\n\nLane produksi: `cha_sirin_sandal_01`.\n\n## Perubahan draft (2026-11-14, v3)\n\nVersi v2 menaruh sandal **di lantai, di bawah telapak kaki kiri** - dan itu gagal secara geometri:\ndari POV atas, sandal di bawah telapak **tidak mungkin terlihat**, jadi \"reveal\"-nya tidak pernah\nkebaca (render `00002`: muka menunduk terus 2-11 detik, sandal tidak pernah muncul jelas).\n\nAturan yang sekarang dipakai:\n\n- **Sandal nyangkut di belakang tumit**, menggantung miring di kaus kaki kiri dengan **sol\n  menghadap atas** - jadi terlihat dari POV atas sejak frame pertama sampai dia menggoyangkannya.\n- **Dia bergerak terus**: badan berputar kiri, lalu kanan, mengikuti arah pandang. Tidak ada\n  instruksi diam.\n- **Angkat kaki minim**: hanya menggoyang kaki sekali-dua kali supaya sandal jatuh. Tanpa\n  membungkuk, tanpa jongkok.\n- Semua negasi berulang (`tidak bergerak sama sekali`) dihapus.\n\n## Peta beat -> segmen (~2,5 dtk/segmen, 6 segmen = 15 dtk)\n\n1. berdiri di pintu, sandal kanan terpakai, sandal kiri nyangkut di tumit\n2. putar badan ke kiri, menunduk cari ke lantai\n3. putar badan ke kanan, satu langkah kecil, mata menyapu lantai\n4. berhenti, menunduk ke tumit sendiri, sandal terlihat menggantung\n5. goyang kaki dua kali, sandal lepas dan jatuh, telapak masuk\n6. buka pintu, jalan keluar\n\n## Batasan H3 yang dipegang\n\n- Satu lokasi, satu take, maks 1 gerak kamera kecil per segmen.\n- Jangan tulis kosakata shot-type (`zoom`, `close-up`, `cut to`).\n- Jangan tulis kata freeze (`holds`, `stops`, `stays`, `does not move`).\n- Kontak eksplisit: sandal **menggantung di tumit**, **sol menghadap atas**, sandal **jatuh rata**,\n  telapak kaki **masuk** ke sandal.\n- Objek harus **terbaca dari kamera**: jangan menaruh objek kunci di bawah bagian tubuh.\n\n## Opsi caption post-produksi (4-7 kata)\n\n1. \"sandalnya nempel di tumitnya sendiri\"\n2. \"cari: cuma pakai kepala\"\n3. \"usaha: satu goyang kaki\"\n\n## Aset\n\n`E:\\Sanctuary\\Cha Sirin Sandal 01\\` - world entryway + look cari sandal (POV atas, sandal\nmenggantung di tumit, sol mengarah ke atas).",
+ "raw": "---\ntitle: \"Sirin smol and sandal\"\nstatus: \"ongoing\"\ndate: \"2026-11-14\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_sandal_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (pintu depan, lantai kayu)\"\nlogline: \"Sandal Sirin nyangkut di belakang tumitnya sendiri; dia mencari ke kiri-kanan, lalu sadar sandalnya ikut jalan bersama kakinya.\"\nhook: \"Frame 1: satu sandal terpakai di kaki kanan, dan sandal keduanya menggantung miring di tumit kaki kiri dengan sol menghadap ke atas - pertanyaan: kapan dia sadar?\"\nsource: \"agent (usulan + riset docs/01/02/05 story-draft)\"\nduration: 15\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, sandal]\n---\n\n- POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di pintu dengan sandal sebelah kanan terpakai, dan sandal keduanya nyangkut di belakang kaus kaki kirinya - menggantung miring di tumit dengan sol menghadap ke atas\n- sirin memutar badannya pelan ke kiri sambil menunduk mencari ke lantai, sandal di tumitnya ikut terayun keluar\n- sirin memutar badannya kembali ke kanan, satu langkah kecil, matanya tetap menyapu lantai sementara sandal itu terayun ke arah lain\n- sirin berhenti dengan kedua kaki menapak lalu menunduk ke tumit kirinya sendiri, dan di situ sandal itu menggantung, solnya menghadap ke atas\n- sirin mengangkat kaki kirinya sedikit lalu menggoyangkannya dua kali, sandal itu lepas dan jatuh rata ke lantai, dia menggeser telapak kakinya masuk dan menggerakkan jari kakinya\n- sirin membuka pintu dengan satu tangan dan berjalan keluar dengan langkah dan muka yang persis sama seperti frame pertama\n"
 }

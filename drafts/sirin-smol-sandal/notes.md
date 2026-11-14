@@ -2,49 +2,47 @@
 
 Lane produksi: `cha_sirin_sandal_01`.
 
-## Perubahan draft (2026-11-14, v2)
+## Perubahan draft (2026-11-14, v3)
 
-Draft awal menulis `badannya tidak bergerak sama sekali` saat mencari sandal, lalu
-`dia mengangkat kakinya` tanpa menyebut seberapa tinggi. Dua pola ini bermasalah:
-
-- "tidak bergerak sama sekali" = instruksi diam -> H3 memangkas gerakan seluruh klip.
-- "mengangkat kaki" tanpa batas -> model bisa mengangkat lutut setinggi pinggang (kejadian nyata
-  di lane eskrim: kaki terangkat seperti senam).
+Versi v2 menaruh sandal **di lantai, di bawah telapak kaki kiri** - dan itu gagal secara geometri:
+dari POV atas, sandal di bawah telapak **tidak mungkin terlihat**, jadi "reveal"-nya tidak pernah
+kebaca (render `00002`: muka menunduk terus 2-11 detik, sandal tidak pernah muncul jelas).
 
 Aturan yang sekarang dipakai:
 
-- **Dia bergerak terus**: berputar sedikit mengikuti arah pandang, mengangkat **tumit** (bukan
-  lutut) sehingga sandal di bawahnya bergeser.
-- **Reveal tanpa gerak kamera besar**: sandal sudah terlihat sejak frame pertama di bawah kaki
-  kirinya; kamera hanya bergeser kecil. Jangan minta kamera memutar ke bawah.
-- **Angkat kaki minimal**: hanya cukup untuk membuat sandal jatuh, lalu telapak kaki digeser masuk.
-- **Tidak ada negasi berulang** (`tidak bergerak sama sekali`).
-- Kamera selalu bergerak: ikut berputar sedikit, turun saat dia menunduk, naik saat keluar pintu.
+- **Sandal nyangkut di belakang tumit**, menggantung miring di kaus kaki kiri dengan **sol
+  menghadap atas** - jadi terlihat dari POV atas sejak frame pertama sampai dia menggoyangkannya.
+- **Dia bergerak terus**: badan berputar kiri, lalu kanan, mengikuti arah pandang. Tidak ada
+  instruksi diam.
+- **Angkat kaki minim**: hanya menggoyang kaki sekali-dua kali supaya sandal jatuh. Tanpa
+  membungkuk, tanpa jongkok.
+- Semua negasi berulang (`tidak bergerak sama sekali`) dihapus.
 
 ## Peta beat -> segmen (~2,5 dtk/segmen, 6 segmen = 15 dtk)
 
-1. berdiri di pintu, satu sandal dipakai, satunya di bawah kaki kiri
-2. menunduk, putar kepala kiri, badan ikut berputar
-3. putar kepala kanan, angkat tumit kiri sedikit -> sandal bergeser
-4. menunduk lagi, akhirnya melihat sandal di bawah telapaknya
-5. angkat kaki sedikit, sandal jatuh, geser telapak masuk tanpa membungkuk
-6. buka pintu, jalan keluar dengan muka sama seperti frame pertama
+1. berdiri di pintu, sandal kanan terpakai, sandal kiri nyangkut di tumit
+2. putar badan ke kiri, menunduk cari ke lantai
+3. putar badan ke kanan, satu langkah kecil, mata menyapu lantai
+4. berhenti, menunduk ke tumit sendiri, sandal terlihat menggantung
+5. goyang kaki dua kali, sandal lepas dan jatuh, telapak masuk
+6. buka pintu, jalan keluar
 
 ## Batasan H3 yang dipegang
 
 - Satu lokasi, satu take, maks 1 gerak kamera kecil per segmen.
 - Jangan tulis kosakata shot-type (`zoom`, `close-up`, `cut to`).
-- Jangan tulis kata freeze.
-- Kontak eksplisit: telapak kaki **menekan** sandal, sandal **jatuh rata**, kaki **masuk** ke sandal.
-- Gerak kepala (cari kiri-kanan) = gerak karakter, bukan gerak kamera - jangan dua-duanya sekaligus.
+- Jangan tulis kata freeze (`holds`, `stops`, `stays`, `does not move`).
+- Kontak eksplisit: sandal **menggantung di tumit**, **sol menghadap atas**, sandal **jatuh rata**,
+  telapak kaki **masuk** ke sandal.
+- Objek harus **terbaca dari kamera**: jangan menaruh objek kunci di bawah bagian tubuh.
 
 ## Opsi caption post-produksi (4-7 kata)
 
-1. "sandalnya ada di kakinya sendiri"
+1. "sandalnya nempel di tumitnya sendiri"
 2. "cari: cuma pakai kepala"
-3. "usaha: satu tumit"
+3. "usaha: satu goyang kaki"
 
 ## Aset
 
-`E:\Sanctuary\Cha Sirin Sandal 01\` - world entryway + look cari sandal (POV atas, dua kaki + muka
-dalam satu frame).
+`E:\Sanctuary\Cha Sirin Sandal 01\` - world entryway + look cari sandal (POV atas, sandal
+menggantung di tumit, sol mengarah ke atas).

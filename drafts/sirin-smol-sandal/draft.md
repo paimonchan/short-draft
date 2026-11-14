@@ -7,17 +7,17 @@ series: "Cha Sirin smol"
 lane: "cha_sirin_sandal_01"
 format: "9:16"
 setting: "Rumah Sirin (pintu depan, lantai kayu)"
-logline: "Sirin mencari sandalnya dengan kepala sambil berdiri di depan pintu, dan ternyata sandal itu sedang diinjak kakinya sendiri."
-hook: "Frame 1: satu sandal di kaki kanan, kaki kiri telanjang, dan sandal keduanya tergeletak di bawah kaki kirinya sendiri - pertanyaan: dia sadar nggak?"
+logline: "Sandal Sirin nyangkut di belakang tumitnya sendiri; dia mencari ke kiri-kanan, lalu sadar sandalnya ikut jalan bersama kakinya."
+hook: "Frame 1: satu sandal terpakai di kaki kanan, dan sandal keduanya menggantung miring di tumit kaki kiri dengan sol menghadap ke atas - pertanyaan: kapan dia sadar?"
 source: "agent (usulan + riset docs/01/02/05 story-draft)"
 duration: 15
 characters: [Cha Sirin]
 tags: [sirin, smol, komedi, sandal]
 ---
 
-- POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di depan pintu dengan sandal sebelah kanan saja, kaki kiri telanjang, dan sandal keduanya tergeletak rata di lantai tepat di bawah telapak kaki kirinya
-- sirin menunduk melihat kakinya, lalu memutar kepalanya ke kiri mencari, badannya sedikit berputar mengikuti arah pandangnya
-- dia memutar kepalanya ke kanan, mengangkat tumit kirinya sedikit sehingga sandal di bawahnya bergeser, lalu menurunkannya lagi
-- sirin menunduk lagi ke arah kaki kirinya dan akhirnya melihat sandal itu menempel di bawah telapaknya
-- dia mengangkat kaki kirinya sedikit, sandalnya jatuh rata, lalu dia menggeser telapak kakinya masuk ke sandal tanpa membungkuk
+- POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di pintu dengan sandal sebelah kanan terpakai, dan sandal keduanya nyangkut di belakang kaus kaki kirinya - menggantung miring di tumit dengan sol menghadap ke atas
+- sirin memutar badannya pelan ke kiri sambil menunduk mencari ke lantai, sandal di tumitnya ikut terayun keluar
+- sirin memutar badannya kembali ke kanan, satu langkah kecil, matanya tetap menyapu lantai sementara sandal itu terayun ke arah lain
+- sirin berhenti dengan kedua kaki menapak lalu menunduk ke tumit kirinya sendiri, dan di situ sandal itu menggantung, solnya menghadap ke atas
+- sirin mengangkat kaki kirinya sedikit lalu menggoyangkannya dua kali, sandal itu lepas dan jatuh rata ke lantai, dia menggeser telapak kakinya masuk dan menggerakkan jari kakinya
 - sirin membuka pintu dengan satu tangan dan berjalan keluar dengan langkah dan muka yang persis sama seperti frame pertama
