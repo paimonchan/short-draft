@@ -2,43 +2,43 @@
 
 Lane produksi: `cha_sirin_jaket_01`.
 
-## Perubahan draft (2026-11-14, v2)
+## Perubahan draft (2026-11-14, v3)
 
-Draft awal menulis Sirin **berdiri diam** sepanjang 15 detik, ditambah `badannya ikut terangkat`
-saat menarik resleting. Pola itu sudah terbukti bermasalah di lane eskrim: H3 jadi minim gerak
-(cadence turun) dan gerakan "terangkat" kebaca sebagai lompatan badan, bukan tarikan.
+Render `00001` menunjukkan masalah baru: **resleting dibuka-tutup berkali-kali**. Urutannya
+tutup (0-4 dtk) -> buka (4-6) -> tutup (6-8) -> buka lebar (8-12) -> tutup lagi (12-15).
+Penyebabnya: prompt v2 menulis tarikan gagal, tarikan cepat, **lalu ditutup lagi** - H3 membaca
+pola itu sebagai siklus berulang, bukan urutan sekali jalan.
 
 Aturan yang sekarang dipakai:
 
-- **Dia berjalan, bukan berdiri.** Resleting ditarik sambil jalan, berhenti hanya di tengah,
-  lalu lanjut jalan lagi di akhir.
-- **Kedua kaki menapak** saat berhenti. Tidak ada badan terangkat/lompat. Usaha ditandai dengan
-  **condong badan ke belakang** + **kain mengumpul di pinggang**, bukan badan naik.
-- **Tidak ada negasi berulang** (`tidak bergerak sama sekali`).
-- Kamera selalu bergerak: ikut jalan -> turun sedikit saat berhenti -> naik saat lanjut.
+- **Satu arah saja: buka, lalu selesai.** Tidak ada adegan menutup kembali.
+- Tarikan yang gagal ditulis sebagai **tarikan yang tidak menggerakkan zipper**, bukan "buka lalu tutup".
+- Hanya **satu tarikan keras** di payoff (bukan dua kali berturut-turut) supaya tidak jadi loop.
+- Setelah kebuka, jaket **tetap terbuka sampai frame terakhir**; dia shrug dan jalan pergi.
+- Kedua kaki menapak; usaha ditandai condong ke belakang, bukan badan terangkat.
 
 ## Peta beat -> segmen (~2,5 dtk/segmen, 6 segmen = 15 dtk)
 
 1. berjalan, tangan sudah di tarikan
 2. tarik pertama gagal sambil jalan, tangan jatuh
 3. berhenti, tarik dua tangan, badan condong ke belakang
-4. menunduk lihat resleting, dua tarikan cepat
+4. menunduk lihat resleting, satu tarikan kuat
 5. resleting kebuka sampai pinggang, dia melirik ke dalam jaketnya
-6. tutup lagi sambil jalan, lanjut seperti frame pertama
+6. jaket dibiarkan terbuka, shrug, angkat dagu, jalan pergi
 
 ## Batasan H3 yang dipegang
 
 - Satu lokasi, satu take, maks 1 gerak kamera kecil per segmen.
 - Jangan tulis kosakata shot-type (`zoom`, `close-up`, `cut to`).
 - Jangan tulis kata freeze (`holds`, `stops`, `stays`, `does not move`).
-- Kontak eksplisit: jari **mencengkeram** tarikan, **kain mengumpul di pinggang**, resleting
-  kebuka **sampai pinggang**.
-- Jaket tidak boleh menutup muka; kain mengumpul di pinggang, bukan di leher.
+- **Jangan tulis siklus buka-tutup** - model akan mengulanginya sepanjang klip.
+- Kontak eksplisit: jari mencengkeram tarikan, kain mengumpul di pinggang, zipper kebuka sampai pinggang.
+- Jaket tidak boleh menutup muka.
 
 ## Opsi caption post-produksi (4-7 kata)
 
 1. "resleting 1, sirin 0"
-2. "menang, terus ditutup lagi"
+2. "buka sekali, selesai"
 3. "perjuangan paling tidak perlu"
 
 ## Aset
