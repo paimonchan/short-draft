@@ -1,0 +1,134 @@
+{
+ "slug": "sirin-smol-kipas",
+ "title": "Sirin smol and kipas",
+ "status": "draft",
+ "status_raw": "draft",
+ "date": "2026-10-17",
+ "updated": "2026-10-17",
+ "series": "Cha Sirin smol",
+ "lane": "cha_sirin_fan_01",
+ "format": "9:16",
+ "duration": null,
+ "setting": "Rumah Sirin (kipas angin)",
+ "characters": [
+  "Cha Sirin"
+ ],
+ "tags": [
+  "sirin",
+  "smol",
+  "komedi",
+  "kipas"
+ ],
+ "logline": "",
+ "source": "chat (Discord #draft)",
+ "beats": [
+  {
+   "n": 1,
+   "text": "sirin mendobrak pintu dari toilet dengan muka bodohnya dan kelihatan lesu tapi tetap imut",
+   "camera": false,
+   "words": 14
+  },
+  {
+   "n": 2,
+   "text": "sirin menghadap ke POV sebentar, lalu menuju ke kipas",
+   "camera": true,
+   "words": 9
+  },
+  {
+   "n": 3,
+   "text": "POV mengikuti sirin ke belakang tapi tetap tinggi, lalu berputar ke samping",
+   "camera": true,
+   "words": 12
+  },
+  {
+   "n": 4,
+   "text": "sirin menyalakan kipas",
+   "camera": false,
+   "words": 3
+  },
+  {
+   "n": 5,
+   "text": "lalu kipas dengan kencang membuat rambut sirin berantakan",
+   "camera": false,
+   "words": 8
+  },
+  {
+   "n": 6,
+   "text": "dengan muka bodohnya sirin menghadap ke POV",
+   "camera": true,
+   "words": 7
+  }
+ ],
+ "beats_count": 6,
+ "camera_beats": 3,
+ "words": 53,
+ "preview": "sirin mendobrak pintu dari toilet dengan muka bodohnya dan kelihatan lesu tapi tetap imut",
+ "has_notes": false,
+ "has_frontmatter": true,
+ "ready": 8,
+ "ready_total": 8,
+ "checks": [
+  {
+   "id": "title",
+   "label": "Judul terisi",
+   "note": "judul yang muncul di papan",
+   "ok": true,
+   "value": "Sirin smol and kipas"
+  },
+  {
+   "id": "status",
+   "label": "Status valid",
+   "note": "draft / ongoing / done",
+   "ok": true,
+   "value": "draft"
+  },
+  {
+   "id": "beats",
+   "label": "Minimal 3 beat",
+   "note": "satu beat ≈ satu aksi di depan kamera",
+   "ok": true,
+   "value": 6
+  },
+  {
+   "id": "camera",
+   "label": "Ada arahan kamera/POV",
+   "note": "biar bisa dipetakan jadi shot",
+   "ok": true,
+   "value": 3
+  },
+  {
+   "id": "setting",
+   "label": "Setting terisi",
+   "note": "tempat kejadian",
+   "ok": true,
+   "value": "Rumah Sirin (kipas angin)"
+  },
+  {
+   "id": "tags",
+   "label": "Minimal 1 tag",
+   "note": "buat filter di papan",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "format",
+   "label": "Format terisi",
+   "note": "9:16 buat shorts, 16:9 buat biasa",
+   "ok": true,
+   "value": "9:16"
+  },
+  {
+   "id": "lane",
+   "label": "Lane produksi",
+   "note": "nama lane di repo produksi, kalau ada",
+   "ok": true,
+   "value": "cha_sirin_fan_01"
+  }
+ ],
+ "path": "drafts/sirin-smol-kipas/draft.md",
+ "notes_path": "",
+ "data": "data/sirin-smol-kipas.json",
+ "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-kipas/draft.md",
+ "notes": "",
+ "raw": "---\ntitle: \"Sirin smol and kipas\"\nstatus: \"draft\"\ndate: \"2026-10-17\"\nupdated: \"2026-10-17\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_fan_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (kipas angin)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, kipas]\n---\n\n- sirin mendobrak pintu dari toilet dengan muka bodohnya dan kelihatan lesu tapi tetap imut\n- sirin menghadap ke POV sebentar, lalu menuju ke kipas\n- POV mengikuti sirin ke belakang tapi tetap tinggi, lalu berputar ke samping\n- sirin menyalakan kipas\n- lalu kipas dengan kencang membuat rambut sirin berantakan\n- dengan muka bodohnya sirin menghadap ke POV\n"
+}

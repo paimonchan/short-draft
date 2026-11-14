@@ -1,0 +1,134 @@
+{
+ "slug": "sirin-smol-tangga",
+ "title": "Sirin smol and tangga",
+ "status": "draft",
+ "status_raw": "draft",
+ "date": "2026-10-17",
+ "updated": "2026-10-17",
+ "series": "Cha Sirin smol",
+ "lane": "cha_sirin_stairs_01",
+ "format": "9:16",
+ "duration": null,
+ "setting": "Rumah Sirin (tangga)",
+ "characters": [
+  "Cha Sirin"
+ ],
+ "tags": [
+  "sirin",
+  "smol",
+  "komedi",
+  "tangga"
+ ],
+ "logline": "",
+ "source": "chat (Discord #draft)",
+ "beats": [
+  {
+   "n": 1,
+   "text": "sirin mendobrak pintu dengan muka bodohnya dan kelihatan lesu tapi tetap imut",
+   "camera": false,
+   "words": 12
+  },
+  {
+   "n": 2,
+   "text": "sirin menghadap ke POV sebentar, lalu mulai menaiki tangga",
+   "camera": true,
+   "words": 9
+  },
+  {
+   "n": 3,
+   "text": "tak lama sirin kemudian turun dari tangga",
+   "camera": false,
+   "words": 7
+  },
+  {
+   "n": 4,
+   "text": "POV ada di sudut atas sirin lalu mendekat ke sirin",
+   "camera": true,
+   "words": 10
+  },
+  {
+   "n": 5,
+   "text": "sirin yang tampak kelihatan lelah dan muka bodohnya melihat ke arah POV",
+   "camera": true,
+   "words": 12
+  },
+  {
+   "n": 6,
+   "text": "POV lalu melakukan pat",
+   "camera": true,
+   "words": 4
+  }
+ ],
+ "beats_count": 6,
+ "camera_beats": 4,
+ "words": 54,
+ "preview": "sirin mendobrak pintu dengan muka bodohnya dan kelihatan lesu tapi tetap imut",
+ "has_notes": false,
+ "has_frontmatter": true,
+ "ready": 8,
+ "ready_total": 8,
+ "checks": [
+  {
+   "id": "title",
+   "label": "Judul terisi",
+   "note": "judul yang muncul di papan",
+   "ok": true,
+   "value": "Sirin smol and tangga"
+  },
+  {
+   "id": "status",
+   "label": "Status valid",
+   "note": "draft / ongoing / done",
+   "ok": true,
+   "value": "draft"
+  },
+  {
+   "id": "beats",
+   "label": "Minimal 3 beat",
+   "note": "satu beat ≈ satu aksi di depan kamera",
+   "ok": true,
+   "value": 6
+  },
+  {
+   "id": "camera",
+   "label": "Ada arahan kamera/POV",
+   "note": "biar bisa dipetakan jadi shot",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "setting",
+   "label": "Setting terisi",
+   "note": "tempat kejadian",
+   "ok": true,
+   "value": "Rumah Sirin (tangga)"
+  },
+  {
+   "id": "tags",
+   "label": "Minimal 1 tag",
+   "note": "buat filter di papan",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "format",
+   "label": "Format terisi",
+   "note": "9:16 buat shorts, 16:9 buat biasa",
+   "ok": true,
+   "value": "9:16"
+  },
+  {
+   "id": "lane",
+   "label": "Lane produksi",
+   "note": "nama lane di repo produksi, kalau ada",
+   "ok": true,
+   "value": "cha_sirin_stairs_01"
+  }
+ ],
+ "path": "drafts/sirin-smol-tangga/draft.md",
+ "notes_path": "",
+ "data": "data/sirin-smol-tangga.json",
+ "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-tangga/draft.md",
+ "notes": "",
+ "raw": "---\ntitle: \"Sirin smol and tangga\"\nstatus: \"draft\"\ndate: \"2026-10-17\"\nupdated: \"2026-10-17\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_stairs_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (tangga)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, tangga]\n---\n\n- sirin mendobrak pintu dengan muka bodohnya dan kelihatan lesu tapi tetap imut\n- sirin menghadap ke POV sebentar, lalu mulai menaiki tangga\n- tak lama sirin kemudian turun dari tangga\n- POV ada di sudut atas sirin lalu mendekat ke sirin\n- sirin yang tampak kelihatan lelah dan muka bodohnya melihat ke arah POV\n- POV lalu melakukan pat\n"
+}

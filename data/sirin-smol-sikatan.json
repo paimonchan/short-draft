@@ -1,8 +1,8 @@
 {
  "slug": "sirin-smol-sikatan",
  "title": "Sirin smol and sikatan",
- "status": "draft",
- "status_raw": "draft",
+ "status": "done",
+ "status_raw": "done",
  "date": "2026-10-31",
  "updated": "2026-11-14",
  "series": "Cha Sirin smol",
@@ -66,7 +66,7 @@
  "has_notes": false,
  "has_frontmatter": true,
  "ready": 8,
- "ready_total": 9,
+ "ready_total": 8,
  "checks": [
   {
    "id": "title",
@@ -80,7 +80,7 @@
    "label": "Status valid",
    "note": "draft / ongoing / done",
    "ok": true,
-   "value": "draft"
+   "value": "done"
   },
   {
    "id": "beats",
@@ -118,13 +118,6 @@
    "value": "9:16"
   },
   {
-   "id": "duration",
-   "label": "Durasi target",
-   "note": "perkiraan total durasi klip (detik)",
-   "ok": false,
-   "value": "-"
-  },
-  {
    "id": "lane",
    "label": "Lane produksi",
    "note": "nama lane di repo produksi, kalau ada",
@@ -137,5 +130,5 @@
  "data": "data/sirin-smol-sikatan.json",
  "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-sikatan/draft.md",
  "notes": "",
- "raw": "---\ntitle: \"Sirin smol and sikatan\"\nstatus: \"draft\"\ndate: \"2026-10-31\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_sikatan_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (kamar mandi, cermin)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, sikat-gigi]\n---\n\n- sirin mendobrak pintu dengan muka bodohnya tapi tetap imut\n- sirin mengambil sikat dan pasta\n- sirin menuangkan pasta\n- sirin sikat gigi di cermin\n- POV mendekat di atas sirin\n- sirin mendongak\n"
+ "raw": "---\ntitle: \"Sirin smol and sikatan\"\nstatus: \"done\"\ndate: \"2026-10-31\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_sikatan_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (kamar mandi, cermin)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, sikat-gigi]\n---\n\n- sirin mendobrak pintu dengan muka bodohnya tapi tetap imut\n- sirin mengambil sikat dan pasta\n- sirin menuangkan pasta\n- sirin sikat gigi di cermin\n- POV mendekat di atas sirin\n- sirin mendongak\n"
 }

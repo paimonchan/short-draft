@@ -67,7 +67,6 @@ CHECKS = (
     ("setting", "Setting terisi", "tempat kejadian"),
     ("tags", "Minimal 1 tag", "buat filter di papan"),
     ("format", "Format terisi", "9:16 buat shorts, 16:9 buat biasa"),
-    ("duration", "Durasi target", "perkiraan total durasi klip (detik)"),
     ("lane", "Lane produksi", "nama lane di repo produksi, kalau ada"),
 )
 

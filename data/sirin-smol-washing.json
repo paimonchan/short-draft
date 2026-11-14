@@ -1,0 +1,128 @@
+{
+ "slug": "sirin-smol-washing",
+ "title": "Sirin smol washing",
+ "status": "draft",
+ "status_raw": "draft",
+ "date": "2026-10-13",
+ "updated": "2026-10-13",
+ "series": "Cha Sirin smol",
+ "lane": "cha_sirin_laundry_01",
+ "format": "9:16",
+ "duration": null,
+ "setting": "Rumah Sirin (toilet, dekat mesin cuci)",
+ "characters": [
+  "Cha Sirin"
+ ],
+ "tags": [
+  "sirin",
+  "smol",
+  "komedi",
+  "cuci-baju"
+ ],
+ "logline": "",
+ "source": "chat (Discord #draft)",
+ "beats": [
+  {
+   "n": 1,
+   "text": "sirin keluar dari toilet sambil mendobrak pintu dengan muka bodohnya dan kelihatan lesu tapi tetap imut",
+   "camera": false,
+   "words": 16
+  },
+  {
+   "n": 2,
+   "text": "sirin mengambil tumpukan baju di dekat mesin cuci dengan muka bodohnya, sambil kamera zooming ke arah sirin, dan tetap menggunakan angle di atas untuk kameranya",
+   "camera": true,
+   "words": 25
+  },
+  {
+   "n": 3,
+   "text": "lalu sirin mencoba mengangkatnya tapi tak kuat dan bergoyang ke kanan dan ke kiri, sambil kamera berputar menghadap depan sirin",
+   "camera": true,
+   "words": 20
+  },
+  {
+   "n": 4,
+   "text": "sirin kemudian terjatuh disertai tumpukan baju yang berserakan",
+   "camera": false,
+   "words": 8
+  },
+  {
+   "n": 5,
+   "text": "kamera zooming ke arah sirin yang terkapar dengan muka bodoh tapi tetap imut",
+   "camera": true,
+   "words": 13
+  }
+ ],
+ "beats_count": 5,
+ "camera_beats": 3,
+ "words": 82,
+ "preview": "sirin keluar dari toilet sambil mendobrak pintu dengan muka bodohnya dan kelihatan lesu tapi tetap imut",
+ "has_notes": false,
+ "has_frontmatter": true,
+ "ready": 8,
+ "ready_total": 8,
+ "checks": [
+  {
+   "id": "title",
+   "label": "Judul terisi",
+   "note": "judul yang muncul di papan",
+   "ok": true,
+   "value": "Sirin smol washing"
+  },
+  {
+   "id": "status",
+   "label": "Status valid",
+   "note": "draft / ongoing / done",
+   "ok": true,
+   "value": "draft"
+  },
+  {
+   "id": "beats",
+   "label": "Minimal 3 beat",
+   "note": "satu beat ≈ satu aksi di depan kamera",
+   "ok": true,
+   "value": 5
+  },
+  {
+   "id": "camera",
+   "label": "Ada arahan kamera/POV",
+   "note": "biar bisa dipetakan jadi shot",
+   "ok": true,
+   "value": 3
+  },
+  {
+   "id": "setting",
+   "label": "Setting terisi",
+   "note": "tempat kejadian",
+   "ok": true,
+   "value": "Rumah Sirin (toilet, dekat mesin cuci)"
+  },
+  {
+   "id": "tags",
+   "label": "Minimal 1 tag",
+   "note": "buat filter di papan",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "format",
+   "label": "Format terisi",
+   "note": "9:16 buat shorts, 16:9 buat biasa",
+   "ok": true,
+   "value": "9:16"
+  },
+  {
+   "id": "lane",
+   "label": "Lane produksi",
+   "note": "nama lane di repo produksi, kalau ada",
+   "ok": true,
+   "value": "cha_sirin_laundry_01"
+  }
+ ],
+ "path": "drafts/sirin-smol-washing/draft.md",
+ "notes_path": "",
+ "data": "data/sirin-smol-washing.json",
+ "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-washing/draft.md",
+ "notes": "",
+ "raw": "---\ntitle: \"Sirin smol washing\"\nstatus: \"draft\"\ndate: \"2026-10-13\"\nupdated: \"2026-10-13\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_laundry_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (toilet, dekat mesin cuci)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, cuci-baju]\n---\n\n- sirin keluar dari toilet sambil mendobrak pintu dengan muka bodohnya dan kelihatan lesu tapi tetap imut\n- sirin mengambil tumpukan baju di dekat mesin cuci dengan muka bodohnya, sambil kamera zooming ke arah sirin, dan tetap menggunakan angle di atas untuk kameranya\n- lalu sirin mencoba mengangkatnya tapi tak kuat dan bergoyang ke kanan dan ke kiri, sambil kamera berputar menghadap depan sirin\n- sirin kemudian terjatuh disertai tumpukan baju yang berserakan\n- kamera zooming ke arah sirin yang terkapar dengan muka bodoh tapi tetap imut\n"
+}

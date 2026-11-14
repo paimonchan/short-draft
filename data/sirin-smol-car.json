@@ -1,0 +1,140 @@
+{
+ "slug": "sirin-smol-car",
+ "title": "Sirin smol and car",
+ "status": "draft",
+ "status_raw": "draft",
+ "date": "2026-10-14",
+ "updated": "2026-10-14",
+ "series": "Cha Sirin smol",
+ "lane": "cha_sirin_car_01",
+ "format": "9:16",
+ "duration": null,
+ "setting": "Dalam mobil (kursi belakang)",
+ "characters": [
+  "Cha Sirin"
+ ],
+ "tags": [
+  "sirin",
+  "smol",
+  "komedi",
+  "mobil"
+ ],
+ "logline": "",
+ "source": "chat (Discord #draft)",
+ "beats": [
+  {
+   "n": 1,
+   "text": "sirin membuka pintu mobil dari pintu kanan mobil dengan muka bodohnya dan malas",
+   "camera": false,
+   "words": 13
+  },
+  {
+   "n": 2,
+   "text": "POV dari posisi tinggi lalu berputar dari samping pintu, lalu ke belakang sirin dan ada di sebelah kiri",
+   "camera": true,
+   "words": 18
+  },
+  {
+   "n": 3,
+   "text": "sirin menutup pintu mobil dengan keras dengan muka bodohnya dan malas",
+   "camera": false,
+   "words": 11
+  },
+  {
+   "n": 4,
+   "text": "POV lalu berputar ke depan muka sirin dengan angle di atas",
+   "camera": true,
+   "words": 11
+  },
+  {
+   "n": 5,
+   "text": "mobil jalan lalu tiba-tiba ngerem",
+   "camera": false,
+   "words": 5
+  },
+  {
+   "n": 6,
+   "text": "badan sirin lalu terdorong tapi yang terdorong kaki duluan, dan kepala masih nyender ke belakang kursi, sehingga seolah-olah sirin seperti mode tidur dan kaki lurus memanjang",
+   "camera": false,
+   "words": 26
+  },
+  {
+   "n": 7,
+   "text": "lalu dengan muka bodohnya sirin lanjut tidur dengan posisi terakhirnya",
+   "camera": false,
+   "words": 10
+  }
+ ],
+ "beats_count": 7,
+ "camera_beats": 2,
+ "words": 94,
+ "preview": "sirin membuka pintu mobil dari pintu kanan mobil dengan muka bodohnya dan malas",
+ "has_notes": false,
+ "has_frontmatter": true,
+ "ready": 8,
+ "ready_total": 8,
+ "checks": [
+  {
+   "id": "title",
+   "label": "Judul terisi",
+   "note": "judul yang muncul di papan",
+   "ok": true,
+   "value": "Sirin smol and car"
+  },
+  {
+   "id": "status",
+   "label": "Status valid",
+   "note": "draft / ongoing / done",
+   "ok": true,
+   "value": "draft"
+  },
+  {
+   "id": "beats",
+   "label": "Minimal 3 beat",
+   "note": "satu beat ≈ satu aksi di depan kamera",
+   "ok": true,
+   "value": 7
+  },
+  {
+   "id": "camera",
+   "label": "Ada arahan kamera/POV",
+   "note": "biar bisa dipetakan jadi shot",
+   "ok": true,
+   "value": 2
+  },
+  {
+   "id": "setting",
+   "label": "Setting terisi",
+   "note": "tempat kejadian",
+   "ok": true,
+   "value": "Dalam mobil (kursi belakang)"
+  },
+  {
+   "id": "tags",
+   "label": "Minimal 1 tag",
+   "note": "buat filter di papan",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "format",
+   "label": "Format terisi",
+   "note": "9:16 buat shorts, 16:9 buat biasa",
+   "ok": true,
+   "value": "9:16"
+  },
+  {
+   "id": "lane",
+   "label": "Lane produksi",
+   "note": "nama lane di repo produksi, kalau ada",
+   "ok": true,
+   "value": "cha_sirin_car_01"
+  }
+ ],
+ "path": "drafts/sirin-smol-car/draft.md",
+ "notes_path": "",
+ "data": "data/sirin-smol-car.json",
+ "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-car/draft.md",
+ "notes": "",
+ "raw": "---\ntitle: \"Sirin smol and car\"\nstatus: \"draft\"\ndate: \"2026-10-14\"\nupdated: \"2026-10-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_car_01\"\nformat: \"9:16\"\nsetting: \"Dalam mobil (kursi belakang)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, mobil]\n---\n\n- sirin membuka pintu mobil dari pintu kanan mobil dengan muka bodohnya dan malas\n- POV dari posisi tinggi lalu berputar dari samping pintu, lalu ke belakang sirin dan ada di sebelah kiri\n- sirin menutup pintu mobil dengan keras dengan muka bodohnya dan malas\n- POV lalu berputar ke depan muka sirin dengan angle di atas\n- mobil jalan lalu tiba-tiba ngerem\n- badan sirin lalu terdorong tapi yang terdorong kaki duluan, dan kepala masih nyender ke belakang kursi, sehingga seolah-olah sirin seperti mode tidur dan kaki lurus memanjang\n- lalu dengan muka bodohnya sirin lanjut tidur dengan posisi terakhirnya\n"
+}

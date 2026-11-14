@@ -1,8 +1,8 @@
 {
  "slug": "sirin-smol-senam",
  "title": "Sirin smol senam",
- "status": "draft",
- "status_raw": "draft",
+ "status": "done",
+ "status_raw": "done",
  "date": "2026-10-11",
  "updated": "2026-11-14",
  "series": "Cha Sirin smol",
@@ -72,7 +72,7 @@
  "has_notes": false,
  "has_frontmatter": true,
  "ready": 8,
- "ready_total": 9,
+ "ready_total": 8,
  "checks": [
   {
    "id": "title",
@@ -86,7 +86,7 @@
    "label": "Status valid",
    "note": "draft / ongoing / done",
    "ok": true,
-   "value": "draft"
+   "value": "done"
   },
   {
    "id": "beats",
@@ -124,13 +124,6 @@
    "value": "9:16"
   },
   {
-   "id": "duration",
-   "label": "Durasi target",
-   "note": "perkiraan total durasi klip (detik)",
-   "ok": false,
-   "value": "-"
-  },
-  {
    "id": "lane",
    "label": "Lane produksi",
    "note": "nama lane di repo produksi, kalau ada",
@@ -143,5 +136,5 @@
  "data": "data/sirin-smol-senam.json",
  "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-senam/draft.md",
  "notes": "",
- "raw": "---\ntitle: \"Sirin smol senam\"\nstatus: \"draft\"\ndate: \"2026-10-11\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_stretch_01\"\nformat: \"9:16\"\nsetting: \"Depan rumah\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, senam]\n---\n\n- sirin keluar dari rumah sambil membanting pintu, dengan muka bodohnya dan kelihatan lesu\n- POV lalu mendekat, sudutnya seperti biasa ada di atas\n- lalu sirin mulai menghirup napas dalam-dalam dan mulai senam dengan peregangan neck left & right\n- dilanjut dengan bridge stretch, kamera berputar menyamping di atas (seperti kamera pada sirin pat, mungkin ortogonal view)\n- dilanjut peregangan kaki, kamera berputar ke belakang sirin\n- lalu sirin tidak kuat dan jatuh ke belakang ala komedi anime\n- dan dengan muka bodohnya tapi imut menghadap ke atas, ke arah POV, sambil terlentang\n"
+ "raw": "---\ntitle: \"Sirin smol senam\"\nstatus: \"done\"\ndate: \"2026-10-11\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_stretch_01\"\nformat: \"9:16\"\nsetting: \"Depan rumah\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, senam]\n---\n\n- sirin keluar dari rumah sambil membanting pintu, dengan muka bodohnya dan kelihatan lesu\n- POV lalu mendekat, sudutnya seperti biasa ada di atas\n- lalu sirin mulai menghirup napas dalam-dalam dan mulai senam dengan peregangan neck left & right\n- dilanjut dengan bridge stretch, kamera berputar menyamping di atas (seperti kamera pada sirin pat, mungkin ortogonal view)\n- dilanjut peregangan kaki, kamera berputar ke belakang sirin\n- lalu sirin tidak kuat dan jatuh ke belakang ala komedi anime\n- dan dengan muka bodohnya tapi imut menghadap ke atas, ke arah POV, sambil terlentang\n"
 }

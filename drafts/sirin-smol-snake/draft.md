@@ -1,6 +1,6 @@
 ---
 title: "Sirin smol and Snake"
-status: "draft"
+status: "done"
 date: "2026-10-28"
 updated: "2026-11-14"
 series: "Cha Sirin smol"

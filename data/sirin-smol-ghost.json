@@ -1,0 +1,134 @@
+{
+ "slug": "sirin-smol-ghost",
+ "title": "Sirin smol and ghost",
+ "status": "draft",
+ "status_raw": "draft",
+ "date": "2026-10-19",
+ "updated": "2026-10-19",
+ "series": "Cha Sirin smol",
+ "lane": "cha_sirin_ghost_01",
+ "format": "9:16",
+ "duration": null,
+ "setting": "Rumah Sirin (kamar mandi, selimut)",
+ "characters": [
+  "Cha Sirin"
+ ],
+ "tags": [
+  "sirin",
+  "smol",
+  "komedi",
+  "hantu"
+ ],
+ "logline": "",
+ "source": "chat (Discord #draft)",
+ "beats": [
+  {
+   "n": 1,
+   "text": "sirin mendobrak pintu keluar dari kamar mandi dengan muka bodohnya tapi tetap imut",
+   "camera": false,
+   "words": 13
+  },
+  {
+   "n": 2,
+   "text": "sirin lalu melihat ke POV",
+   "camera": true,
+   "words": 5
+  },
+  {
+   "n": 3,
+   "text": "kamera POV tetap ada di atas",
+   "camera": true,
+   "words": 6
+  },
+  {
+   "n": 4,
+   "text": "sirin mengambil selimut di dekatnya",
+   "camera": false,
+   "words": 5
+  },
+  {
+   "n": 5,
+   "text": "lalu membentuk ghost",
+   "camera": false,
+   "words": 3
+  },
+  {
+   "n": 6,
+   "text": "kemudian sirin mendekati POV dengan muka bodohnya seolah menakuti",
+   "camera": true,
+   "words": 9
+  }
+ ],
+ "beats_count": 6,
+ "camera_beats": 3,
+ "words": 41,
+ "preview": "sirin mendobrak pintu keluar dari kamar mandi dengan muka bodohnya tapi tetap imut",
+ "has_notes": false,
+ "has_frontmatter": true,
+ "ready": 8,
+ "ready_total": 8,
+ "checks": [
+  {
+   "id": "title",
+   "label": "Judul terisi",
+   "note": "judul yang muncul di papan",
+   "ok": true,
+   "value": "Sirin smol and ghost"
+  },
+  {
+   "id": "status",
+   "label": "Status valid",
+   "note": "draft / ongoing / done",
+   "ok": true,
+   "value": "draft"
+  },
+  {
+   "id": "beats",
+   "label": "Minimal 3 beat",
+   "note": "satu beat ≈ satu aksi di depan kamera",
+   "ok": true,
+   "value": 6
+  },
+  {
+   "id": "camera",
+   "label": "Ada arahan kamera/POV",
+   "note": "biar bisa dipetakan jadi shot",
+   "ok": true,
+   "value": 3
+  },
+  {
+   "id": "setting",
+   "label": "Setting terisi",
+   "note": "tempat kejadian",
+   "ok": true,
+   "value": "Rumah Sirin (kamar mandi, selimut)"
+  },
+  {
+   "id": "tags",
+   "label": "Minimal 1 tag",
+   "note": "buat filter di papan",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "format",
+   "label": "Format terisi",
+   "note": "9:16 buat shorts, 16:9 buat biasa",
+   "ok": true,
+   "value": "9:16"
+  },
+  {
+   "id": "lane",
+   "label": "Lane produksi",
+   "note": "nama lane di repo produksi, kalau ada",
+   "ok": true,
+   "value": "cha_sirin_ghost_01"
+  }
+ ],
+ "path": "drafts/sirin-smol-ghost/draft.md",
+ "notes_path": "",
+ "data": "data/sirin-smol-ghost.json",
+ "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-ghost/draft.md",
+ "notes": "",
+ "raw": "---\ntitle: \"Sirin smol and ghost\"\nstatus: \"draft\"\ndate: \"2026-10-19\"\nupdated: \"2026-10-19\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_ghost_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (kamar mandi, selimut)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, hantu]\n---\n\n- sirin mendobrak pintu keluar dari kamar mandi dengan muka bodohnya tapi tetap imut\n- sirin lalu melihat ke POV\n- kamera POV tetap ada di atas\n- sirin mengambil selimut di dekatnya\n- lalu membentuk ghost\n- kemudian sirin mendekati POV dengan muka bodohnya seolah menakuti\n"
+}

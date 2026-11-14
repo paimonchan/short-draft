@@ -1,6 +1,6 @@
 ---
 title: "Sirin smol senam"
-status: "draft"
+status: "done"
 date: "2026-10-11"
 updated: "2026-11-14"
 series: "Cha Sirin smol"

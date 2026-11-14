@@ -1,6 +1,6 @@
 ---
 title: "Sirin smol and Snacks"
-status: "draft"
+status: "done"
 date: "2026-11-07"
 updated: "2026-11-14"
 series: "Cha Sirin smol"

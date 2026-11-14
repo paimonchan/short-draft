@@ -1,8 +1,8 @@
 {
  "slug": "sirin-smol-snacks",
  "title": "Sirin smol and Snacks",
- "status": "draft",
- "status_raw": "draft",
+ "status": "done",
+ "status_raw": "done",
  "date": "2026-11-07",
  "updated": "2026-11-14",
  "series": "Cha Sirin smol",
@@ -60,7 +60,7 @@
  "has_notes": false,
  "has_frontmatter": true,
  "ready": 8,
- "ready_total": 9,
+ "ready_total": 8,
  "checks": [
   {
    "id": "title",
@@ -74,7 +74,7 @@
    "label": "Status valid",
    "note": "draft / ongoing / done",
    "ok": true,
-   "value": "draft"
+   "value": "done"
   },
   {
    "id": "beats",
@@ -112,13 +112,6 @@
    "value": "9:16"
   },
   {
-   "id": "duration",
-   "label": "Durasi target",
-   "note": "perkiraan total durasi klip (detik)",
-   "ok": false,
-   "value": "-"
-  },
-  {
    "id": "lane",
    "label": "Lane produksi",
    "note": "nama lane di repo produksi, kalau ada",
@@ -131,5 +124,5 @@
  "data": "data/sirin-smol-snacks.json",
  "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-snacks/draft.md",
  "notes": "",
- "raw": "---\ntitle: \"Sirin smol and Snacks\"\nstatus: \"draft\"\ndate: \"2026-11-07\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_snack_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (toilet, lemari snack, sofa)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, snack]\n---\n\n- sirin mendobrak pintu dari toilet dengan muka bodohnya tapi tetap imut\n- sirin lalu membuka lemari yang berisi snack\n- sirin lalu menuju ke sofa, diikuti POV yang mendekat\n- sirin kemudian membuka snack seolah-olah mengeluarkan tenaga tapi dengan muka bodohnya dan malas\n- sirin lalu memakan snacknya\n"
+ "raw": "---\ntitle: \"Sirin smol and Snacks\"\nstatus: \"done\"\ndate: \"2026-11-07\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_snack_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (toilet, lemari snack, sofa)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, snack]\n---\n\n- sirin mendobrak pintu dari toilet dengan muka bodohnya tapi tetap imut\n- sirin lalu membuka lemari yang berisi snack\n- sirin lalu menuju ke sofa, diikuti POV yang mendekat\n- sirin kemudian membuka snack seolah-olah mengeluarkan tenaga tapi dengan muka bodohnya dan malas\n- sirin lalu memakan snacknya\n"
 }

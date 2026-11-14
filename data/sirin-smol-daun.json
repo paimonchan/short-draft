@@ -1,8 +1,8 @@
 {
  "slug": "sirin-smol-daun",
  "title": "Sirin smol and Daun",
- "status": "draft",
- "status_raw": "draft",
+ "status": "done",
+ "status_raw": "done",
  "date": "2026-10-25",
  "updated": "2026-11-14",
  "series": "Cha Sirin smol",
@@ -60,7 +60,7 @@
  "has_notes": false,
  "has_frontmatter": true,
  "ready": 8,
- "ready_total": 9,
+ "ready_total": 8,
  "checks": [
   {
    "id": "title",
@@ -74,7 +74,7 @@
    "label": "Status valid",
    "note": "draft / ongoing / done",
    "ok": true,
-   "value": "draft"
+   "value": "done"
   },
   {
    "id": "beats",
@@ -112,13 +112,6 @@
    "value": "9:16"
   },
   {
-   "id": "duration",
-   "label": "Durasi target",
-   "note": "perkiraan total durasi klip (detik)",
-   "ok": false,
-   "value": "-"
-  },
-  {
    "id": "lane",
    "label": "Lane produksi",
    "note": "nama lane di repo produksi, kalau ada",
@@ -131,5 +124,5 @@
  "data": "data/sirin-smol-daun.json",
  "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-daun/draft.md",
  "notes": "",
- "raw": "---\ntitle: \"Sirin smol and Daun\"\nstatus: \"draft\"\ndate: \"2026-10-25\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_leaf_01\"\nformat: \"9:16\"\nsetting: \"Luar rumah, area daun-daunan\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, daun]\n---\n\n- sirin mendobrak pintu dengan muka bodohnya tapi tetap imut\n- sirin kemudian menuju ke daun-daunan\n- sirin kenduan toel-toel daun-daunnya\n- POV ada di atas dan berputar ke belakang sirin\n- sirin kemudian mendongak ke arah POV dengan muka bodohnya dan malasnya\n"
+ "raw": "---\ntitle: \"Sirin smol and Daun\"\nstatus: \"done\"\ndate: \"2026-10-25\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_leaf_01\"\nformat: \"9:16\"\nsetting: \"Luar rumah, area daun-daunan\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, daun]\n---\n\n- sirin mendobrak pintu dengan muka bodohnya tapi tetap imut\n- sirin kemudian menuju ke daun-daunan\n- sirin kenduan toel-toel daun-daunnya\n- POV ada di atas dan berputar ke belakang sirin\n- sirin kemudian mendongak ke arah POV dengan muka bodohnya dan malasnya\n"
 }

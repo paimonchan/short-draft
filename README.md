@@ -109,8 +109,11 @@ Aturan penting:
 ## Yang dihitung otomatis
 
 `build_index.py` ngitung jumlah beat, kata, **beat kamera** (heuristik kata kunci: POV, zoom,
-kamera, berputar, sudut, …), dan 9 pemeriksaan **kesiapan metadata** yang tampil di halaman
-draft: judul, status valid, ≥3 beat, ada arahan kamera, setting, tag, format, durasi, lane.
+kamera, berputar, sudut, …), dan 8 pemeriksaan **kesiapan metadata** yang tampil di halaman
+draft: judul, status valid, ≥3 beat, ada arahan kamera, setting, tag, format, lane. `duration`
+tetap ada sebagai kolom bebas (ditampilkan kalau diisi) tapi **bukan** syarat kesiapan — draft
+pendek sering belum punya target durasi, dan peringatan yang muncul di semua baris berhenti jadi
+informasi.
 
 `--check` (dipakai CI) gagal **hanya** untuk hal yang bikin web rusak: frontmatter nggak
 kebaca, `title` kosong, `status` di luar daftar, tidak ada beat, slug duplikat. Draft yang
@@ -124,10 +127,11 @@ draft dibuka.
 
 - **Papan**: baris draft dikelompokkan per status (📝 draft / 🔧 ongoing / ✅ done) + poster
   identitas CSS-only (warna, pola, dan monogram dibangkitkan dari slug; aspeknya ikut `format`),
-  pencarian (judul, beat, tag, setting, lane), filter status & seri, tombol density, tema
-  terang/gelap, dan **salin daftar** (judul + status, siap tempel).
+  pencarian (judul, beat, tag, setting, lane), filter status + **⚠ kurang meta** (baris yang
+  metadatanya belum lengkap), tombol density, tema terang/gelap, **⧉ salin daftar** (judul +
+  status, siap tempel), dan **⧉ salin per baris** (nyalin teks satu draft tanpa membukanya).
 - **Halaman draft**: beat satu per satu — **tiap beat punya tombol salin sendiri**, plus
-  **Salin draft** (teks polos ala chat), **Salin markdown**, **Unduh .md**, panel kesiapan
+  **Salin teks** (teks polos ala chat), **Salin markdown**, **Unduh .md**, panel kesiapan
   metadata, markdown mentah, dan pindah draft lewat tombol ←/→ (atau tombol panah di keyboard).
 - Keyboard: `/` fokus pencarian, `t` tema, `d` density, `Esc` balik ke papan.
 

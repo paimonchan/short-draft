@@ -1,6 +1,6 @@
 ---
 title: "Sirin smol and sikatan"
-status: "draft"
+status: "done"
 date: "2026-10-31"
 updated: "2026-11-14"
 series: "Cha Sirin smol"

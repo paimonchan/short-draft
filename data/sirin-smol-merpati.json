@@ -1,8 +1,8 @@
 {
  "slug": "sirin-smol-merpati",
  "title": "Sirin smol merpati",
- "status": "draft",
- "status_raw": "draft",
+ "status": "done",
+ "status_raw": "done",
  "date": "2026-10-11",
  "updated": "2026-11-14",
  "series": "Cha Sirin smol",
@@ -72,7 +72,7 @@
  "has_notes": false,
  "has_frontmatter": true,
  "ready": 8,
- "ready_total": 9,
+ "ready_total": 8,
  "checks": [
   {
    "id": "title",
@@ -86,7 +86,7 @@
    "label": "Status valid",
    "note": "draft / ongoing / done",
    "ok": true,
-   "value": "draft"
+   "value": "done"
   },
   {
    "id": "beats",
@@ -124,13 +124,6 @@
    "value": "9:16"
   },
   {
-   "id": "duration",
-   "label": "Durasi target",
-   "note": "perkiraan total durasi klip (detik)",
-   "ok": false,
-   "value": "-"
-  },
-  {
    "id": "lane",
    "label": "Lane produksi",
    "note": "nama lane di repo produksi, kalau ada",
@@ -143,5 +136,5 @@
  "data": "data/sirin-smol-merpati.json",
  "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-merpati/draft.md",
  "notes": "",
- "raw": "---\ntitle: \"Sirin smol merpati\"\nstatus: \"draft\"\ndate: \"2026-10-11\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_pigeon_01\"\nformat: \"9:16\"\nsetting: \"Taman kota, kursi taman\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, merpati]\n---\n\n- POV bergerak dari belakang lalu berputar ke depan kursi\n- sirin dengan muka bodohnya tapi imut jalan lalu menemukan kursi di taman\n- sirin duduk lalu dilanjut tiduran di kursi taman dengan muka bodohnya dan sambil kurang semangat\n- dilanjut kamera berputar ke atas memperlihatkan sirin yang dengan muka bodohnya tidur di kursi\n- tak lama burung merpati berdatangan, dan kamera bergerak ke ujung kursi atas\n- sirin kesal lalu mengayun-ayunkan tangannya untuk mengusir burung\n- sirin lalu duduk sambil menunjukkan muka lesu dan bodohnya\n"
+ "raw": "---\ntitle: \"Sirin smol merpati\"\nstatus: \"done\"\ndate: \"2026-10-11\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_pigeon_01\"\nformat: \"9:16\"\nsetting: \"Taman kota, kursi taman\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, merpati]\n---\n\n- POV bergerak dari belakang lalu berputar ke depan kursi\n- sirin dengan muka bodohnya tapi imut jalan lalu menemukan kursi di taman\n- sirin duduk lalu dilanjut tiduran di kursi taman dengan muka bodohnya dan sambil kurang semangat\n- dilanjut kamera berputar ke atas memperlihatkan sirin yang dengan muka bodohnya tidur di kursi\n- tak lama burung merpati berdatangan, dan kamera bergerak ke ujung kursi atas\n- sirin kesal lalu mengayun-ayunkan tangannya untuk mengusir burung\n- sirin lalu duduk sambil menunjukkan muka lesu dan bodohnya\n"
 }

@@ -11,6 +11,7 @@ let INDEX = null;
 let FILTER = '';
 let F_STATUS = '';
 let F_SERIES = '';
+let F_META = false;
 
 const STATUS_META = {
   draft: { icon: '📝', label: 'draft', hint: 'ide masuk, belum digarap' },
@@ -151,6 +152,7 @@ async function loadData(slug) {
 function matches(e) {
   if (F_STATUS && e.status !== F_STATUS) return false;
   if (F_SERIES && e.series !== F_SERIES) return false;
+  if (F_META && (e.ready ?? 0) >= (e.ready_total || 9)) return false;
   if (!FILTER) return true;
   const q = FILTER.toLowerCase();
   const hay = [
@@ -208,31 +210,34 @@ function rowHTML(e) {
     try { return s.replace(new RegExp('(' + q + ')', 'gi'), '<mark>$1</mark>'); } catch (_) { return s; }
   };
   return `
-  <a class="row" href="#/d/${e.slug}">
-    ${posterHTML(e, 76)}
-    <div class="t">
-      <h3>${hl(e.title)}${e.series && INDEX.series.length > 1 ? `<span class="tag">${esc(e.series)}</span>` : ''}</h3>
-      ${e.preview ? `<p class="logline">${hl(e.preview)}</p>` : '<p class="logline muted">beat belum diisi</p>'}
-      <div class="sub">
-        <span>${e.beats_count} beat</span>
-        ${e.camera_beats ? `<span>🎥 ${e.camera_beats}</span>` : ''}
-        ${e.format ? `<span>${esc(e.format)}</span>` : ''}
-        ${e.duration ? `<span>${esc(String(e.duration))} dtk</span>` : ''}
-        ${missing.length ? `<span class="miss">kurang: ${esc(missing.slice(0, 3).join(', '))}${missing.length > 3 ? ` +${missing.length - 3}` : ''}</span>` : ''}
+  <div class="row">
+    <a class="rowmain" href="#/d/${e.slug}">
+      ${posterHTML(e, 76)}
+      <div class="t">
+        <h3>${hl(e.title)}${e.series && INDEX.series.length > 1 ? `<span class="tag">${esc(e.series)}</span>` : ''}</h3>
+        ${e.preview ? `<p class="logline">${hl(e.preview)}</p>` : '<p class="logline muted">beat belum diisi</p>'}
+        <div class="sub">
+          <span>${e.beats_count} beat</span>
+          ${e.camera_beats ? `<span>🎥 ${e.camera_beats}</span>` : ''}
+          ${e.format ? `<span>${esc(e.format)}</span>` : ''}
+          ${e.duration ? `<span>${esc(String(e.duration))} dtk</span>` : ''}
+          ${missing.length ? `<span class="miss" title="metadata belum lengkap: ${esc(missing.join(', '))}">⚠ ${missing.length}</span>` : ''}
+        </div>
       </div>
-    </div>
-    <div class="mid">
-      <div class="meter">
-        <span class="num">siap ${r}/${t}</span>
-        <span class="track"><i class="${r / t >= 0.75 ? '' : r / t >= 0.5 ? 'mid' : 'low'}" style="width:${Math.round((r / t) * 100)}%"></i></span>
+      <div class="mid">
+        <div class="meter" title="kelengkapan metadata ${r}/${t}">
+          <span class="num">siap ${r}/${t}</span>
+          <span class="track"><i class="${r / t >= 0.75 ? '' : r / t >= 0.5 ? 'mid' : 'low'}" style="width:${Math.round((r / t) * 100)}%"></i></span>
+        </div>
+        <div class="sub"><span>${esc(e.date || '')}</span></div>
       </div>
-      <div class="sub"><span>${esc(e.date || '')}</span></div>
-    </div>
-    <div class="right">
-      <span class="pill ${esc(e.status)}"><i class="dot"></i>${stMeta(e.status).icon} ${esc(stMeta(e.status).label)}</span>
-      <span class="arrow">→</span>
-    </div>
-  </a>`;
+      <div class="right">
+        <span class="pill ${esc(e.status)}"><i class="dot"></i>${stMeta(e.status).icon} ${esc(stMeta(e.status).label)}</span>
+        <span class="arrow">→</span>
+      </div>
+    </a>
+    <button class="copybtn js-rowcopy" type="button" data-slug="${esc(e.slug)}" title="Salin teks draft ini (judul + beat)" aria-label="Salin teks ${esc(e.title)}">⧉</button>
+  </div>`;
 }
 
 function renderHome() {
@@ -263,14 +268,17 @@ function renderHome() {
 
   const density = document.documentElement.dataset.density === 'compact';
   const shown = entries.reduce((a, e) => a + e.beats_count, 0);
+  const metaTodo = INDEX.entries.filter((e) => (e.ready ?? 0) < (e.ready_total || 9)).length;
 
   app.innerHTML = `
     <div class="board-head">
       <div>
         <h1>Papan short draft</h1>
         <p>Draft pendek buat video AI: satu draft cuma beberapa beat + statusnya
-           (📝 draft · 🔧 ongoing · ✅ done). Klik baris buat baca lengkap &amp; copas teksnya —
-           isi halaman ini cuma berubah dari repo.</p>
+           (📝 draft · 🔧 ongoing · ✅ done · ⚠ = metadata belum lengkap). Klik baris buat baca
+           lengkap &amp; copas teksnya, atau tekan ⧉ buat langsung nyalin satu draft.</p>
+        <p class="hintline">Nambah draft / naik-turunin status: kirim di chat. Web ini cuma baca —
+           isinya datang dari repo.</p>
       </div>
       <div class="stats">
         <div class="stat"><b>${totals.shown(entries, INDEX.count)}</b><span>draft tampil</span></div>
@@ -282,8 +290,9 @@ function renderHome() {
 
     <div class="card toolbar">
       <span class="flabel">status</span>
-      ${fbtn('status', '', `semua ${INDEX.count}`, !F_STATUS)}
+      ${fbtn('status', '', `semua ${INDEX.count}`, !F_STATUS && !F_META)}
       ${statusChips}
+      ${metaTodo ? `<div class="sep"></div>${fbtn('meta', '1', `⚠ kurang meta ${metaTodo}`, F_META)}` : ''}
       ${INDEX.series.length > 1 ? `<div class="sep"></div><span class="flabel">seri</span>
         ${fbtn('series', '', 'semua', !F_SERIES)}
         ${INDEX.series.slice(0, 4).map((s) => fbtn('series', s, esc(s), F_SERIES === s)).join('')}` : ''}
@@ -302,7 +311,11 @@ function renderHome() {
   app.querySelectorAll('.fbtn[data-f]').forEach((b) =>
     b.addEventListener('click', () => {
       const kind = b.dataset.f, val = b.dataset.v;
-      if (kind === 'status') F_STATUS = val;
+      if (kind === 'status') {
+        F_STATUS = val;
+        if (!val) { F_META = false; F_SERIES = ''; }  // "semua" = reset semua filter
+      }
+      if (kind === 'meta') F_META = !F_META;
       if (kind === 'series') F_SERIES = val;
       renderHome();
     })
@@ -310,6 +323,21 @@ function renderHome() {
   app.querySelectorAll('.js-density').forEach((b) => b.addEventListener('click', toggleDensity));
   app.querySelectorAll('.js-board-copy').forEach((b) =>
     b.addEventListener('click', () => copy(boardText(entries), b))
+  );
+  app.querySelectorAll('.js-rowcopy').forEach((b) =>
+    b.addEventListener('click', async (ev) => {
+      ev.preventDefault();
+      ev.stopPropagation();
+      const meta = entryBySlug(b.dataset.slug);
+      if (!meta) return;
+      try {
+        const d = await loadData(meta.slug);
+        copy(plainText(meta, d), b);
+      } catch (_) {
+        b.textContent = '✕';
+        setTimeout(() => { b.textContent = '⧉'; }, 1400);
+      }
+    })
   );
 }
 

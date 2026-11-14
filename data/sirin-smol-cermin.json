@@ -1,0 +1,128 @@
+{
+ "slug": "sirin-smol-cermin",
+ "title": "Sirin smol and cermin",
+ "status": "draft",
+ "status_raw": "draft",
+ "date": "2026-10-13",
+ "updated": "2026-10-13",
+ "series": "Cha Sirin smol",
+ "lane": "cha_sirin_mirror_01",
+ "format": "9:16",
+ "duration": null,
+ "setting": "Rumah Sirin (cermin)",
+ "characters": [
+  "Cha Sirin"
+ ],
+ "tags": [
+  "sirin",
+  "smol",
+  "komedi",
+  "cermin"
+ ],
+ "logline": "",
+ "source": "chat (Discord #draft)",
+ "beats": [
+  {
+   "n": 1,
+   "text": "sirin buka pintu dengan membanting, lalu menuju ke cermin",
+   "camera": false,
+   "words": 9
+  },
+  {
+   "n": 2,
+   "text": "POV mendekat ke belakang sirin serta ada di atas kepala sirin yang sedang melihat ke cermin",
+   "camera": true,
+   "words": 16
+  },
+  {
+   "n": 3,
+   "text": "pantulan sirin kelihatan di cermin dan kemudian sedang menurunkan ahoge rambutnya",
+   "camera": false,
+   "words": 11
+  },
+  {
+   "n": 4,
+   "text": "tapi ahoge tidak turun walaupun sudah dicoba beberapa kali",
+   "camera": false,
+   "words": 9
+  },
+  {
+   "n": 5,
+   "text": "akhirnya dengan muka kesalnya pergi",
+   "camera": false,
+   "words": 5
+  }
+ ],
+ "beats_count": 5,
+ "camera_beats": 1,
+ "words": 50,
+ "preview": "sirin buka pintu dengan membanting, lalu menuju ke cermin",
+ "has_notes": false,
+ "has_frontmatter": true,
+ "ready": 8,
+ "ready_total": 8,
+ "checks": [
+  {
+   "id": "title",
+   "label": "Judul terisi",
+   "note": "judul yang muncul di papan",
+   "ok": true,
+   "value": "Sirin smol and cermin"
+  },
+  {
+   "id": "status",
+   "label": "Status valid",
+   "note": "draft / ongoing / done",
+   "ok": true,
+   "value": "draft"
+  },
+  {
+   "id": "beats",
+   "label": "Minimal 3 beat",
+   "note": "satu beat ≈ satu aksi di depan kamera",
+   "ok": true,
+   "value": 5
+  },
+  {
+   "id": "camera",
+   "label": "Ada arahan kamera/POV",
+   "note": "biar bisa dipetakan jadi shot",
+   "ok": true,
+   "value": 1
+  },
+  {
+   "id": "setting",
+   "label": "Setting terisi",
+   "note": "tempat kejadian",
+   "ok": true,
+   "value": "Rumah Sirin (cermin)"
+  },
+  {
+   "id": "tags",
+   "label": "Minimal 1 tag",
+   "note": "buat filter di papan",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "format",
+   "label": "Format terisi",
+   "note": "9:16 buat shorts, 16:9 buat biasa",
+   "ok": true,
+   "value": "9:16"
+  },
+  {
+   "id": "lane",
+   "label": "Lane produksi",
+   "note": "nama lane di repo produksi, kalau ada",
+   "ok": true,
+   "value": "cha_sirin_mirror_01"
+  }
+ ],
+ "path": "drafts/sirin-smol-cermin/draft.md",
+ "notes_path": "",
+ "data": "data/sirin-smol-cermin.json",
+ "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-cermin/draft.md",
+ "notes": "",
+ "raw": "---\ntitle: \"Sirin smol and cermin\"\nstatus: \"draft\"\ndate: \"2026-10-13\"\nupdated: \"2026-10-13\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_mirror_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (cermin)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, cermin]\n---\n\n- sirin buka pintu dengan membanting, lalu menuju ke cermin\n- POV mendekat ke belakang sirin serta ada di atas kepala sirin yang sedang melihat ke cermin\n- pantulan sirin kelihatan di cermin dan kemudian sedang menurunkan ahoge rambutnya\n- tapi ahoge tidak turun walaupun sudah dicoba beberapa kali\n- akhirnya dengan muka kesalnya pergi\n"
+}

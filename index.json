@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-14 12:50",
+ "generated": "2026-11-14 13:05",
  "repo": "paimonchan/short-draft",
- "count": 8,
- "beats": 44,
- "camera_beats": 15,
- "words": 406,
+ "count": 14,
+ "beats": 79,
+ "camera_beats": 31,
+ "words": 780,
  "statuses": {
-  "draft": 8,
+  "draft": 6,
   "ongoing": 0,
-  "done": 0
+  "done": 8
  },
  "status_order": [
   "draft",
@@ -27,21 +27,813 @@
   "komedi",
   "sirin",
   "smol",
+  "cermin",
   "cookie",
+  "cuci-baju",
   "daun",
+  "hantu",
+  "kipas",
   "merpati",
+  "mobil",
   "pasir",
   "senam",
   "sikat-gigi",
   "snack",
+  "tangga",
   "ular"
  ],
  "entries": [
   {
-   "slug": "sirin-smol-snacks",
-   "title": "Sirin smol and Snacks",
+   "slug": "sirin-smol-ghost",
+   "title": "Sirin smol and ghost",
    "status": "draft",
    "status_raw": "draft",
+   "date": "2026-10-19",
+   "updated": "2026-10-19",
+   "series": "Cha Sirin smol",
+   "lane": "cha_sirin_ghost_01",
+   "format": "9:16",
+   "duration": null,
+   "setting": "Rumah Sirin (kamar mandi, selimut)",
+   "characters": [
+    "Cha Sirin"
+   ],
+   "tags": [
+    "sirin",
+    "smol",
+    "komedi",
+    "hantu"
+   ],
+   "logline": "",
+   "source": "chat (Discord #draft)",
+   "beats": [
+    {
+     "n": 1,
+     "text": "sirin mendobrak pintu keluar dari kamar mandi dengan muka bodohnya tapi tetap imut",
+     "camera": false,
+     "words": 13
+    },
+    {
+     "n": 2,
+     "text": "sirin lalu melihat ke POV",
+     "camera": true,
+     "words": 5
+    },
+    {
+     "n": 3,
+     "text": "kamera POV tetap ada di atas",
+     "camera": true,
+     "words": 6
+    },
+    {
+     "n": 4,
+     "text": "sirin mengambil selimut di dekatnya",
+     "camera": false,
+     "words": 5
+    },
+    {
+     "n": 5,
+     "text": "lalu membentuk ghost",
+     "camera": false,
+     "words": 3
+    },
+    {
+     "n": 6,
+     "text": "kemudian sirin mendekati POV dengan muka bodohnya seolah menakuti",
+     "camera": true,
+     "words": 9
+    }
+   ],
+   "beats_count": 6,
+   "camera_beats": 3,
+   "words": 41,
+   "preview": "sirin mendobrak pintu keluar dari kamar mandi dengan muka bodohnya tapi tetap imut",
+   "has_notes": false,
+   "has_frontmatter": true,
+   "ready": 8,
+   "ready_total": 8,
+   "checks": [
+    {
+     "id": "title",
+     "label": "Judul terisi",
+     "note": "judul yang muncul di papan",
+     "ok": true,
+     "value": "Sirin smol and ghost"
+    },
+    {
+     "id": "status",
+     "label": "Status valid",
+     "note": "draft / ongoing / done",
+     "ok": true,
+     "value": "draft"
+    },
+    {
+     "id": "beats",
+     "label": "Minimal 3 beat",
+     "note": "satu beat ≈ satu aksi di depan kamera",
+     "ok": true,
+     "value": 6
+    },
+    {
+     "id": "camera",
+     "label": "Ada arahan kamera/POV",
+     "note": "biar bisa dipetakan jadi shot",
+     "ok": true,
+     "value": 3
+    },
+    {
+     "id": "setting",
+     "label": "Setting terisi",
+     "note": "tempat kejadian",
+     "ok": true,
+     "value": "Rumah Sirin (kamar mandi, selimut)"
+    },
+    {
+     "id": "tags",
+     "label": "Minimal 1 tag",
+     "note": "buat filter di papan",
+     "ok": true,
+     "value": 4
+    },
+    {
+     "id": "format",
+     "label": "Format terisi",
+     "note": "9:16 buat shorts, 16:9 buat biasa",
+     "ok": true,
+     "value": "9:16"
+    },
+    {
+     "id": "lane",
+     "label": "Lane produksi",
+     "note": "nama lane di repo produksi, kalau ada",
+     "ok": true,
+     "value": "cha_sirin_ghost_01"
+    }
+   ],
+   "path": "drafts/sirin-smol-ghost/draft.md",
+   "notes_path": "",
+   "data": "data/sirin-smol-ghost.json",
+   "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-ghost/draft.md"
+  },
+  {
+   "slug": "sirin-smol-kipas",
+   "title": "Sirin smol and kipas",
+   "status": "draft",
+   "status_raw": "draft",
+   "date": "2026-10-17",
+   "updated": "2026-10-17",
+   "series": "Cha Sirin smol",
+   "lane": "cha_sirin_fan_01",
+   "format": "9:16",
+   "duration": null,
+   "setting": "Rumah Sirin (kipas angin)",
+   "characters": [
+    "Cha Sirin"
+   ],
+   "tags": [
+    "sirin",
+    "smol",
+    "komedi",
+    "kipas"
+   ],
+   "logline": "",
+   "source": "chat (Discord #draft)",
+   "beats": [
+    {
+     "n": 1,
+     "text": "sirin mendobrak pintu dari toilet dengan muka bodohnya dan kelihatan lesu tapi tetap imut",
+     "camera": false,
+     "words": 14
+    },
+    {
+     "n": 2,
+     "text": "sirin menghadap ke POV sebentar, lalu menuju ke kipas",
+     "camera": true,
+     "words": 9
+    },
+    {
+     "n": 3,
+     "text": "POV mengikuti sirin ke belakang tapi tetap tinggi, lalu berputar ke samping",
+     "camera": true,
+     "words": 12
+    },
+    {
+     "n": 4,
+     "text": "sirin menyalakan kipas",
+     "camera": false,
+     "words": 3
+    },
+    {
+     "n": 5,
+     "text": "lalu kipas dengan kencang membuat rambut sirin berantakan",
+     "camera": false,
+     "words": 8
+    },
+    {
+     "n": 6,
+     "text": "dengan muka bodohnya sirin menghadap ke POV",
+     "camera": true,
+     "words": 7
+    }
+   ],
+   "beats_count": 6,
+   "camera_beats": 3,
+   "words": 53,
+   "preview": "sirin mendobrak pintu dari toilet dengan muka bodohnya dan kelihatan lesu tapi tetap imut",
+   "has_notes": false,
+   "has_frontmatter": true,
+   "ready": 8,
+   "ready_total": 8,
+   "checks": [
+    {
+     "id": "title",
+     "label": "Judul terisi",
+     "note": "judul yang muncul di papan",
+     "ok": true,
+     "value": "Sirin smol and kipas"
+    },
+    {
+     "id": "status",
+     "label": "Status valid",
+     "note": "draft / ongoing / done",
+     "ok": true,
+     "value": "draft"
+    },
+    {
+     "id": "beats",
+     "label": "Minimal 3 beat",
+     "note": "satu beat ≈ satu aksi di depan kamera",
+     "ok": true,
+     "value": 6
+    },
+    {
+     "id": "camera",
+     "label": "Ada arahan kamera/POV",
+     "note": "biar bisa dipetakan jadi shot",
+     "ok": true,
+     "value": 3
+    },
+    {
+     "id": "setting",
+     "label": "Setting terisi",
+     "note": "tempat kejadian",
+     "ok": true,
+     "value": "Rumah Sirin (kipas angin)"
+    },
+    {
+     "id": "tags",
+     "label": "Minimal 1 tag",
+     "note": "buat filter di papan",
+     "ok": true,
+     "value": 4
+    },
+    {
+     "id": "format",
+     "label": "Format terisi",
+     "note": "9:16 buat shorts, 16:9 buat biasa",
+     "ok": true,
+     "value": "9:16"
+    },
+    {
+     "id": "lane",
+     "label": "Lane produksi",
+     "note": "nama lane di repo produksi, kalau ada",
+     "ok": true,
+     "value": "cha_sirin_fan_01"
+    }
+   ],
+   "path": "drafts/sirin-smol-kipas/draft.md",
+   "notes_path": "",
+   "data": "data/sirin-smol-kipas.json",
+   "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-kipas/draft.md"
+  },
+  {
+   "slug": "sirin-smol-tangga",
+   "title": "Sirin smol and tangga",
+   "status": "draft",
+   "status_raw": "draft",
+   "date": "2026-10-17",
+   "updated": "2026-10-17",
+   "series": "Cha Sirin smol",
+   "lane": "cha_sirin_stairs_01",
+   "format": "9:16",
+   "duration": null,
+   "setting": "Rumah Sirin (tangga)",
+   "characters": [
+    "Cha Sirin"
+   ],
+   "tags": [
+    "sirin",
+    "smol",
+    "komedi",
+    "tangga"
+   ],
+   "logline": "",
+   "source": "chat (Discord #draft)",
+   "beats": [
+    {
+     "n": 1,
+     "text": "sirin mendobrak pintu dengan muka bodohnya dan kelihatan lesu tapi tetap imut",
+     "camera": false,
+     "words": 12
+    },
+    {
+     "n": 2,
+     "text": "sirin menghadap ke POV sebentar, lalu mulai menaiki tangga",
+     "camera": true,
+     "words": 9
+    },
+    {
+     "n": 3,
+     "text": "tak lama sirin kemudian turun dari tangga",
+     "camera": false,
+     "words": 7
+    },
+    {
+     "n": 4,
+     "text": "POV ada di sudut atas sirin lalu mendekat ke sirin",
+     "camera": true,
+     "words": 10
+    },
+    {
+     "n": 5,
+     "text": "sirin yang tampak kelihatan lelah dan muka bodohnya melihat ke arah POV",
+     "camera": true,
+     "words": 12
+    },
+    {
+     "n": 6,
+     "text": "POV lalu melakukan pat",
+     "camera": true,
+     "words": 4
+    }
+   ],
+   "beats_count": 6,
+   "camera_beats": 4,
+   "words": 54,
+   "preview": "sirin mendobrak pintu dengan muka bodohnya dan kelihatan lesu tapi tetap imut",
+   "has_notes": false,
+   "has_frontmatter": true,
+   "ready": 8,
+   "ready_total": 8,
+   "checks": [
+    {
+     "id": "title",
+     "label": "Judul terisi",
+     "note": "judul yang muncul di papan",
+     "ok": true,
+     "value": "Sirin smol and tangga"
+    },
+    {
+     "id": "status",
+     "label": "Status valid",
+     "note": "draft / ongoing / done",
+     "ok": true,
+     "value": "draft"
+    },
+    {
+     "id": "beats",
+     "label": "Minimal 3 beat",
+     "note": "satu beat ≈ satu aksi di depan kamera",
+     "ok": true,
+     "value": 6
+    },
+    {
+     "id": "camera",
+     "label": "Ada arahan kamera/POV",
+     "note": "biar bisa dipetakan jadi shot",
+     "ok": true,
+     "value": 4
+    },
+    {
+     "id": "setting",
+     "label": "Setting terisi",
+     "note": "tempat kejadian",
+     "ok": true,
+     "value": "Rumah Sirin (tangga)"
+    },
+    {
+     "id": "tags",
+     "label": "Minimal 1 tag",
+     "note": "buat filter di papan",
+     "ok": true,
+     "value": 4
+    },
+    {
+     "id": "format",
+     "label": "Format terisi",
+     "note": "9:16 buat shorts, 16:9 buat biasa",
+     "ok": true,
+     "value": "9:16"
+    },
+    {
+     "id": "lane",
+     "label": "Lane produksi",
+     "note": "nama lane di repo produksi, kalau ada",
+     "ok": true,
+     "value": "cha_sirin_stairs_01"
+    }
+   ],
+   "path": "drafts/sirin-smol-tangga/draft.md",
+   "notes_path": "",
+   "data": "data/sirin-smol-tangga.json",
+   "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-tangga/draft.md"
+  },
+  {
+   "slug": "sirin-smol-car",
+   "title": "Sirin smol and car",
+   "status": "draft",
+   "status_raw": "draft",
+   "date": "2026-10-14",
+   "updated": "2026-10-14",
+   "series": "Cha Sirin smol",
+   "lane": "cha_sirin_car_01",
+   "format": "9:16",
+   "duration": null,
+   "setting": "Dalam mobil (kursi belakang)",
+   "characters": [
+    "Cha Sirin"
+   ],
+   "tags": [
+    "sirin",
+    "smol",
+    "komedi",
+    "mobil"
+   ],
+   "logline": "",
+   "source": "chat (Discord #draft)",
+   "beats": [
+    {
+     "n": 1,
+     "text": "sirin membuka pintu mobil dari pintu kanan mobil dengan muka bodohnya dan malas",
+     "camera": false,
+     "words": 13
+    },
+    {
+     "n": 2,
+     "text": "POV dari posisi tinggi lalu berputar dari samping pintu, lalu ke belakang sirin dan ada di sebelah kiri",
+     "camera": true,
+     "words": 18
+    },
+    {
+     "n": 3,
+     "text": "sirin menutup pintu mobil dengan keras dengan muka bodohnya dan malas",
+     "camera": false,
+     "words": 11
+    },
+    {
+     "n": 4,
+     "text": "POV lalu berputar ke depan muka sirin dengan angle di atas",
+     "camera": true,
+     "words": 11
+    },
+    {
+     "n": 5,
+     "text": "mobil jalan lalu tiba-tiba ngerem",
+     "camera": false,
+     "words": 5
+    },
+    {
+     "n": 6,
+     "text": "badan sirin lalu terdorong tapi yang terdorong kaki duluan, dan kepala masih nyender ke belakang kursi, sehingga seolah-olah sirin seperti mode tidur dan kaki lurus memanjang",
+     "camera": false,
+     "words": 26
+    },
+    {
+     "n": 7,
+     "text": "lalu dengan muka bodohnya sirin lanjut tidur dengan posisi terakhirnya",
+     "camera": false,
+     "words": 10
+    }
+   ],
+   "beats_count": 7,
+   "camera_beats": 2,
+   "words": 94,
+   "preview": "sirin membuka pintu mobil dari pintu kanan mobil dengan muka bodohnya dan malas",
+   "has_notes": false,
+   "has_frontmatter": true,
+   "ready": 8,
+   "ready_total": 8,
+   "checks": [
+    {
+     "id": "title",
+     "label": "Judul terisi",
+     "note": "judul yang muncul di papan",
+     "ok": true,
+     "value": "Sirin smol and car"
+    },
+    {
+     "id": "status",
+     "label": "Status valid",
+     "note": "draft / ongoing / done",
+     "ok": true,
+     "value": "draft"
+    },
+    {
+     "id": "beats",
+     "label": "Minimal 3 beat",
+     "note": "satu beat ≈ satu aksi di depan kamera",
+     "ok": true,
+     "value": 7
+    },
+    {
+     "id": "camera",
+     "label": "Ada arahan kamera/POV",
+     "note": "biar bisa dipetakan jadi shot",
+     "ok": true,
+     "value": 2
+    },
+    {
+     "id": "setting",
+     "label": "Setting terisi",
+     "note": "tempat kejadian",
+     "ok": true,
+     "value": "Dalam mobil (kursi belakang)"
+    },
+    {
+     "id": "tags",
+     "label": "Minimal 1 tag",
+     "note": "buat filter di papan",
+     "ok": true,
+     "value": 4
+    },
+    {
+     "id": "format",
+     "label": "Format terisi",
+     "note": "9:16 buat shorts, 16:9 buat biasa",
+     "ok": true,
+     "value": "9:16"
+    },
+    {
+     "id": "lane",
+     "label": "Lane produksi",
+     "note": "nama lane di repo produksi, kalau ada",
+     "ok": true,
+     "value": "cha_sirin_car_01"
+    }
+   ],
+   "path": "drafts/sirin-smol-car/draft.md",
+   "notes_path": "",
+   "data": "data/sirin-smol-car.json",
+   "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-car/draft.md"
+  },
+  {
+   "slug": "sirin-smol-cermin",
+   "title": "Sirin smol and cermin",
+   "status": "draft",
+   "status_raw": "draft",
+   "date": "2026-10-13",
+   "updated": "2026-10-13",
+   "series": "Cha Sirin smol",
+   "lane": "cha_sirin_mirror_01",
+   "format": "9:16",
+   "duration": null,
+   "setting": "Rumah Sirin (cermin)",
+   "characters": [
+    "Cha Sirin"
+   ],
+   "tags": [
+    "sirin",
+    "smol",
+    "komedi",
+    "cermin"
+   ],
+   "logline": "",
+   "source": "chat (Discord #draft)",
+   "beats": [
+    {
+     "n": 1,
+     "text": "sirin buka pintu dengan membanting, lalu menuju ke cermin",
+     "camera": false,
+     "words": 9
+    },
+    {
+     "n": 2,
+     "text": "POV mendekat ke belakang sirin serta ada di atas kepala sirin yang sedang melihat ke cermin",
+     "camera": true,
+     "words": 16
+    },
+    {
+     "n": 3,
+     "text": "pantulan sirin kelihatan di cermin dan kemudian sedang menurunkan ahoge rambutnya",
+     "camera": false,
+     "words": 11
+    },
+    {
+     "n": 4,
+     "text": "tapi ahoge tidak turun walaupun sudah dicoba beberapa kali",
+     "camera": false,
+     "words": 9
+    },
+    {
+     "n": 5,
+     "text": "akhirnya dengan muka kesalnya pergi",
+     "camera": false,
+     "words": 5
+    }
+   ],
+   "beats_count": 5,
+   "camera_beats": 1,
+   "words": 50,
+   "preview": "sirin buka pintu dengan membanting, lalu menuju ke cermin",
+   "has_notes": false,
+   "has_frontmatter": true,
+   "ready": 8,
+   "ready_total": 8,
+   "checks": [
+    {
+     "id": "title",
+     "label": "Judul terisi",
+     "note": "judul yang muncul di papan",
+     "ok": true,
+     "value": "Sirin smol and cermin"
+    },
+    {
+     "id": "status",
+     "label": "Status valid",
+     "note": "draft / ongoing / done",
+     "ok": true,
+     "value": "draft"
+    },
+    {
+     "id": "beats",
+     "label": "Minimal 3 beat",
+     "note": "satu beat ≈ satu aksi di depan kamera",
+     "ok": true,
+     "value": 5
+    },
+    {
+     "id": "camera",
+     "label": "Ada arahan kamera/POV",
+     "note": "biar bisa dipetakan jadi shot",
+     "ok": true,
+     "value": 1
+    },
+    {
+     "id": "setting",
+     "label": "Setting terisi",
+     "note": "tempat kejadian",
+     "ok": true,
+     "value": "Rumah Sirin (cermin)"
+    },
+    {
+     "id": "tags",
+     "label": "Minimal 1 tag",
+     "note": "buat filter di papan",
+     "ok": true,
+     "value": 4
+    },
+    {
+     "id": "format",
+     "label": "Format terisi",
+     "note": "9:16 buat shorts, 16:9 buat biasa",
+     "ok": true,
+     "value": "9:16"
+    },
+    {
+     "id": "lane",
+     "label": "Lane produksi",
+     "note": "nama lane di repo produksi, kalau ada",
+     "ok": true,
+     "value": "cha_sirin_mirror_01"
+    }
+   ],
+   "path": "drafts/sirin-smol-cermin/draft.md",
+   "notes_path": "",
+   "data": "data/sirin-smol-cermin.json",
+   "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-cermin/draft.md"
+  },
+  {
+   "slug": "sirin-smol-washing",
+   "title": "Sirin smol washing",
+   "status": "draft",
+   "status_raw": "draft",
+   "date": "2026-10-13",
+   "updated": "2026-10-13",
+   "series": "Cha Sirin smol",
+   "lane": "cha_sirin_laundry_01",
+   "format": "9:16",
+   "duration": null,
+   "setting": "Rumah Sirin (toilet, dekat mesin cuci)",
+   "characters": [
+    "Cha Sirin"
+   ],
+   "tags": [
+    "sirin",
+    "smol",
+    "komedi",
+    "cuci-baju"
+   ],
+   "logline": "",
+   "source": "chat (Discord #draft)",
+   "beats": [
+    {
+     "n": 1,
+     "text": "sirin keluar dari toilet sambil mendobrak pintu dengan muka bodohnya dan kelihatan lesu tapi tetap imut",
+     "camera": false,
+     "words": 16
+    },
+    {
+     "n": 2,
+     "text": "sirin mengambil tumpukan baju di dekat mesin cuci dengan muka bodohnya, sambil kamera zooming ke arah sirin, dan tetap menggunakan angle di atas untuk kameranya",
+     "camera": true,
+     "words": 25
+    },
+    {
+     "n": 3,
+     "text": "lalu sirin mencoba mengangkatnya tapi tak kuat dan bergoyang ke kanan dan ke kiri, sambil kamera berputar menghadap depan sirin",
+     "camera": true,
+     "words": 20
+    },
+    {
+     "n": 4,
+     "text": "sirin kemudian terjatuh disertai tumpukan baju yang berserakan",
+     "camera": false,
+     "words": 8
+    },
+    {
+     "n": 5,
+     "text": "kamera zooming ke arah sirin yang terkapar dengan muka bodoh tapi tetap imut",
+     "camera": true,
+     "words": 13
+    }
+   ],
+   "beats_count": 5,
+   "camera_beats": 3,
+   "words": 82,
+   "preview": "sirin keluar dari toilet sambil mendobrak pintu dengan muka bodohnya dan kelihatan lesu tapi tetap imut",
+   "has_notes": false,
+   "has_frontmatter": true,
+   "ready": 8,
+   "ready_total": 8,
+   "checks": [
+    {
+     "id": "title",
+     "label": "Judul terisi",
+     "note": "judul yang muncul di papan",
+     "ok": true,
+     "value": "Sirin smol washing"
+    },
+    {
+     "id": "status",
+     "label": "Status valid",
+     "note": "draft / ongoing / done",
+     "ok": true,
+     "value": "draft"
+    },
+    {
+     "id": "beats",
+     "label": "Minimal 3 beat",
+     "note": "satu beat ≈ satu aksi di depan kamera",
+     "ok": true,
+     "value": 5
+    },
+    {
+     "id": "camera",
+     "label": "Ada arahan kamera/POV",
+     "note": "biar bisa dipetakan jadi shot",
+     "ok": true,
+     "value": 3
+    },
+    {
+     "id": "setting",
+     "label": "Setting terisi",
+     "note": "tempat kejadian",
+     "ok": true,
+     "value": "Rumah Sirin (toilet, dekat mesin cuci)"
+    },
+    {
+     "id": "tags",
+     "label": "Minimal 1 tag",
+     "note": "buat filter di papan",
+     "ok": true,
+     "value": 4
+    },
+    {
+     "id": "format",
+     "label": "Format terisi",
+     "note": "9:16 buat shorts, 16:9 buat biasa",
+     "ok": true,
+     "value": "9:16"
+    },
+    {
+     "id": "lane",
+     "label": "Lane produksi",
+     "note": "nama lane di repo produksi, kalau ada",
+     "ok": true,
+     "value": "cha_sirin_laundry_01"
+    }
+   ],
+   "path": "drafts/sirin-smol-washing/draft.md",
+   "notes_path": "",
+   "data": "data/sirin-smol-washing.json",
+   "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-washing/draft.md"
+  },
+  {
+   "slug": "sirin-smol-snacks",
+   "title": "Sirin smol and Snacks",
+   "status": "done",
+   "status_raw": "done",
    "date": "2026-11-07",
    "updated": "2026-11-14",
    "series": "Cha Sirin smol",
@@ -99,7 +891,7 @@
    "has_notes": false,
    "has_frontmatter": true,
    "ready": 8,
-   "ready_total": 9,
+   "ready_total": 8,
    "checks": [
     {
      "id": "title",
@@ -113,7 +905,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "draft"
+     "value": "done"
     },
     {
      "id": "beats",
@@ -151,13 +943,6 @@
      "value": "9:16"
     },
     {
-     "id": "duration",
-     "label": "Durasi target",
-     "note": "perkiraan total durasi klip (detik)",
-     "ok": false,
-     "value": "-"
-    },
-    {
      "id": "lane",
      "label": "Lane produksi",
      "note": "nama lane di repo produksi, kalau ada",
@@ -173,8 +958,8 @@
   {
    "slug": "sirin-smol-sikatan",
    "title": "Sirin smol and sikatan",
-   "status": "draft",
-   "status_raw": "draft",
+   "status": "done",
+   "status_raw": "done",
    "date": "2026-10-31",
    "updated": "2026-11-14",
    "series": "Cha Sirin smol",
@@ -238,7 +1023,7 @@
    "has_notes": false,
    "has_frontmatter": true,
    "ready": 8,
-   "ready_total": 9,
+   "ready_total": 8,
    "checks": [
     {
      "id": "title",
@@ -252,7 +1037,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "draft"
+     "value": "done"
     },
     {
      "id": "beats",
@@ -290,13 +1075,6 @@
      "value": "9:16"
     },
     {
-     "id": "duration",
-     "label": "Durasi target",
-     "note": "perkiraan total durasi klip (detik)",
-     "ok": false,
-     "value": "-"
-    },
-    {
      "id": "lane",
      "label": "Lane produksi",
      "note": "nama lane di repo produksi, kalau ada",
@@ -312,8 +1090,8 @@
   {
    "slug": "sirin-smol-snake",
    "title": "Sirin smol and Snake",
-   "status": "draft",
-   "status_raw": "draft",
+   "status": "done",
+   "status_raw": "done",
    "date": "2026-10-28",
    "updated": "2026-11-14",
    "series": "Cha Sirin smol",
@@ -365,7 +1143,7 @@
    "has_notes": false,
    "has_frontmatter": true,
    "ready": 8,
-   "ready_total": 9,
+   "ready_total": 8,
    "checks": [
     {
      "id": "title",
@@ -379,7 +1157,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "draft"
+     "value": "done"
     },
     {
      "id": "beats",
@@ -417,13 +1195,6 @@
      "value": "9:16"
     },
     {
-     "id": "duration",
-     "label": "Durasi target",
-     "note": "perkiraan total durasi klip (detik)",
-     "ok": false,
-     "value": "-"
-    },
-    {
      "id": "lane",
      "label": "Lane produksi",
      "note": "nama lane di repo produksi, kalau ada",
@@ -439,8 +1210,8 @@
   {
    "slug": "sirin-smol-cookie",
    "title": "Sirin smol and Cookie",
-   "status": "draft",
-   "status_raw": "draft",
+   "status": "done",
+   "status_raw": "done",
    "date": "2026-10-25",
    "updated": "2026-11-14",
    "series": "Cha Sirin smol",
@@ -498,7 +1269,7 @@
    "has_notes": true,
    "has_frontmatter": true,
    "ready": 8,
-   "ready_total": 9,
+   "ready_total": 8,
    "checks": [
     {
      "id": "title",
@@ -512,7 +1283,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "draft"
+     "value": "done"
     },
     {
      "id": "beats",
@@ -550,13 +1321,6 @@
      "value": "9:16"
     },
     {
-     "id": "duration",
-     "label": "Durasi target",
-     "note": "perkiraan total durasi klip (detik)",
-     "ok": false,
-     "value": "-"
-    },
-    {
      "id": "lane",
      "label": "Lane produksi",
      "note": "nama lane di repo produksi, kalau ada",
@@ -572,8 +1336,8 @@
   {
    "slug": "sirin-smol-daun",
    "title": "Sirin smol and Daun",
-   "status": "draft",
-   "status_raw": "draft",
+   "status": "done",
+   "status_raw": "done",
    "date": "2026-10-25",
    "updated": "2026-11-14",
    "series": "Cha Sirin smol",
@@ -631,7 +1395,7 @@
    "has_notes": false,
    "has_frontmatter": true,
    "ready": 8,
-   "ready_total": 9,
+   "ready_total": 8,
    "checks": [
     {
      "id": "title",
@@ -645,7 +1409,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "draft"
+     "value": "done"
     },
     {
      "id": "beats",
@@ -683,13 +1447,6 @@
      "value": "9:16"
     },
     {
-     "id": "duration",
-     "label": "Durasi target",
-     "note": "perkiraan total durasi klip (detik)",
-     "ok": false,
-     "value": "-"
-    },
-    {
      "id": "lane",
      "label": "Lane produksi",
      "note": "nama lane di repo produksi, kalau ada",
@@ -705,8 +1462,8 @@
   {
    "slug": "sirin-smol-pasir",
    "title": "Sirin smol and Pasir",
-   "status": "draft",
-   "status_raw": "draft",
+   "status": "done",
+   "status_raw": "done",
    "date": "2026-10-25",
    "updated": "2026-11-14",
    "series": "Cha Sirin smol",
@@ -764,7 +1521,7 @@
    "has_notes": false,
    "has_frontmatter": true,
    "ready": 8,
-   "ready_total": 9,
+   "ready_total": 8,
    "checks": [
     {
      "id": "title",
@@ -778,7 +1535,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "draft"
+     "value": "done"
     },
     {
      "id": "beats",
@@ -816,13 +1573,6 @@
      "value": "9:16"
     },
     {
-     "id": "duration",
-     "label": "Durasi target",
-     "note": "perkiraan total durasi klip (detik)",
-     "ok": false,
-     "value": "-"
-    },
-    {
      "id": "lane",
      "label": "Lane produksi",
      "note": "nama lane di repo produksi, kalau ada",
@@ -838,8 +1588,8 @@
   {
    "slug": "sirin-smol-merpati",
    "title": "Sirin smol merpati",
-   "status": "draft",
-   "status_raw": "draft",
+   "status": "done",
+   "status_raw": "done",
    "date": "2026-10-11",
    "updated": "2026-11-14",
    "series": "Cha Sirin smol",
@@ -909,7 +1659,7 @@
    "has_notes": false,
    "has_frontmatter": true,
    "ready": 8,
-   "ready_total": 9,
+   "ready_total": 8,
    "checks": [
     {
      "id": "title",
@@ -923,7 +1673,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "draft"
+     "value": "done"
     },
     {
      "id": "beats",
@@ -961,13 +1711,6 @@
      "value": "9:16"
     },
     {
-     "id": "duration",
-     "label": "Durasi target",
-     "note": "perkiraan total durasi klip (detik)",
-     "ok": false,
-     "value": "-"
-    },
-    {
      "id": "lane",
      "label": "Lane produksi",
      "note": "nama lane di repo produksi, kalau ada",
@@ -983,8 +1726,8 @@
   {
    "slug": "sirin-smol-senam",
    "title": "Sirin smol senam",
-   "status": "draft",
-   "status_raw": "draft",
+   "status": "done",
+   "status_raw": "done",
    "date": "2026-10-11",
    "updated": "2026-11-14",
    "series": "Cha Sirin smol",
@@ -1054,7 +1797,7 @@
    "has_notes": false,
    "has_frontmatter": true,
    "ready": 8,
-   "ready_total": 9,
+   "ready_total": 8,
    "checks": [
     {
      "id": "title",
@@ -1068,7 +1811,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "draft"
+     "value": "done"
     },
     {
      "id": "beats",
@@ -1104,13 +1847,6 @@
      "note": "9:16 buat shorts, 16:9 buat biasa",
      "ok": true,
      "value": "9:16"
-    },
-    {
-     "id": "duration",
-     "label": "Durasi target",
-     "note": "perkiraan total durasi klip (detik)",
-     "ok": false,
-     "value": "-"
     },
     {
      "id": "lane",
