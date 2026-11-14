@@ -1,0 +1,134 @@
+{
+ "slug": "sirin-smol-jaket",
+ "title": "Sirin smol and jaket",
+ "status": "draft",
+ "status_raw": "draft",
+ "date": "2026-11-14",
+ "updated": "2026-11-14",
+ "series": "Cha Sirin smol",
+ "lane": "",
+ "format": "9:16",
+ "duration": 15,
+ "setting": "Rumah Sirin (ruang tengah, lantai kayu)",
+ "characters": [
+  "Cha Sirin"
+ ],
+ "tags": [
+  "sirin",
+  "smol",
+  "komedi",
+  "jaket"
+ ],
+ "logline": "Resleting jaketnya macet; Sirin melawan resleting itu, dan setelah menang dia menutupnya lagi.",
+ "source": "agent (usulan + riset docs/01/02/05 story-draft)",
+ "beats": [
+  {
+   "n": 1,
+   "text": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri dengan zip hoodie-nya tertutup rapat sampai leher, muka bodohnya dan malas, ahoge-nya keluar dari atas tudungnya",
+   "camera": true,
+   "words": 27
+  },
+  {
+   "n": 2,
+   "text": "sirin menarik resletingnya ke bawah dengan satu tangan, pelan sekali, dan resletingnya tidak bergerak sedikit pun",
+   "camera": false,
+   "words": 16
+  },
+  {
+   "n": 3,
+   "text": "sirin menarik lebih kuat, badannya ikut terangkat sedikit dan kain jaketnya mengumpul di pinggang",
+   "camera": false,
+   "words": 14
+  },
+  {
+   "n": 4,
+   "text": "kamera bergeser sedikit menyamping; sirin berhenti menarik, menatap resletingnya dengan muka yang sama seperti tadi, lalu menariknya dua kali cepat tanpa jeda",
+   "camera": true,
+   "words": 22
+  },
+  {
+   "n": 5,
+   "text": "resletingnya kebuka sekaligus sampai bawah dengan satu bunyi panjang, jaketnya menganga, dan sirin berdiri diam seolah tidak terjadi apa-apa",
+   "camera": false,
+   "words": 19
+  },
+  {
+   "n": 6,
+   "text": "sirin menutup resletingnya kembali sampai leher, persis seperti frame pertama, dan tetap dengan muka bodohnya",
+   "camera": true,
+   "words": 15
+  }
+ ],
+ "beats_count": 6,
+ "camera_beats": 3,
+ "words": 113,
+ "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri dengan zip hoodie-nya tertutup rapat sampai leher, muka bodohnya dan malas, ahoge-nya keluar dari atas tudungnya",
+ "has_notes": true,
+ "has_frontmatter": true,
+ "ready": 7,
+ "ready_total": 8,
+ "checks": [
+  {
+   "id": "title",
+   "label": "Judul terisi",
+   "note": "judul yang muncul di papan",
+   "ok": true,
+   "value": "Sirin smol and jaket"
+  },
+  {
+   "id": "status",
+   "label": "Status valid",
+   "note": "draft / ongoing / done",
+   "ok": true,
+   "value": "draft"
+  },
+  {
+   "id": "beats",
+   "label": "Minimal 3 beat",
+   "note": "satu beat ≈ satu aksi di depan kamera",
+   "ok": true,
+   "value": 6
+  },
+  {
+   "id": "camera",
+   "label": "Ada arahan kamera/POV",
+   "note": "biar bisa dipetakan jadi shot",
+   "ok": true,
+   "value": 3
+  },
+  {
+   "id": "setting",
+   "label": "Setting terisi",
+   "note": "tempat kejadian",
+   "ok": true,
+   "value": "Rumah Sirin (ruang tengah, lantai kayu)"
+  },
+  {
+   "id": "tags",
+   "label": "Minimal 1 tag",
+   "note": "buat filter di papan",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "format",
+   "label": "Format terisi",
+   "note": "9:16 buat shorts, 16:9 buat biasa",
+   "ok": true,
+   "value": "9:16"
+  },
+  {
+   "id": "lane",
+   "label": "Lane produksi",
+   "note": "nama lane di repo produksi, kalau ada",
+   "ok": false,
+   "value": "-"
+  }
+ ],
+ "path": "drafts/sirin-smol-jaket/draft.md",
+ "notes_path": "drafts/sirin-smol-jaket/notes.md",
+ "data": "data/sirin-smol-jaket.json",
+ "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-jaket/draft.md",
+ "notes": "# Catatan produksi · Sirin smol and jaket\n\nHook (0–2,2 dtk): muka Sirin + jaketnya tertutup rapat sampai leher di frame pertama.\nPremis kebaca tanpa penjelasan (jaket ditutup penuh = dia mau keluar), dan tarikan\npertama yang gagal jatuh di detik ~2.\n\nRunning gag (3 kemunculan): resleting yang menolak terus — (1) tarikan pelan,\ntidak bergerak; (2) tarikan kuat, badan ikut terangkat + kain mengumpul;\n(3) dua tarikan cepat, lalu kebuka sekaligus dengan bunyi panjang.\n\nButton (callback, absurd): setelah menang, dia **menutup resletingnya lagi**\nsampai leher — persis state frame pertama, jadi loop-nya mulus dan leluconnya\n\"menang tanpa alasan\".\n\nPeta beat → segmen (~5 dtk/segmen, 3 segmen ≈ 15 dtk):\n1. beat 1–2 (berdiri + tarik pelan) · 2. beat 3–4 (tarik kuat + jeda menatap) ·\n3. beat 5–6 (kebuka sekaligus + ditutup lagi).\n\nKenapa draft ini dipilih (catatan produksi):\n- **Tidak ada prop baru.** Jaket zip kebesaran itu aset identitas Sirin yang sudah\n  ada di charshet (docs/01 story-draft) — nol ref tambahan.\n- **Tidak ada objek kecil yang bergerak cepat.** Batasan H3: objek kecil bergerak\n  tidak beraturan (serangga, percikan) paling gampang jadi artefak; resleting cuma\n  bergerak naik-turun di satu garis lurus.\n\nBatasan H3 yang dipegang (docs/02 story-draft):\n- Maks 1 gerak kamera kecil per segmen; framing ladder maks 1 level per segmen.\n- Jangan tulis kosakata shot-type (`zoom`, `close-up`, `cut to`).\n- Kontak harus eksplisit: jari **mencengkeram** tarikan resleting, kain mengumpul\n  di pinggang, resleting kebuka sampai **bawah**. Tanpa titik kontak, aksinya\n  kebaca \"tidak kena\".\n- Jangan minta kamera menoleh ke bawah ke resleting (gerak besar → cut). Resleting\n  harus tetap terbaca di frame yang sama dengan mukanya.\n- Muka Sirin harus tetap subjek di setiap segmen (kanon): jangan sampai tudung\n  atau kain menutup mukanya. Kain mengumpul di **pinggang**, bukan di leher.\n\nOpsi potong (kalau harus ≤10 dtk): buang beat 3, langsung dari tarikan pelan ke\ndua tarikan cepat; payoff tetap di detik ~8.\n\nOpsi caption post-produksi (4–7 kata, teks di luar frame render):\n1. \"resleting 1, sirin 0\"\n2. \"menang, terus ditutup lagi\"\n3. \"perjuangan paling tidak perlu\"\n\nLane produksi: **belum ada** (calon nama: `cha_sirin_jaket_01`).",
+ "raw": "---\ntitle: \"Sirin smol and jaket\"\nstatus: \"draft\"\ndate: \"2026-11-14\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (ruang tengah, lantai kayu)\"\nlogline: \"Resleting jaketnya macet; Sirin melawan resleting itu, dan setelah menang dia menutupnya lagi.\"\nsource: \"agent (usulan + riset docs/01/02/05 story-draft)\"\nduration: 15\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, jaket]\n---\n\n- POV sudah ada di atas sirin sejak frame pertama: sirin berdiri dengan zip hoodie-nya tertutup rapat sampai leher, muka bodohnya dan malas, ahoge-nya keluar dari atas tudungnya\n- sirin menarik resletingnya ke bawah dengan satu tangan, pelan sekali, dan resletingnya tidak bergerak sedikit pun\n- sirin menarik lebih kuat, badannya ikut terangkat sedikit dan kain jaketnya mengumpul di pinggang\n- kamera bergeser sedikit menyamping; sirin berhenti menarik, menatap resletingnya dengan muka yang sama seperti tadi, lalu menariknya dua kali cepat tanpa jeda\n- resletingnya kebuka sekaligus sampai bawah dengan satu bunyi panjang, jaketnya menganga, dan sirin berdiri diam seolah tidak terjadi apa-apa\n- sirin menutup resletingnya kembali sampai leher, persis seperti frame pertama, dan tetap dengan muka bodohnya\n"
+}
