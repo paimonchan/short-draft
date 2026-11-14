@@ -2,6 +2,8 @@
 
 Lane produksi: `cha_sirin_eskrim_01` (repo produksi, privat - nama lane cuma penanda).
 
+Aturan umum yang lahir dari rombak ini dan dipakai semua draft berikutnya: `docs/aturan-produksi.md`.
+
 ## Perubahan draft (2026-11-14, v4)
 
 Draft awal ditulis dengan dua aksi mulut (`menjilat sekali` + `menangkap gumpalan dengan mulut`).

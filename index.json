@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14 20:00",
+ "generated": "2026-11-14 21:16",
  "repo": "paimonchan/short-draft",
  "count": 17,
  "beats": 97,
@@ -215,9 +215,9 @@
    "hook_signals": {
     "frame1": true,
     "question": true,
-    "motion": false
+    "motion": true
    },
-   "hook_score": 2,
+   "hook_score": 3,
    "beats": [
     {
      "n": 1,

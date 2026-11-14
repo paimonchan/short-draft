@@ -64,8 +64,9 @@ HOOK_QUESTION_RE = re.compile(
     r"\?|\b(apa|kenapa|kok|gimana|bagaimana|berapa|siapa|mana|mengapa)\b", re.I
 )
 HOOK_MOTION_RE = re.compile(
-    r"gerak|bergerak|jatuh|mendarat|menetes|menggantung|menarik|berputar|memutar|menoleh|melirik|"
-    r"masuk frame|meluncur|ketimbun|menyelip|mengumpul|bergetar|terangkat",
+    r"gerak|bergerak|berjalan|melangkah|menapak|melintas|jatuh|mendarat|menetes|menggantung|"
+    r"menarik|berputar|memutar|menoleh|melirik|masuk frame|meluncur|ketimbun|menyelip|"
+    r"mengumpul|bergetar|terangkat|menganga",
     re.I,
 )
 

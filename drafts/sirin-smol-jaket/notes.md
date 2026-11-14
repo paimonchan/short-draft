@@ -2,6 +2,8 @@
 
 Lane produksi: `cha_sirin_jaket_01`.
 
+Aturan umum yang lahir dari rombak ini dan dipakai semua draft berikutnya: `docs/aturan-produksi.md`.
+
 ## Riwayat revisi draft
 
 **v1:** Sirin berdiri diam, badan terangkat saat menarik resleting -> minim gerak.

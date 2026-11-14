@@ -2,6 +2,8 @@
 
 Lane produksi: `cha_sirin_sandal_01`.
 
+Aturan umum yang lahir dari rombak ini dan dipakai semua draft berikutnya: `docs/aturan-produksi.md`.
+
 ## Perubahan draft (2026-11-14, v3)
 
 Versi v2 menaruh sandal **di lantai, di bawah telapak kaki kiri** - dan itu gagal secara geometri:

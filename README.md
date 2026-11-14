@@ -18,6 +18,7 @@ repo ini:
 short-draft/
 ├── drafts/<slug>/draft.md    ← frontmatter + daftar beat (satu beat per baris list)
 ├── drafts/<slug>/notes.md    ← opsional: catatan produksi
+├── docs/aturan-produksi.md   ← aturan hasil render (dipakai semua draft berikutnya)
 ├── templates/draft-template.md
 ├── tools/build_index.py      ← drafts/**/draft.md → index.json + data/
 ├── tools/drafts.py           ← CLI: add / status / edit / beat / list
@@ -36,6 +37,23 @@ short-draft/
 
 Status inilah "checklist"-nya: satu nilai per draft, diubah dari frontmatter
 (`tools/drafts.py status <slug> <status>`). Beat **tidak** punya centang sendiri.
+
+`ongoing` dipakai begitu lane produksinya sudah ada di repo produksi (nama lane ditulis di
+frontmatter `lane`). Kalau `lane` kosong, draft-nya masih `draft`.
+
+## Aturan produksi
+
+`docs/aturan-produksi.md` — aturan yang **lahir dari render nyata**, hasil rombak 3 draft
+pertama. Ringkasnya:
+
+- objek kunci harus terbaca dari **POV atas**; jangan taruh apa pun di bawah badan
+- **tidak ada aksi mulut** (H3 mendaur ulang gestur mulut + menggandakan prop)
+- **tidak ada instruksi diam**: badan bergerak terus (berjalan / berputar badan), kaki menapak
+- **satu arah saja**, payoff sekali (jangan buka-tutup berulang)
+- muka tetap terangkat ke lensa; kalau perlu lihat ke bawah cukup `chin dip` beberapa senti
+- kamera selalu bergerak, tapi maksimal 1 gerak kamera kecil per segmen
+
+Template draft baru sudah memuat ringkasan ini sebagai komentar.
 
 ## Nambah / ngubah draft
 
