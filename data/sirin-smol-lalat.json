@@ -1,0 +1,134 @@
+{
+ "slug": "sirin-smol-lalat",
+ "title": "Sirin smol and lalat",
+ "status": "draft",
+ "status_raw": "draft",
+ "date": "2026-11-14",
+ "updated": "2026-11-14",
+ "series": "Cha Sirin smol",
+ "lane": "",
+ "format": "9:16",
+ "duration": 15,
+ "setting": "Rumah Sirin (sofa, ruang tengah)",
+ "characters": [
+  "Cha Sirin"
+ ],
+ "tags": [
+  "sirin",
+  "smol",
+  "komedi",
+  "lalat"
+ ],
+ "logline": "Sirin mengusir lalat dengan usaha paling minimal yang bisa dibayangkan; makin dia menyerah, makin dekat lalat itu hinggap.",
+ "source": "agent (usulan + riset docs/01/02/05 story-draft)",
+ "beats": [
+  {
+   "n": 1,
+   "text": "sirin duduk bersandar di sofa dengan muka bodohnya dan malas, POV ada di atas sirin",
+   "camera": true,
+   "words": 15
+  },
+  {
+   "n": 2,
+   "text": "ada lalat lewat di depan mukanya, sirin melirik tanpa menggerakkan kepalanya",
+   "camera": false,
+   "words": 11
+  },
+  {
+   "n": 3,
+   "text": "sirin mengibaskan tangannya satu kali, malas, lalatnya malah hinggap di ahoge-nya",
+   "camera": false,
+   "words": 11
+  },
+  {
+   "n": 4,
+   "text": "sirin mengibaskan lagi, lebih malas dari sebelumnya, lalatnya pindah ke pipinya yang ada bulatan pinknya",
+   "camera": false,
+   "words": 15
+  },
+  {
+   "n": 5,
+   "text": "sirin berhenti mencoba, tangannya jatuh ke pangkuan, matanya setengah tertutup seperti biasa",
+   "camera": false,
+   "words": 12
+  },
+  {
+   "n": 6,
+   "text": "lalatnya terbang pergi sendiri, dan sirin tetap dengan ekspresi yang sama, seperti tidak terjadi apa-apa",
+   "camera": false,
+   "words": 15
+  }
+ ],
+ "beats_count": 6,
+ "camera_beats": 1,
+ "words": 79,
+ "preview": "sirin duduk bersandar di sofa dengan muka bodohnya dan malas, POV ada di atas sirin",
+ "has_notes": true,
+ "has_frontmatter": true,
+ "ready": 7,
+ "ready_total": 8,
+ "checks": [
+  {
+   "id": "title",
+   "label": "Judul terisi",
+   "note": "judul yang muncul di papan",
+   "ok": true,
+   "value": "Sirin smol and lalat"
+  },
+  {
+   "id": "status",
+   "label": "Status valid",
+   "note": "draft / ongoing / done",
+   "ok": true,
+   "value": "draft"
+  },
+  {
+   "id": "beats",
+   "label": "Minimal 3 beat",
+   "note": "satu beat ≈ satu aksi di depan kamera",
+   "ok": true,
+   "value": 6
+  },
+  {
+   "id": "camera",
+   "label": "Ada arahan kamera/POV",
+   "note": "biar bisa dipetakan jadi shot",
+   "ok": true,
+   "value": 1
+  },
+  {
+   "id": "setting",
+   "label": "Setting terisi",
+   "note": "tempat kejadian",
+   "ok": true,
+   "value": "Rumah Sirin (sofa, ruang tengah)"
+  },
+  {
+   "id": "tags",
+   "label": "Minimal 1 tag",
+   "note": "buat filter di papan",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "format",
+   "label": "Format terisi",
+   "note": "9:16 buat shorts, 16:9 buat biasa",
+   "ok": true,
+   "value": "9:16"
+  },
+  {
+   "id": "lane",
+   "label": "Lane produksi",
+   "note": "nama lane di repo produksi, kalau ada",
+   "ok": false,
+   "value": "-"
+  }
+ ],
+ "path": "drafts/sirin-smol-lalat/draft.md",
+ "notes_path": "drafts/sirin-smol-lalat/notes.md",
+ "data": "data/sirin-smol-lalat.json",
+ "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-lalat/draft.md",
+ "notes": "# Catatan produksi · Sirin smol and lalat\n\nHook (0–2,2 dtk): muka Sirin di sofa sejak frame pertama; lalat masuk frame\ndi dtk ~1 dan langsung memberi premis. Tanpa dialog, tanpa teks.\n\nRunning gag (3 kemunculan): lalatnya makin dekat tiap kali Sirin berhenti\nmencoba — depan muka → ahoge → pipi. Ini running gag yang naik, bukan berulang.\n\nPeta beat → segmen (~5 dtk/segmen, 3 segmen ≈ 15 dtk):\n1. beat 1–2 (posisi + lalat masuk) · 2. beat 3–4 (dua kali kibas) ·\n3. beat 5–6 (menyerah + lalat pergi sendiri).\n\nKenapa lalat cocok buat aturan anti-cut: dia satu-satunya objek bergerak yang\nmasuk ke frame yang sudah ada. Tidak perlu potong untuk memperlihatkan dia\ndatang — aturan docs/02: \"suruh hal itu masuk ke frame yang sama\".\n\nBatasan H3: satu lokasi, satu take, maks 1 gerak kamera kecil per segmen.\nKarena ada dua kali kibasan tangan, taruh kibasan kedua sebagai eskakasi\n*setelah* jeda, bukan gerak kamera baru. Kontak harus dinyatakan jelas\n(titik hinggap di ahoge/pipi) — aturan \"kontak ≠ cut\".\n\nOpsi potong (kalau harus ≤10 dtk): buang beat 4, payoff jadi di dtk ~8 —\nsatu kibasan gagal, menyerah, lalat pergi.\n\nOpsi caption post-produksi:\n1. \"yang menang lalatnya\"\n2. \"kibas terakhir: tidak ada\"\n3. \"usaha minimal, hasil maksimal\"\n\nAset: lalat (prop kecil, satu saja — deklarasikan \"ONE single fly\"), sofa,\nposisi ahoge yang jelas supaya titik hinggap terbaca.\n\nLane produksi: **belum ada** (calon nama: `cha_sirin_lalat_01`).",
+ "raw": "---\ntitle: \"Sirin smol and lalat\"\nstatus: \"draft\"\ndate: \"2026-11-14\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (sofa, ruang tengah)\"\nlogline: \"Sirin mengusir lalat dengan usaha paling minimal yang bisa dibayangkan; makin dia menyerah, makin dekat lalat itu hinggap.\"\nsource: \"agent (usulan + riset docs/01/02/05 story-draft)\"\nduration: 15\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, lalat]\n---\n\n- sirin duduk bersandar di sofa dengan muka bodohnya dan malas, POV ada di atas sirin\n- ada lalat lewat di depan mukanya, sirin melirik tanpa menggerakkan kepalanya\n- sirin mengibaskan tangannya satu kali, malas, lalatnya malah hinggap di ahoge-nya\n- sirin mengibaskan lagi, lebih malas dari sebelumnya, lalatnya pindah ke pipinya yang ada bulatan pinknya\n- sirin berhenti mencoba, tangannya jatuh ke pangkuan, matanya setengah tertutup seperti biasa\n- lalatnya terbang pergi sendiri, dan sirin tetap dengan ekspresi yang sama, seperti tidak terjadi apa-apa\n"
+}

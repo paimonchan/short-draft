@@ -1,0 +1,134 @@
+{
+ "slug": "sirin-smol-balon",
+ "title": "Sirin smol and balon",
+ "status": "draft",
+ "status_raw": "draft",
+ "date": "2026-11-14",
+ "updated": "2026-11-14",
+ "series": "Cha Sirin smol",
+ "lane": "",
+ "format": "9:16",
+ "duration": 18,
+ "setting": "Rumah Sirin (ruang tengah, langit-langit rendah)",
+ "characters": [
+  "Cha Sirin"
+ ],
+ "tags": [
+  "sirin",
+  "smol",
+  "komedi",
+  "balon"
+ ],
+ "logline": "Balon lepas dari jari Sirin; dia tidak mengejar, dan balon itu memilih pulang sendiri ke atas kepalanya.",
+ "source": "agent (usulan + riset docs/01/02/05 story-draft)",
+ "beats": [
+  {
+   "n": 1,
+   "text": "sirin berdiri memegang tali balon hanya dengan dua jari, muka bodohnya dan malas, POV ada di atas sirin",
+   "camera": true,
+   "words": 18
+  },
+  {
+   "n": 2,
+   "text": "talinya lepas dari jarinya, balonnya naik pelan, sirin tidak mengejar sama sekali dan hanya mendongak",
+   "camera": false,
+   "words": 15
+  },
+  {
+   "n": 3,
+   "text": "balonnya menyangkut di langit-langit, sirin tetap mendongak dengan muka bodohnya",
+   "camera": false,
+   "words": 10
+  },
+  {
+   "n": 4,
+   "text": "balonnya lepas dari langit-langit dan turun pelan tepat ke atas kepala sirin, ahoge-nya tertekan ke bawah",
+   "camera": false,
+   "words": 16
+  },
+  {
+   "n": 5,
+   "text": "sirin tidak bergerak sama sekali, balonnya tinggal di kepalanya seperti topi",
+   "camera": false,
+   "words": 11
+  },
+  {
+   "n": 6,
+   "text": "sirin berjalan pergi pelan dengan balon masih di kepalanya, muka bodohnya dan malas",
+   "camera": false,
+   "words": 13
+  }
+ ],
+ "beats_count": 6,
+ "camera_beats": 1,
+ "words": 83,
+ "preview": "sirin berdiri memegang tali balon hanya dengan dua jari, muka bodohnya dan malas, POV ada di atas sirin",
+ "has_notes": true,
+ "has_frontmatter": true,
+ "ready": 7,
+ "ready_total": 8,
+ "checks": [
+  {
+   "id": "title",
+   "label": "Judul terisi",
+   "note": "judul yang muncul di papan",
+   "ok": true,
+   "value": "Sirin smol and balon"
+  },
+  {
+   "id": "status",
+   "label": "Status valid",
+   "note": "draft / ongoing / done",
+   "ok": true,
+   "value": "draft"
+  },
+  {
+   "id": "beats",
+   "label": "Minimal 3 beat",
+   "note": "satu beat ≈ satu aksi di depan kamera",
+   "ok": true,
+   "value": 6
+  },
+  {
+   "id": "camera",
+   "label": "Ada arahan kamera/POV",
+   "note": "biar bisa dipetakan jadi shot",
+   "ok": true,
+   "value": 1
+  },
+  {
+   "id": "setting",
+   "label": "Setting terisi",
+   "note": "tempat kejadian",
+   "ok": true,
+   "value": "Rumah Sirin (ruang tengah, langit-langit rendah)"
+  },
+  {
+   "id": "tags",
+   "label": "Minimal 1 tag",
+   "note": "buat filter di papan",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "format",
+   "label": "Format terisi",
+   "note": "9:16 buat shorts, 16:9 buat biasa",
+   "ok": true,
+   "value": "9:16"
+  },
+  {
+   "id": "lane",
+   "label": "Lane produksi",
+   "note": "nama lane di repo produksi, kalau ada",
+   "ok": false,
+   "value": "-"
+  }
+ ],
+ "path": "drafts/sirin-smol-balon/draft.md",
+ "notes_path": "drafts/sirin-smol-balon/notes.md",
+ "data": "data/sirin-smol-balon.json",
+ "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-balon/draft.md",
+ "notes": "# Catatan produksi · Sirin smol and balon\n\nHook (0–2,2 dtk): muka Sirin + balon di frame pertama; tali yang cuma dipegang\ndua jari sudah menjanjikan masalah tanpa perlu dijelaskan.\n\nRunning gag (3 kemunculan): balon dan kepalanya — (1) naik lepas dari jari,\n(2) menyangkut di langit-langit, (3) mendarat di kepala dan jadi topi.\n\nIni draft paling dekat ke mesin komedi kanon (docs/01): \"Sirin = usaha nol,\nhasil maksimal\". Dia tidak melakukan apa pun, dan balonnya kembali sendiri.\n\nPeta beat → segmen (~5 dtk/segmen, 4 segmen ≈ 18 dtk):\n1. beat 1–2 (pegang + lepas) · 2. beat 3 (menyangkut) · 3. beat 4–5 (mendarat +\njadi topi) · 4. beat 6 (jalan pergi).\n\nBatasan H3: balon naik ke langit-langit = gerak objek di dalam satu framing,\nbukan gerak kamera. **Jangan** minta kamera mengikuti balon naik lalu turun\n(tarikan jauh dalam satu take = model cut) — biarkan balon yang bergerak di\nframe. Kamera tetap 1 level, maks 1 gerak kecil per segmen.\n\nOpsi potong (kalau harus ≤10 dtk): buang beat 3, langsung dari lepas ke mendarat\ndi kepala; payoff tetap di dtk ~9.\n\nOpsi caption post-produksi:\n1. \"dia ga ngejar, balonnya balik\"\n2. \"usaha nol: hasil maksimal\"\n3. \"topi baru\"\n\nAset: balon (warna harus beda dari aksen amber biar kebaca di semua tema),\nlangit-langit rendah sebagai batas frame, satu refleksi halus di balon.\n\nLane produksi: **belum ada** (calon nama: `cha_sirin_balon_01`).",
+ "raw": "---\ntitle: \"Sirin smol and balon\"\nstatus: \"draft\"\ndate: \"2026-11-14\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (ruang tengah, langit-langit rendah)\"\nlogline: \"Balon lepas dari jari Sirin; dia tidak mengejar, dan balon itu memilih pulang sendiri ke atas kepalanya.\"\nsource: \"agent (usulan + riset docs/01/02/05 story-draft)\"\nduration: 18\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, balon]\n---\n\n- sirin berdiri memegang tali balon hanya dengan dua jari, muka bodohnya dan malas, POV ada di atas sirin\n- talinya lepas dari jarinya, balonnya naik pelan, sirin tidak mengejar sama sekali dan hanya mendongak\n- balonnya menyangkut di langit-langit, sirin tetap mendongak dengan muka bodohnya\n- balonnya lepas dari langit-langit dan turun pelan tepat ke atas kepala sirin, ahoge-nya tertekan ke bawah\n- sirin tidak bergerak sama sekali, balonnya tinggal di kepalanya seperti topi\n- sirin berjalan pergi pelan dengan balon masih di kepalanya, muka bodohnya dan malas\n"
+}
