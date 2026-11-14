@@ -254,7 +254,7 @@ function renderHome() {
     `<button class="fbtn" type="button" data-f="${kind}" data-v="${esc(val)}" aria-pressed="${active}">${label}</button>`;
 
   const statusChips = ZONE_ORDER
-    .filter((s) => s === 'draft' || (INDEX.statuses[s] || 0) > 0)
+    .filter((s) => (INDEX.statuses[s] || 0) > 0 || F_STATUS === s)
     .map((s) => fbtn('status', s, `${stMeta(s).icon} ${stMeta(s).label} ${INDEX.statuses[s] || 0}`, F_STATUS === s))
     .join('');
 
