@@ -554,3 +554,12 @@ footer.site .wrap { display: flex; gap: 14px; flex-wrap: wrap; align-items: cent
   .rowmain .mid { display: none; }   /* meter + tanggal: berulang tiap baris, boros di HP */
   .rowmain .right { grid-column: 2; grid-row: 2; margin-top: 2px; }
 }
+
+/* layar sempit (≤380px): tahan topbar tetap dua baris */
+.footrepo { font-size: 11.5px; color: var(--muted); }
+.footrepo:hover { color: var(--accent); }
+@media (max-width: 380px) {
+  .topbar-inner a.iconbtn[href^="https://github.com"] { display: none; }  /* link repo pindah ke footer */
+  .topbar-inner .brand small { display: none; }
+  .toolbar .sep { display: none; }
+}
