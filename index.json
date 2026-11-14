@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-14 13:19",
+ "generated": "2026-11-14 13:26",
  "repo": "paimonchan/short-draft",
  "count": 17,
  "beats": 97,
- "camera_beats": 37,
- "words": 1065,
+ "camera_beats": 38,
+ "words": 1064,
  "statuses": {
   "draft": 3,
   "ongoing": 0,
@@ -34,11 +34,11 @@
   "es-krim",
   "hantu",
   "kipas",
-  "kopi",
   "lalat",
   "merpati",
   "mobil",
   "pasir",
+  "sandal",
   "senam",
   "sikat-gigi",
   "snack",
@@ -179,138 +179,6 @@
    "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-eskrim/draft.md"
   },
   {
-   "slug": "sirin-smol-kopi",
-   "title": "Sirin smol and kopi",
-   "status": "draft",
-   "status_raw": "draft",
-   "date": "2026-11-14",
-   "updated": "2026-11-14",
-   "series": "Cha Sirin smol",
-   "lane": "",
-   "format": "9:16",
-   "duration": 15,
-   "setting": "Rumah Sirin (meja, lantai kayu)",
-   "characters": [
-    "Cha Sirin"
-   ],
-   "tags": [
-    "sirin",
-    "smol",
-    "komedi",
-    "kopi"
-   ],
-   "logline": "Sirin minum kopi dengan muka yang tidak berubah sedikit pun; yang berubah cuma tangan, ahoge, dan cangkir di meja.",
-   "source": "agent (usulan + riset docs/01/02/05 story-draft)",
-   "beats": [
-    {
-     "n": 1,
-     "text": "POV sudah ada di atas sirin sejak frame pertama: sirin duduk di meja dengan satu cangkir kopi kecil, muka bodohnya dan malas, ahoge-nya menggantung lurus",
-     "camera": true,
-     "words": 25
-    },
-    {
-     "n": 2,
-     "text": "sirin menyeruput kopinya satu kali, pelan sekali, tanpa mengubah ekspresinya sedikit pun",
-     "camera": false,
-     "words": 12
-    },
-    {
-     "n": 3,
-     "text": "sirin menyeruput lagi, lebih cepat dari sebelumnya, dan menaruh cangkirnya kembali ke meja dengan bunyi kecil",
-     "camera": false,
-     "words": 16
-    },
-    {
-     "n": 4,
-     "text": "tangan sirin mulai bergetar pelan dan ahoge-nya ikut bergetar, mukanya tetap datar seperti tadi",
-     "camera": false,
-     "words": 14
-    },
-    {
-     "n": 5,
-     "text": "getarannya makin cepat sampai cangkir di meja ikut bergeser sedikit, sirin masih dengan muka bodohnya dan mata setengah tertutup",
-     "camera": false,
-     "words": 19
-    },
-    {
-     "n": 6,
-     "text": "kopinya habis: sirin berhenti bergetar seketika, meletakkan cangkir kosong, dan kembali malas dengan muka yang sama seperti frame pertama",
-     "camera": true,
-     "words": 19
-    }
-   ],
-   "beats_count": 6,
-   "camera_beats": 2,
-   "words": 105,
-   "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin duduk di meja dengan satu cangkir kopi kecil, muka bodohnya dan malas, ahoge-nya menggantung lurus",
-   "has_notes": true,
-   "has_frontmatter": true,
-   "ready": 7,
-   "ready_total": 8,
-   "checks": [
-    {
-     "id": "title",
-     "label": "Judul terisi",
-     "note": "judul yang muncul di papan",
-     "ok": true,
-     "value": "Sirin smol and kopi"
-    },
-    {
-     "id": "status",
-     "label": "Status valid",
-     "note": "draft / ongoing / done",
-     "ok": true,
-     "value": "draft"
-    },
-    {
-     "id": "beats",
-     "label": "Minimal 3 beat",
-     "note": "satu beat ≈ satu aksi di depan kamera",
-     "ok": true,
-     "value": 6
-    },
-    {
-     "id": "camera",
-     "label": "Ada arahan kamera/POV",
-     "note": "biar bisa dipetakan jadi shot",
-     "ok": true,
-     "value": 2
-    },
-    {
-     "id": "setting",
-     "label": "Setting terisi",
-     "note": "tempat kejadian",
-     "ok": true,
-     "value": "Rumah Sirin (meja, lantai kayu)"
-    },
-    {
-     "id": "tags",
-     "label": "Minimal 1 tag",
-     "note": "buat filter di papan",
-     "ok": true,
-     "value": 4
-    },
-    {
-     "id": "format",
-     "label": "Format terisi",
-     "note": "9:16 buat shorts, 16:9 buat biasa",
-     "ok": true,
-     "value": "9:16"
-    },
-    {
-     "id": "lane",
-     "label": "Lane produksi",
-     "note": "nama lane di repo produksi, kalau ada",
-     "ok": false,
-     "value": "-"
-    }
-   ],
-   "path": "drafts/sirin-smol-kopi/draft.md",
-   "notes_path": "drafts/sirin-smol-kopi/notes.md",
-   "data": "data/sirin-smol-kopi.json",
-   "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-kopi/draft.md"
-  },
-  {
    "slug": "sirin-smol-lalat",
    "title": "Sirin smol and lalat",
    "status": "draft",
@@ -441,6 +309,138 @@
    "notes_path": "drafts/sirin-smol-lalat/notes.md",
    "data": "data/sirin-smol-lalat.json",
    "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-lalat/draft.md"
+  },
+  {
+   "slug": "sirin-smol-sandal",
+   "title": "Sirin smol and sandal",
+   "status": "draft",
+   "status_raw": "draft",
+   "date": "2026-11-14",
+   "updated": "2026-11-14",
+   "series": "Cha Sirin smol",
+   "lane": "",
+   "format": "9:16",
+   "duration": 15,
+   "setting": "Rumah Sirin (pintu depan, lantai kayu)",
+   "characters": [
+    "Cha Sirin"
+   ],
+   "tags": [
+    "sirin",
+    "smol",
+    "komedi",
+    "sandal"
+   ],
+   "logline": "Sirin mencari sandalnya dengan kepala saja, dan ternyata sandal itu sedang diinjak kakinya sendiri.",
+   "source": "agent (usulan + riset docs/01/02/05 story-draft)",
+   "beats": [
+    {
+     "n": 1,
+     "text": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di depan pintu dengan sandal sebelah kanan saja, muka bodohnya dan malas, ahoge-nya menggantung lurus",
+     "camera": true,
+     "words": 26
+    },
+    {
+     "n": 2,
+     "text": "sirin menunduk melihat kakinya yang masih telanjang, pelan, tanpa mengubah ekspresinya sedikit pun",
+     "camera": false,
+     "words": 13
+    },
+    {
+     "n": 3,
+     "text": "sirin hanya memutar kepalanya ke kiri dan ke kanan mencari sandalnya, badannya tidak bergerak sama sekali",
+     "camera": false,
+     "words": 16
+    },
+    {
+     "n": 4,
+     "text": "kamera bergeser sedikit menyamping memperlihatkan sandal yang hilang itu ternyata sedang diinjak kaki kirinya sendiri",
+     "camera": true,
+     "words": 15
+    },
+    {
+     "n": 5,
+     "text": "sirin mengangkat kakinya dan menggoyangkannya satu kali, sandalnya jatuh, lalu dia memakainya dengan satu lompatan kecil yang malas",
+     "camera": false,
+     "words": 18
+    },
+    {
+     "n": 6,
+     "text": "sirin membuka pintu dan berjalan keluar dengan langkah dan muka yang persis sama seperti frame pertama",
+     "camera": true,
+     "words": 16
+    }
+   ],
+   "beats_count": 6,
+   "camera_beats": 3,
+   "words": 104,
+   "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di depan pintu dengan sandal sebelah kanan saja, muka bodohnya dan malas, ahoge-nya menggantung lurus",
+   "has_notes": true,
+   "has_frontmatter": true,
+   "ready": 7,
+   "ready_total": 8,
+   "checks": [
+    {
+     "id": "title",
+     "label": "Judul terisi",
+     "note": "judul yang muncul di papan",
+     "ok": true,
+     "value": "Sirin smol and sandal"
+    },
+    {
+     "id": "status",
+     "label": "Status valid",
+     "note": "draft / ongoing / done",
+     "ok": true,
+     "value": "draft"
+    },
+    {
+     "id": "beats",
+     "label": "Minimal 3 beat",
+     "note": "satu beat ≈ satu aksi di depan kamera",
+     "ok": true,
+     "value": 6
+    },
+    {
+     "id": "camera",
+     "label": "Ada arahan kamera/POV",
+     "note": "biar bisa dipetakan jadi shot",
+     "ok": true,
+     "value": 3
+    },
+    {
+     "id": "setting",
+     "label": "Setting terisi",
+     "note": "tempat kejadian",
+     "ok": true,
+     "value": "Rumah Sirin (pintu depan, lantai kayu)"
+    },
+    {
+     "id": "tags",
+     "label": "Minimal 1 tag",
+     "note": "buat filter di papan",
+     "ok": true,
+     "value": 4
+    },
+    {
+     "id": "format",
+     "label": "Format terisi",
+     "note": "9:16 buat shorts, 16:9 buat biasa",
+     "ok": true,
+     "value": "9:16"
+    },
+    {
+     "id": "lane",
+     "label": "Lane produksi",
+     "note": "nama lane di repo produksi, kalau ada",
+     "ok": false,
+     "value": "-"
+    }
+   ],
+   "path": "drafts/sirin-smol-sandal/draft.md",
+   "notes_path": "drafts/sirin-smol-sandal/notes.md",
+   "data": "data/sirin-smol-sandal.json",
+   "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-sandal/draft.md"
   },
   {
    "slug": "sirin-smol-snacks",
