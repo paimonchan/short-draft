@@ -1,10 +1,10 @@
 {
  "slug": "sirin-smol-cermin",
  "title": "Sirin smol and cermin",
- "status": "draft",
- "status_raw": "draft",
+ "status": "done",
+ "status_raw": "done",
  "date": "2026-10-13",
- "updated": "2026-10-13",
+ "updated": "2026-11-14",
  "series": "Cha Sirin smol",
  "lane": "cha_sirin_mirror_01",
  "format": "9:16",
@@ -74,7 +74,7 @@
    "label": "Status valid",
    "note": "draft / ongoing / done",
    "ok": true,
-   "value": "draft"
+   "value": "done"
   },
   {
    "id": "beats",
@@ -124,5 +124,5 @@
  "data": "data/sirin-smol-cermin.json",
  "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-cermin/draft.md",
  "notes": "",
- "raw": "---\ntitle: \"Sirin smol and cermin\"\nstatus: \"draft\"\ndate: \"2026-10-13\"\nupdated: \"2026-10-13\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_mirror_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (cermin)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, cermin]\n---\n\n- sirin buka pintu dengan membanting, lalu menuju ke cermin\n- POV mendekat ke belakang sirin serta ada di atas kepala sirin yang sedang melihat ke cermin\n- pantulan sirin kelihatan di cermin dan kemudian sedang menurunkan ahoge rambutnya\n- tapi ahoge tidak turun walaupun sudah dicoba beberapa kali\n- akhirnya dengan muka kesalnya pergi\n"
+ "raw": "---\ntitle: \"Sirin smol and cermin\"\nstatus: \"done\"\ndate: \"2026-10-13\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_mirror_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (cermin)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, cermin]\n---\n\n- sirin buka pintu dengan membanting, lalu menuju ke cermin\n- POV mendekat ke belakang sirin serta ada di atas kepala sirin yang sedang melihat ke cermin\n- pantulan sirin kelihatan di cermin dan kemudian sedang menurunkan ahoge rambutnya\n- tapi ahoge tidak turun walaupun sudah dicoba beberapa kali\n- akhirnya dengan muka kesalnya pergi\n"
 }

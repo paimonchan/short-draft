@@ -1,8 +1,8 @@
 ---
 title: "Sirin smol and ghost"
-status: "draft"
+status: "done"
 date: "2026-10-19"
-updated: "2026-10-19"
+updated: "2026-11-14"
 series: "Cha Sirin smol"
 lane: "cha_sirin_ghost_01"
 format: "9:16"

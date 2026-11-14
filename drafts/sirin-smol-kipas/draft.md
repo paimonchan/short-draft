@@ -1,8 +1,8 @@
 ---
 title: "Sirin smol and kipas"
-status: "draft"
+status: "done"
 date: "2026-10-17"
-updated: "2026-10-17"
+updated: "2026-11-14"
 series: "Cha Sirin smol"
 lane: "cha_sirin_fan_01"
 format: "9:16"

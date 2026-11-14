@@ -1,8 +1,8 @@
 ---
 title: "Sirin smol and car"
-status: "draft"
+status: "done"
 date: "2026-10-14"
-updated: "2026-10-14"
+updated: "2026-11-14"
 series: "Cha Sirin smol"
 lane: "cha_sirin_car_01"
 format: "9:16"

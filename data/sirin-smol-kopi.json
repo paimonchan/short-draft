@@ -1,0 +1,134 @@
+{
+ "slug": "sirin-smol-kopi",
+ "title": "Sirin smol and kopi",
+ "status": "draft",
+ "status_raw": "draft",
+ "date": "2026-11-14",
+ "updated": "2026-11-14",
+ "series": "Cha Sirin smol",
+ "lane": "",
+ "format": "9:16",
+ "duration": 15,
+ "setting": "Rumah Sirin (meja, lantai kayu)",
+ "characters": [
+  "Cha Sirin"
+ ],
+ "tags": [
+  "sirin",
+  "smol",
+  "komedi",
+  "kopi"
+ ],
+ "logline": "Sirin minum kopi dengan muka yang tidak berubah sedikit pun; yang berubah cuma tangan, ahoge, dan cangkir di meja.",
+ "source": "agent (usulan + riset docs/01/02/05 story-draft)",
+ "beats": [
+  {
+   "n": 1,
+   "text": "POV sudah ada di atas sirin sejak frame pertama: sirin duduk di meja dengan satu cangkir kopi kecil, muka bodohnya dan malas, ahoge-nya menggantung lurus",
+   "camera": true,
+   "words": 25
+  },
+  {
+   "n": 2,
+   "text": "sirin menyeruput kopinya satu kali, pelan sekali, tanpa mengubah ekspresinya sedikit pun",
+   "camera": false,
+   "words": 12
+  },
+  {
+   "n": 3,
+   "text": "sirin menyeruput lagi, lebih cepat dari sebelumnya, dan menaruh cangkirnya kembali ke meja dengan bunyi kecil",
+   "camera": false,
+   "words": 16
+  },
+  {
+   "n": 4,
+   "text": "tangan sirin mulai bergetar pelan dan ahoge-nya ikut bergetar, mukanya tetap datar seperti tadi",
+   "camera": false,
+   "words": 14
+  },
+  {
+   "n": 5,
+   "text": "getarannya makin cepat sampai cangkir di meja ikut bergeser sedikit, sirin masih dengan muka bodohnya dan mata setengah tertutup",
+   "camera": false,
+   "words": 19
+  },
+  {
+   "n": 6,
+   "text": "kopinya habis: sirin berhenti bergetar seketika, meletakkan cangkir kosong, dan kembali malas dengan muka yang sama seperti frame pertama",
+   "camera": true,
+   "words": 19
+  }
+ ],
+ "beats_count": 6,
+ "camera_beats": 2,
+ "words": 105,
+ "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin duduk di meja dengan satu cangkir kopi kecil, muka bodohnya dan malas, ahoge-nya menggantung lurus",
+ "has_notes": true,
+ "has_frontmatter": true,
+ "ready": 7,
+ "ready_total": 8,
+ "checks": [
+  {
+   "id": "title",
+   "label": "Judul terisi",
+   "note": "judul yang muncul di papan",
+   "ok": true,
+   "value": "Sirin smol and kopi"
+  },
+  {
+   "id": "status",
+   "label": "Status valid",
+   "note": "draft / ongoing / done",
+   "ok": true,
+   "value": "draft"
+  },
+  {
+   "id": "beats",
+   "label": "Minimal 3 beat",
+   "note": "satu beat ≈ satu aksi di depan kamera",
+   "ok": true,
+   "value": 6
+  },
+  {
+   "id": "camera",
+   "label": "Ada arahan kamera/POV",
+   "note": "biar bisa dipetakan jadi shot",
+   "ok": true,
+   "value": 2
+  },
+  {
+   "id": "setting",
+   "label": "Setting terisi",
+   "note": "tempat kejadian",
+   "ok": true,
+   "value": "Rumah Sirin (meja, lantai kayu)"
+  },
+  {
+   "id": "tags",
+   "label": "Minimal 1 tag",
+   "note": "buat filter di papan",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "format",
+   "label": "Format terisi",
+   "note": "9:16 buat shorts, 16:9 buat biasa",
+   "ok": true,
+   "value": "9:16"
+  },
+  {
+   "id": "lane",
+   "label": "Lane produksi",
+   "note": "nama lane di repo produksi, kalau ada",
+   "ok": false,
+   "value": "-"
+  }
+ ],
+ "path": "drafts/sirin-smol-kopi/draft.md",
+ "notes_path": "drafts/sirin-smol-kopi/notes.md",
+ "data": "data/sirin-smol-kopi.json",
+ "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-kopi/draft.md",
+ "notes": "# Catatan produksi · Sirin smol and kopi\n\nHook (0–2,2 dtk): muka Sirin + cangkir di frame pertama. Premisnya kebaca tanpa\npenjelasan — kopi = energi, muka dia = nol energi. Kontradiksi visualnya jatuh\ndi seruput pertama (detik ~2): tidak ada perubahan apa pun di wajahnya.\n\nRunning gag (3 kemunculan): getaran — (1) tangan bergetar, (2) ahoge ikut\nbergetar, (3) cangkir di meja bergeser. Tiap kemunculan lebih besar dari\nsebelumnya, muka tetap datar. Itu leluconnya: badan bereaksi, muka tidak.\n\nButton (callback): begitu kopinya habis, getarannya berhenti seketika dan dia\nkembali malas — persis state frame pertama, jadi loop-nya mulus.\n\nPeta beat → segmen (~5 dtk/segmen, 3 segmen ≈ 15 dtk):\n1. beat 1–2 (duduk + seruput pertama) · 2. beat 3–4 (seruput kedua + getar mulai) ·\n3. beat 5–6 (getaran puncak + berhenti).\n\nBatasan H3 yang dipegang (docs/02 story-draft):\n- **Kamera jangan ikut bergetar.** Getaran = gerak objek di dalam frame, bukan\n  gerak kamera. Kalau kamera ikut, model akan memotong atau bikin cam_sd tinggi.\n- Maks 1 gerak kamera kecil per segmen; framing ladder maks 1 level per segmen.\n- Jangan tulis kosakata shot-type (`zoom`, `close-up`, `cut to`) — tulis gerak fisik.\n- Amplitudo getaran ditulis kecil dan naik bertahap; lonjakan besar = risiko artefak.\n- \"Cangkir bergeser\" harus punya kontak jelas dengan meja (kontak ≠ cut).\n\nOpsi potong (kalau harus ≤10 dtk): buang beat 3, langsung dari seruput pertama\nke getaran puncak; payoff tetap di detik ~8 (kopi habis, berhenti seketika).\n\nOpsi caption post-produksi (4–7 kata, teks di luar frame render):\n1. \"ekspresinya nggak pernah berubah\"\n2. \"kopi: nol efek ke muka\"\n3. \"badan bereaksi, muka tidak\"\n\nAset: cangkir kecil (skala smol), kopi gelap yang kelihatan di dalam cangkir,\nmeja kayu. Semua ref satu geometri kamera dengan take.\n\nLane produksi: **belum ada** (calon nama: `cha_sirin_kopi_01`).\nKalau mau jadi cerita panjang dengan Kanglim: itu lane story-draft, bukan sini.",
+ "raw": "---\ntitle: \"Sirin smol and kopi\"\nstatus: \"draft\"\ndate: \"2026-11-14\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (meja, lantai kayu)\"\nlogline: \"Sirin minum kopi dengan muka yang tidak berubah sedikit pun; yang berubah cuma tangan, ahoge, dan cangkir di meja.\"\nsource: \"agent (usulan + riset docs/01/02/05 story-draft)\"\nduration: 15\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, kopi]\n---\n\n- POV sudah ada di atas sirin sejak frame pertama: sirin duduk di meja dengan satu cangkir kopi kecil, muka bodohnya dan malas, ahoge-nya menggantung lurus\n- sirin menyeruput kopinya satu kali, pelan sekali, tanpa mengubah ekspresinya sedikit pun\n- sirin menyeruput lagi, lebih cepat dari sebelumnya, dan menaruh cangkirnya kembali ke meja dengan bunyi kecil\n- tangan sirin mulai bergetar pelan dan ahoge-nya ikut bergetar, mukanya tetap datar seperti tadi\n- getarannya makin cepat sampai cangkir di meja ikut bergeser sedikit, sirin masih dengan muka bodohnya dan mata setengah tertutup\n- kopinya habis: sirin berhenti bergetar seketika, meletakkan cangkir kosong, dan kembali malas dengan muka yang sama seperti frame pertama\n"
+}

@@ -1,10 +1,10 @@
 {
  "slug": "sirin-smol-car",
  "title": "Sirin smol and car",
- "status": "draft",
- "status_raw": "draft",
+ "status": "done",
+ "status_raw": "done",
  "date": "2026-10-14",
- "updated": "2026-10-14",
+ "updated": "2026-11-14",
  "series": "Cha Sirin smol",
  "lane": "cha_sirin_car_01",
  "format": "9:16",
@@ -86,7 +86,7 @@
    "label": "Status valid",
    "note": "draft / ongoing / done",
    "ok": true,
-   "value": "draft"
+   "value": "done"
   },
   {
    "id": "beats",
@@ -136,5 +136,5 @@
  "data": "data/sirin-smol-car.json",
  "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-car/draft.md",
  "notes": "",
- "raw": "---\ntitle: \"Sirin smol and car\"\nstatus: \"draft\"\ndate: \"2026-10-14\"\nupdated: \"2026-10-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_car_01\"\nformat: \"9:16\"\nsetting: \"Dalam mobil (kursi belakang)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, mobil]\n---\n\n- sirin membuka pintu mobil dari pintu kanan mobil dengan muka bodohnya dan malas\n- POV dari posisi tinggi lalu berputar dari samping pintu, lalu ke belakang sirin dan ada di sebelah kiri\n- sirin menutup pintu mobil dengan keras dengan muka bodohnya dan malas\n- POV lalu berputar ke depan muka sirin dengan angle di atas\n- mobil jalan lalu tiba-tiba ngerem\n- badan sirin lalu terdorong tapi yang terdorong kaki duluan, dan kepala masih nyender ke belakang kursi, sehingga seolah-olah sirin seperti mode tidur dan kaki lurus memanjang\n- lalu dengan muka bodohnya sirin lanjut tidur dengan posisi terakhirnya\n"
+ "raw": "---\ntitle: \"Sirin smol and car\"\nstatus: \"done\"\ndate: \"2026-10-14\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_car_01\"\nformat: \"9:16\"\nsetting: \"Dalam mobil (kursi belakang)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, mobil]\n---\n\n- sirin membuka pintu mobil dari pintu kanan mobil dengan muka bodohnya dan malas\n- POV dari posisi tinggi lalu berputar dari samping pintu, lalu ke belakang sirin dan ada di sebelah kiri\n- sirin menutup pintu mobil dengan keras dengan muka bodohnya dan malas\n- POV lalu berputar ke depan muka sirin dengan angle di atas\n- mobil jalan lalu tiba-tiba ngerem\n- badan sirin lalu terdorong tapi yang terdorong kaki duluan, dan kepala masih nyender ke belakang kursi, sehingga seolah-olah sirin seperti mode tidur dan kaki lurus memanjang\n- lalu dengan muka bodohnya sirin lanjut tidur dengan posisi terakhirnya\n"
 }

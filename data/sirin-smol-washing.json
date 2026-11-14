@@ -1,10 +1,10 @@
 {
  "slug": "sirin-smol-washing",
  "title": "Sirin smol washing",
- "status": "draft",
- "status_raw": "draft",
+ "status": "done",
+ "status_raw": "done",
  "date": "2026-10-13",
- "updated": "2026-10-13",
+ "updated": "2026-11-14",
  "series": "Cha Sirin smol",
  "lane": "cha_sirin_laundry_01",
  "format": "9:16",
@@ -74,7 +74,7 @@
    "label": "Status valid",
    "note": "draft / ongoing / done",
    "ok": true,
-   "value": "draft"
+   "value": "done"
   },
   {
    "id": "beats",
@@ -124,5 +124,5 @@
  "data": "data/sirin-smol-washing.json",
  "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-washing/draft.md",
  "notes": "",
- "raw": "---\ntitle: \"Sirin smol washing\"\nstatus: \"draft\"\ndate: \"2026-10-13\"\nupdated: \"2026-10-13\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_laundry_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (toilet, dekat mesin cuci)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, cuci-baju]\n---\n\n- sirin keluar dari toilet sambil mendobrak pintu dengan muka bodohnya dan kelihatan lesu tapi tetap imut\n- sirin mengambil tumpukan baju di dekat mesin cuci dengan muka bodohnya, sambil kamera zooming ke arah sirin, dan tetap menggunakan angle di atas untuk kameranya\n- lalu sirin mencoba mengangkatnya tapi tak kuat dan bergoyang ke kanan dan ke kiri, sambil kamera berputar menghadap depan sirin\n- sirin kemudian terjatuh disertai tumpukan baju yang berserakan\n- kamera zooming ke arah sirin yang terkapar dengan muka bodoh tapi tetap imut\n"
+ "raw": "---\ntitle: \"Sirin smol washing\"\nstatus: \"done\"\ndate: \"2026-10-13\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_laundry_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (toilet, dekat mesin cuci)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, cuci-baju]\n---\n\n- sirin keluar dari toilet sambil mendobrak pintu dengan muka bodohnya dan kelihatan lesu tapi tetap imut\n- sirin mengambil tumpukan baju di dekat mesin cuci dengan muka bodohnya, sambil kamera zooming ke arah sirin, dan tetap menggunakan angle di atas untuk kameranya\n- lalu sirin mencoba mengangkatnya tapi tak kuat dan bergoyang ke kanan dan ke kiri, sambil kamera berputar menghadap depan sirin\n- sirin kemudian terjatuh disertai tumpukan baju yang berserakan\n- kamera zooming ke arah sirin yang terkapar dengan muka bodoh tapi tetap imut\n"
 }
