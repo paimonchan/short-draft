@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-14 13:44",
+ "generated": "2026-11-14 15:34",
  "repo": "paimonchan/short-draft",
  "count": 17,
  "beats": 97,
- "camera_beats": 40,
- "words": 1098,
+ "camera_beats": 39,
+ "words": 1135,
  "hooks": 3,
  "statuses": {
-  "draft": 3,
-  "ongoing": 0,
+  "draft": 0,
+  "ongoing": 3,
   "done": 14
  },
  "status_order": [
@@ -50,12 +50,12 @@
   {
    "slug": "sirin-smol-eskrim",
    "title": "Sirin smol and es krim",
-   "status": "draft",
-   "status_raw": "draft",
+   "status": "ongoing",
+   "status_raw": "ongoing",
    "date": "2026-11-14",
    "updated": "2026-11-14",
    "series": "Cha Sirin smol",
-   "lane": "",
+   "lane": "cha_sirin_eskrim_01",
    "format": "9:16",
    "duration": 15,
    "setting": "Rumah Sirin (ruang tengah, lantai kayu)",
@@ -68,9 +68,9 @@
     "komedi",
     "es-krim"
    ],
-   "logline": "Es krimnya meleleh lebih cepat daripada kemampuan Sirin menjilatnya; dia memilih tidak melakukan apa pun, dan hasilnya justru sempurna.",
+   "logline": "Es krimnya meleleh, tetesannya mendarat di kaus kakinya; Sirin berhenti, memeriksa sekali, lalu memilih tetap berjalan tanpa melakukan apa pun.",
    "source": "agent (usulan + riset docs/01/02/05 story-draft)",
-   "hook": "Frame 1: gumpalan es krim sudah menggantung di pinggir cone dan satu tetesan sudah lengket di hoodie-nya — pertanyaan: berapa lama lagi sebelum jatuh?",
+   "hook": "Frame 1: es krim cone dipegang rendah di samping badan, gumpalan sudah menggantung di pinggir cone dan satu tetesan siap jatuh ke kaus kakinya - pertanyaan: kena nggak?",
    "has_hook": true,
    "hook_signals": {
     "frame1": true,
@@ -81,48 +81,48 @@
    "beats": [
     {
      "n": 1,
-     "text": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri memegang es krim cone dengan muka bodohnya dan malas, ahoge-nya melengkung turun",
+     "text": "POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, es krim cone dipegang rendah di samping badannya, gumpalan es krim sudah menggantung di pinggir cone dan satu tetesan siap jatuh",
      "camera": true,
-     "words": 23
+     "words": 36
     },
     {
      "n": 2,
-     "text": "sirin menjilat es krimnya satu kali, pelan sekali, seperti orang yang tidak punya tenaga",
+     "text": "tetesan itu jatuh dan mendarat di kaus kaki cream-nya, sirin melirik ke bawah sebentar tanpa berhenti berjalan",
      "camera": false,
-     "words": 14
+     "words": 17
     },
     {
      "n": 3,
-     "text": "es krimnya mulai meleleh dan menetes ke arah hoodie hitamnya, sirin tidak bergerak sama sekali",
+     "text": "sirin melambat lalu berhenti dengan kedua kaki menapak, menunduk untuk melihat noda lengket di kaus kakinya",
      "camera": false,
-     "words": 15
+     "words": 16
     },
     {
      "n": 4,
-     "text": "kamera bergeser pelan menyamping mengikuti tetesan yang jatuh ke lantai, satu gerakan kecil saja",
-     "camera": true,
-     "words": 14
+     "text": "sirin memutar pergelangan kaki kanannya sekali (tumit turun, ujung kaki naik, kembali rata) sambil tetap menunduk, jari kakinya bergerak sedikit di dalam kaus kaki",
+     "camera": false,
+     "words": 24
     },
     {
      "n": 5,
-     "text": "es krimnya jatuh seluruhnya dari cone dalam satu gumpalan, sirin tetap dengan muka bodohnya",
+     "text": "es krimnya menetes sekali lagi ke lantai di samping kakinya, sirin tetap menatap kaus kakinya dengan muka bodohnya",
      "camera": false,
-     "words": 14
+     "words": 18
     },
     {
      "n": 6,
-     "text": "sirin cuma membuka mulut, gumpalan itu jatuh masuk sendiri, lalu dia menutup mulut lagi dengan muka yang sama seperti frame pertama",
+     "text": "sirin mengangkat dagu kembali ke arah POV, memberi satu angkat bahu kecil, lalu melanjutkan jalannya dengan es krim masih di tangan dan kaus kaki yang tetap lengket",
      "camera": true,
-     "words": 21
+     "words": 27
     }
    ],
    "beats_count": 6,
-   "camera_beats": 3,
-   "words": 101,
-   "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri memegang es krim cone dengan muka bodohnya dan malas, ahoge-nya melengkung turun",
+   "camera_beats": 2,
+   "words": 138,
+   "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, es krim cone dipegang rendah di samping badannya, gumpalan es krim sudah menggantung di",
    "has_notes": true,
    "has_frontmatter": true,
-   "ready": 7,
+   "ready": 8,
    "ready_total": 8,
    "checks": [
     {
@@ -137,7 +137,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "draft"
+     "value": "ongoing"
     },
     {
      "id": "beats",
@@ -151,7 +151,7 @@
      "label": "Ada arahan kamera/POV",
      "note": "biar bisa dipetakan jadi shot",
      "ok": true,
-     "value": 3
+     "value": 2
     },
     {
      "id": "setting",
@@ -178,8 +178,8 @@
      "id": "lane",
      "label": "Lane produksi",
      "note": "nama lane di repo produksi, kalau ada",
-     "ok": false,
-     "value": "-"
+     "ok": true,
+     "value": "cha_sirin_eskrim_01"
     }
    ],
    "path": "drafts/sirin-smol-eskrim/draft.md",
@@ -190,12 +190,12 @@
   {
    "slug": "sirin-smol-jaket",
    "title": "Sirin smol and jaket",
-   "status": "draft",
-   "status_raw": "draft",
+   "status": "ongoing",
+   "status_raw": "ongoing",
    "date": "2026-11-14",
    "updated": "2026-11-14",
    "series": "Cha Sirin smol",
-   "lane": "",
+   "lane": "cha_sirin_jaket_01",
    "format": "9:16",
    "duration": 15,
    "setting": "Rumah Sirin (ruang tengah, lantai kayu)",
@@ -262,7 +262,7 @@
    "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri dengan zip hoodie-nya tertutup rapat sampai leher, muka bodohnya dan malas, ahoge-nya keluar dari atas tudungnya",
    "has_notes": true,
    "has_frontmatter": true,
-   "ready": 7,
+   "ready": 8,
    "ready_total": 8,
    "checks": [
     {
@@ -277,7 +277,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "draft"
+     "value": "ongoing"
     },
     {
      "id": "beats",
@@ -318,8 +318,8 @@
      "id": "lane",
      "label": "Lane produksi",
      "note": "nama lane di repo produksi, kalau ada",
-     "ok": false,
-     "value": "-"
+     "ok": true,
+     "value": "cha_sirin_jaket_01"
     }
    ],
    "path": "drafts/sirin-smol-jaket/draft.md",
@@ -330,12 +330,12 @@
   {
    "slug": "sirin-smol-sandal",
    "title": "Sirin smol and sandal",
-   "status": "draft",
-   "status_raw": "draft",
+   "status": "ongoing",
+   "status_raw": "ongoing",
    "date": "2026-11-14",
    "updated": "2026-11-14",
    "series": "Cha Sirin smol",
-   "lane": "",
+   "lane": "cha_sirin_sandal_01",
    "format": "9:16",
    "duration": 15,
    "setting": "Rumah Sirin (pintu depan, lantai kayu)",
@@ -402,7 +402,7 @@
    "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berdiri di depan pintu dengan sandal sebelah kanan saja, muka bodohnya dan malas, ahoge-nya menggantung lurus",
    "has_notes": true,
    "has_frontmatter": true,
-   "ready": 7,
+   "ready": 8,
    "ready_total": 8,
    "checks": [
     {
@@ -417,7 +417,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "draft"
+     "value": "ongoing"
     },
     {
      "id": "beats",
@@ -458,8 +458,8 @@
      "id": "lane",
      "label": "Lane produksi",
      "note": "nama lane di repo produksi, kalau ada",
-     "ok": false,
-     "value": "-"
+     "ok": true,
+     "value": "cha_sirin_sandal_01"
     }
    ],
    "path": "drafts/sirin-smol-sandal/draft.md",

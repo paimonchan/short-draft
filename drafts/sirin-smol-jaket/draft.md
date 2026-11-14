@@ -1,9 +1,10 @@
 ---
 title: "Sirin smol and jaket"
-status: "draft"
+status: "ongoing"
 date: "2026-11-14"
 updated: "2026-11-14"
 series: "Cha Sirin smol"
+lane: "cha_sirin_jaket_01"
 format: "9:16"
 setting: "Rumah Sirin (ruang tengah, lantai kayu)"
 logline: "Resleting jaketnya macet; Sirin melawan resleting itu, dan setelah menang dia menutupnya lagi."

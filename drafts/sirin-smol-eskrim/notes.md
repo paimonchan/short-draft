@@ -1,31 +1,48 @@
-# Catatan produksi · Sirin smol and es krim
+# Catatan produksi - Sirin smol and es krim
 
-Hook (0–2,2 dtk): muka Sirin + es krim sudah di frame pertama. Yang bikin penonton
-bertanya bukan dialog — Sirin tidak bicara — tapi posisi aneh: dia berdiri diam
-sambil es krimnya meleleh. Kontradiksi visualnya jatuh ≤2 dtk (tetes pertama).
+Lane produksi: `cha_sirin_eskrim_01` (repo produksi, privat - nama lane cuma penanda).
 
-Running gag (3 kemunculan): tetesan es krim — (1) menetes ke hoodie, (2) genangan
-kecil di lantai, (3) gumpalan besar yang akhirnya masuk mulut.
+## Perubahan draft (2026-11-14, v4)
 
-Peta beat → segmen (~5 dtk/segmen, 3 segmen ≈ 15 dtk):
-1. beat 1–2 (berdiri + jilat sekali) · 2. beat 3–4 (meleleh + tetesan) ·
-3. beat 5–6 (jatuh + masuk mulut).
+Draft awal ditulis dengan dua aksi mulut (`menjilat sekali` + `menangkap gumpalan dengan mulut`).
+Dua render pertama membuktikan itu **salah**: H3 mendaur ulang gestur mulut sepanjang klip
+(jilat di detik 2, jilat lagi di detik 8, jilat lagi di detik 13 padahal cone sudah kosong) dan
+menggandakan cone. Percobaan kedua mengganti jadi "angkat kaki untuk lihat kaus kaki" juga gagal:
+model mengangkat **lutut setinggi pinggang** seperti senam, dan muka menunduk terus sampai detik 12.
 
-Batasan H3 yang mengikat draft ini (docs/02 story-draft): satu lokasi, satu take
-kontinu, **maks 1 gerak kamera kecil per segmen**, framing ladder maks 1 level/
-segmen, dan **jangan tulis kata shot-type** (`zoom`, `close-up`, `cut to`) — tulis
-gerak fisik. Kamera tetap steady eye-level/dari atas, jangan ikut badan naik-turun.
+Aturan yang akhirnya dipakai:
 
-Opsi potong (kalau harus ≤10 dtk): buang beat 2 dan 4, payoff jadi di dtk ~8 —
-gumpalan jatuh, mulut buka, selesai. Tetesan tetap ada karena dia yang pegang
-running gag.
+- **Tidak ada aksi mulut sama sekali.** Es krim tidak dijilat, tidak digigit, tidak ditangkap.
+  Cone dipegang **rendah di samping badan** sepanjang klip. Mulut tetap garis netral.
+- **Kedua kaki menapak sepanjang take.** Tidak ada angkat kaki/lutut. Untuk melihat kaus kaki,
+  dia hanya **menunduk** (chin tuck), lalu **memutar pergelangan kaki** sekali.
+- **Kamera selalu bergerak**: ikut jalan -> turun sedikit saat dia berhenti -> naik lagi saat lanjut.
+  Tidak ada frame statis.
+- Jangan tulis negasi berulang (`tidak pernah mengangkat kaki`), itu justru memunculkan konsepnya.
 
-Opsi caption post-produksi (4–7 kata, teks di luar frame render):
-1. "es krim 1, sirin 0"
-2. "usaha: nol. hasil: sempurna."
-3. "yang penting masuk"
+## Peta beat -> segmen (~2,5 dtk/segmen, 6 segmen = 15 dtk)
 
-Aset: cone es krim (skala smol), genangan kecil di lantai kayu, satu tetesan
-lengket di hoodie. Semua ref harus satu geometri kamera dengan take.
+1. beat 1 - berjalan, cone di samping, tetesan siap jatuh
+2. beat 2 - tetes jatuh ke kaus kaki, dia melirik sambil jalan
+3. beat 3 - berhenti, kaki menapak, menunduk lihat kaus kaki
+4. beat 4 - putar pergelangan kaki sekali, jari kaki bergerak
+5. beat 5 - tetes kedua ke lantai, dia tetap menatap kaus kaki
+6. beat 6 - angkat dagu, shrug kecil, lanjut jalan
 
-Lane produksi: **belum ada** (calon nama: `cha_sirin_eskrim_01`).
+## Batasan H3 yang dipegang
+
+- Satu lokasi, satu take kontinu, maks 1 gerak kamera kecil per segmen.
+- Jangan tulis kosakata shot-type (`zoom`, `close-up`, `cut to`) - tulis gerak fisik.
+- Jangan tulis kata freeze (`holds`, `stops`, `stays`, `does not move`).
+- Kontak eksplisit: tetes **mendarat di kaus kaki**, pergelangan kaki **berputar**, dagu **terangkat**.
+
+## Opsi caption post-produksi (4-7 kata, di luar frame render)
+
+1. "es krim 1, kaus kaki 0"
+2. "dibiarin aja"
+3. "usaha: nol"
+
+## Aset
+
+`E:\Sanctuary\Cha Sirin Eskrim 01\` - world ruang tengah + look mid-step (cone dipegang rendah).
+Semua ref satu geometri kamera dengan take (POV atas ~50 derajat).

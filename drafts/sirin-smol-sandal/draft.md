@@ -1,9 +1,10 @@
 ---
 title: "Sirin smol and sandal"
-status: "draft"
+status: "ongoing"
 date: "2026-11-14"
 updated: "2026-11-14"
 series: "Cha Sirin smol"
+lane: "cha_sirin_sandal_01"
 format: "9:16"
 setting: "Rumah Sirin (pintu depan, lantai kayu)"
 logline: "Sirin mencari sandalnya dengan kepala saja, dan ternyata sandal itu sedang diinjak kakinya sendiri."

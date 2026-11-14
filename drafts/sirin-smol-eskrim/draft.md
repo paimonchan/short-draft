@@ -1,22 +1,23 @@
 ---
 title: "Sirin smol and es krim"
-status: "draft"
+status: "ongoing"
 date: "2026-11-14"
 updated: "2026-11-14"
 series: "Cha Sirin smol"
+lane: "cha_sirin_eskrim_01"
 format: "9:16"
 setting: "Rumah Sirin (ruang tengah, lantai kayu)"
-logline: "Es krimnya meleleh lebih cepat daripada kemampuan Sirin menjilatnya; dia memilih tidak melakukan apa pun, dan hasilnya justru sempurna."
-hook: "Frame 1: gumpalan es krim sudah menggantung di pinggir cone dan satu tetesan sudah lengket di hoodie-nya — pertanyaan: berapa lama lagi sebelum jatuh?"
+logline: "Es krimnya meleleh, tetesannya mendarat di kaus kakinya; Sirin berhenti, memeriksa sekali, lalu memilih tetap berjalan tanpa melakukan apa pun."
+hook: "Frame 1: es krim cone dipegang rendah di samping badan, gumpalan sudah menggantung di pinggir cone dan satu tetesan siap jatuh ke kaus kakinya - pertanyaan: kena nggak?"
 source: "agent (usulan + riset docs/01/02/05 story-draft)"
 duration: 15
 characters: [Cha Sirin]
 tags: [sirin, smol, komedi, es-krim]
 ---
 
-- POV sudah ada di atas sirin sejak frame pertama: sirin berdiri memegang es krim cone dengan muka bodohnya dan malas, ahoge-nya melengkung turun
-- sirin menjilat es krimnya satu kali, pelan sekali, seperti orang yang tidak punya tenaga
-- es krimnya mulai meleleh dan menetes ke arah hoodie hitamnya, sirin tidak bergerak sama sekali
-- kamera bergeser pelan menyamping mengikuti tetesan yang jatuh ke lantai, satu gerakan kecil saja
-- es krimnya jatuh seluruhnya dari cone dalam satu gumpalan, sirin tetap dengan muka bodohnya
-- sirin cuma membuka mulut, gumpalan itu jatuh masuk sendiri, lalu dia menutup mulut lagi dengan muka yang sama seperti frame pertama
+- POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, es krim cone dipegang rendah di samping badannya, gumpalan es krim sudah menggantung di pinggir cone dan satu tetesan siap jatuh
+- tetesan itu jatuh dan mendarat di kaus kaki cream-nya, sirin melirik ke bawah sebentar tanpa berhenti berjalan
+- sirin melambat lalu berhenti dengan kedua kaki menapak, menunduk untuk melihat noda lengket di kaus kakinya
+- sirin memutar pergelangan kaki kanannya sekali (tumit turun, ujung kaki naik, kembali rata) sambil tetap menunduk, jari kakinya bergerak sedikit di dalam kaus kaki
+- es krimnya menetes sekali lagi ke lantai di samping kakinya, sirin tetap menatap kaus kakinya dengan muka bodohnya
+- sirin mengangkat dagu kembali ke arah POV, memberi satu angkat bahu kecil, lalu melanjutkan jalannya dengan es krim masih di tangan dan kaus kaki yang tetap lengket
