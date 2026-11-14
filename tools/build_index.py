@@ -58,6 +58,17 @@ CAMERA_RE = re.compile(
     re.I,
 )
 
+# isyarat hook (docs/05 story-draft): heuristik teks, bukan penilaian mutu.
+HOOK_FRAME1_RE = re.compile(r"frame\s*(pertama|1|satu)|sejak awal", re.I)
+HOOK_QUESTION_RE = re.compile(
+    r"\?|\b(apa|kenapa|kok|gimana|bagaimana|berapa|siapa|mana|mengapa)\b", re.I
+)
+HOOK_MOTION_RE = re.compile(
+    r"gerak|bergerak|jatuh|mendarat|menetes|menggantung|menarik|berputar|memutar|menoleh|melirik|"
+    r"masuk frame|meluncur|ketimbun|menyelip|mengumpul|bergetar|terangkat",
+    re.I,
+)
+
 # id, label, catatan singkat
 CHECKS = (
     ("title", "Judul terisi", "judul yang muncul di papan"),
@@ -145,6 +156,7 @@ def build_entry(path: Path) -> dict:
 
     title = str(meta.get("title") or "").strip()
     status = str(meta.get("status") or "draft").strip().lower()
+    hook = str(meta.get("hook") or "").strip()
     beats = beats_from(body)
     camera_beats = sum(1 for b in beats if b["camera"])
     words = sum(b["words"] for b in beats)
@@ -201,6 +213,22 @@ def build_entry(path: Path) -> dict:
         "tags": tags,
         "logline": str(meta.get("logline") or ""),
         "source": str(meta.get("source") or ""),
+        "hook": hook,
+        "has_hook": bool(hook),
+        "hook_signals": {
+            "frame1": bool(HOOK_FRAME1_RE.search(hook)),
+            "question": bool(HOOK_QUESTION_RE.search(hook)),
+            "motion": bool(HOOK_MOTION_RE.search(hook)),
+        },
+        "hook_score": sum(
+            1
+            for ok in (
+                HOOK_FRAME1_RE.search(hook),
+                HOOK_QUESTION_RE.search(hook),
+                HOOK_MOTION_RE.search(hook),
+            )
+            if ok
+        ),
         "beats": beats,
         "beats_count": len(beats),
         "camera_beats": camera_beats,
@@ -293,6 +321,7 @@ def main() -> int:
         "beats": sum(e["beats_count"] for e in entries),
         "camera_beats": sum(e["camera_beats"] for e in entries),
         "words": sum(e["words"] for e in entries),
+        "hooks": sum(1 for e in entries if e["has_hook"]),
         "statuses": statuses,
         "status_order": list(STATUSES),
         "status_hint": STATUS_HINT,

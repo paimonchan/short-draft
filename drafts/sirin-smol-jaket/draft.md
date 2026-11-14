@@ -7,6 +7,7 @@ series: "Cha Sirin smol"
 format: "9:16"
 setting: "Rumah Sirin (ruang tengah, lantai kayu)"
 logline: "Resleting jaketnya macet; Sirin melawan resleting itu, dan setelah menang dia menutupnya lagi."
+hook: "Frame 1: tangannya sudah mencengkeram tarikan resleting yang macet dan badannya sudah agak terangkat — pertanyaan: resletingnya kebuka nggak?"
 source: "agent (usulan + riset docs/01/02/05 story-draft)"
 duration: 15
 characters: [Cha Sirin]

@@ -12,6 +12,7 @@ let FILTER = '';
 let F_STATUS = '';
 let F_SERIES = '';
 let F_META = false;
+let F_HOOK = false;
 
 const STATUS_META = {
   draft: { icon: '📝', label: 'draft', hint: 'ide masuk, belum digarap' },
@@ -153,6 +154,7 @@ function matches(e) {
   if (F_STATUS && e.status !== F_STATUS) return false;
   if (F_SERIES && e.series !== F_SERIES) return false;
   if (F_META && (e.ready ?? 0) >= (e.ready_total || 9)) return false;
+  if (F_HOOK && e.has_hook) return false;
   if (!FILTER) return true;
   const q = FILTER.toLowerCase();
   const hay = [
@@ -215,12 +217,15 @@ function rowHTML(e) {
       ${posterHTML(e, 76)}
       <div class="t">
         <h3>${hl(e.title)}${e.series && INDEX.series.length > 1 ? `<span class="tag">${esc(e.series)}</span>` : ''}</h3>
-        ${e.preview ? `<p class="logline">${hl(e.preview)}</p>` : '<p class="logline muted">beat belum diisi</p>'}
+        ${e.has_hook
+          ? `<p class="logline hook" title="isyarat hook — frame pertama: ${e.hook_signals.frame1 ? '✓' : '✗'} · pertanyaan: ${e.hook_signals.question ? '✓' : '✗'} · gerak: ${e.hook_signals.motion ? '✓' : '✗'}">🎣 ${hl(e.hook)}</p>`
+          : `${e.preview ? `<p class="logline">${hl(e.preview)}</p>` : '<p class="logline muted">beat belum diisi</p>'}`}
         <div class="sub">
           <span>${e.beats_count} beat</span>
           ${e.camera_beats ? `<span>🎥 ${e.camera_beats}</span>` : ''}
           ${e.format ? `<span>${esc(e.format)}</span>` : ''}
           ${e.duration ? `<span>${esc(String(e.duration))} dtk</span>` : ''}
+          ${e.has_hook ? '' : '<span class="nohook">hook belum ditulis</span>'}
           ${missing.length ? `<span class="miss" title="metadata belum lengkap: ${esc(missing.join(', '))}">⚠ ${missing.length}</span>` : ''}
         </div>
       </div>
@@ -269,6 +274,7 @@ function renderHome() {
   const density = document.documentElement.dataset.density === 'compact';
   const shown = entries.reduce((a, e) => a + e.beats_count, 0);
   const metaTodo = INDEX.entries.filter((e) => (e.ready ?? 0) < (e.ready_total || 9)).length;
+  const hookTodo = INDEX.entries.filter((e) => !e.has_hook).length;
 
   app.innerHTML = `
     <div class="board-head">
@@ -283,6 +289,7 @@ function renderHome() {
       <div class="stats">
         <div class="stat"><b>${totals.shown(entries, INDEX.count)}</b><span>draft tampil</span></div>
         <div class="stat"><b>${fmt(shown)}</b><span>beat</span></div>
+        <div class="stat"><b>${INDEX.hooks}/${INDEX.count}</b><span>🎣 ada hook</span></div>
         <div class="stat"><b>${ongoing}</b><span>🔧 ongoing</span></div>
         <div class="stat"><b>${done}</b><span>✅ done</span></div>
       </div>
@@ -290,9 +297,10 @@ function renderHome() {
 
     <div class="card toolbar">
       <span class="flabel">status</span>
-      ${fbtn('status', '', `semua ${INDEX.count}`, !F_STATUS && !F_META)}
+      ${fbtn('status', '', `semua ${INDEX.count}`, !F_STATUS && !F_META && !F_HOOK)}
       ${statusChips}
       ${metaTodo ? `<div class="sep"></div>${fbtn('meta', '1', `⚠ kurang meta ${metaTodo}`, F_META)}` : ''}
+      ${hookTodo ? `<div class="sep"></div>${fbtn('hook', '1', `🎣 hook kosong ${hookTodo}`, F_HOOK)}` : ''}
       ${INDEX.series.length > 1 ? `<div class="sep"></div><span class="flabel">seri</span>
         ${fbtn('series', '', 'semua', !F_SERIES)}
         ${INDEX.series.slice(0, 4).map((s) => fbtn('series', s, esc(s), F_SERIES === s)).join('')}` : ''}
@@ -313,9 +321,10 @@ function renderHome() {
       const kind = b.dataset.f, val = b.dataset.v;
       if (kind === 'status') {
         F_STATUS = val;
-        if (!val) { F_META = false; F_SERIES = ''; }  // "semua" = reset semua filter
+        if (!val) { F_META = false; F_SERIES = ''; F_HOOK = false; }  // "semua" = reset semua filter
       }
       if (kind === 'meta') F_META = !F_META;
+      if (kind === 'hook') F_HOOK = !F_HOOK;
       if (kind === 'series') F_SERIES = val;
       renderHome();
     })
@@ -423,6 +432,7 @@ async function renderDraft(slug) {
     </header>
 
     <nav class="sectnav" aria-label="Bagian halaman">
+      <a href="#sect-hook" data-jump="sect-hook">🎣 Hook${e.has_hook ? ` <span>${e.hook_score}/3</span>` : ''}</a>
       <a href="#sect-beat" data-jump="sect-beat">Beat</a>
       ${d.notes ? '<a href="#sect-notes" data-jump="sect-notes">Catatan</a>' : ''}
       <a href="#sect-ready" data-jump="sect-ready">Kesiapan <span>${e.ready}/${e.ready_total}</span></a>
@@ -431,6 +441,19 @@ async function renderDraft(slug) {
 
     <div class="desk wide">
       <div id="deskbody">
+        <section class="card sect" id="sect-hook">
+          <div class="sect-head"><span class="k">hook</span><h2>Hook (0–2,2 dtk)</h2>
+            <span class="hint">${e.has_hook ? `isyarat ${e.hook_score}/3` : 'belum diisi'}</span></div>
+          ${e.has_hook ? `
+            <p class="hooktext">🎣 ${esc(e.hook)}</p>
+            <div class="chips">
+              ${[['frame1', 'frame pertama'], ['question', 'ada pertanyaan'], ['motion', 'ada gerak/bunyi']]
+                .map(([k, label]) => `<span class="chip sig ${e.hook_signals[k] ? 'ok' : 'no'}"><b>${e.hook_signals[k] ? '✓' : '✗'}</b> <code>${label}</code></span>`)
+                .join('')}
+            </div>` : `<p class="hooktext muted">Belum ada hook untuk draft ini. Isi satu baris: apa yang <b>sudah</b> terjadi di frame pertama + pertanyaan yang bikin orang berhenti scroll.</p>`}
+          <div class="sect-foot"><span class="muted">Rubrik 5 cek: muka di frame 1 · premis kebaca tanpa penjelasan · ada pertanyaan yang belum dijawab · masih jalan walau dimute (caption bawa pertanyaannya) · beda dari frame 1 episode lain. Isyarat di atas heuristik teks, bukan penilaian mutu.</span></div>
+        </section>
+
         <section class="card sect" id="sect-beat">
           <div class="sect-head"><span class="k">aksi</span><h2>Beat</h2>
             <span class="hint">${e.beats_count} beat · ${e.camera_beats} arahan kamera · ${e.words} kata</span></div>

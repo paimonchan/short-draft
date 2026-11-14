@@ -1,10 +1,11 @@
 {
- "generated": "2026-11-14 13:28",
+ "generated": "2026-11-14 13:44",
  "repo": "paimonchan/short-draft",
  "count": 17,
  "beats": 97,
  "camera_beats": 40,
  "words": 1098,
+ "hooks": 3,
  "statuses": {
   "draft": 3,
   "ongoing": 0,
@@ -69,6 +70,14 @@
    ],
    "logline": "Es krimnya meleleh lebih cepat daripada kemampuan Sirin menjilatnya; dia memilih tidak melakukan apa pun, dan hasilnya justru sempurna.",
    "source": "agent (usulan + riset docs/01/02/05 story-draft)",
+   "hook": "Frame 1: gumpalan es krim sudah menggantung di pinggir cone dan satu tetesan sudah lengket di hoodie-nya — pertanyaan: berapa lama lagi sebelum jatuh?",
+   "has_hook": true,
+   "hook_signals": {
+    "frame1": true,
+    "question": true,
+    "motion": true
+   },
+   "hook_score": 3,
    "beats": [
     {
      "n": 1,
@@ -201,6 +210,14 @@
    ],
    "logline": "Resleting jaketnya macet; Sirin melawan resleting itu, dan setelah menang dia menutupnya lagi.",
    "source": "agent (usulan + riset docs/01/02/05 story-draft)",
+   "hook": "Frame 1: tangannya sudah mencengkeram tarikan resleting yang macet dan badannya sudah agak terangkat — pertanyaan: resletingnya kebuka nggak?",
+   "has_hook": true,
+   "hook_signals": {
+    "frame1": true,
+    "question": true,
+    "motion": true
+   },
+   "hook_score": 3,
    "beats": [
     {
      "n": 1,
@@ -333,6 +350,14 @@
    ],
    "logline": "Sirin mencari sandalnya dengan kepala saja, dan ternyata sandal itu sedang diinjak kakinya sendiri.",
    "source": "agent (usulan + riset docs/01/02/05 story-draft)",
+   "hook": "Frame 1: satu sandal di kaki kanan, kaki kiri telanjang, dan dia sudah mulai memutar kepala mencari — pertanyaan: sandal satunya ke mana?",
+   "has_hook": true,
+   "hook_signals": {
+    "frame1": true,
+    "question": true,
+    "motion": true
+   },
+   "hook_score": 3,
    "beats": [
     {
      "n": 1,
@@ -465,6 +490,14 @@
    ],
    "logline": "",
    "source": "chat (Discord #draft)",
+   "hook": "",
+   "has_hook": false,
+   "hook_signals": {
+    "frame1": false,
+    "question": false,
+    "motion": false
+   },
+   "hook_score": 0,
    "beats": [
     {
      "n": 1,
@@ -591,6 +624,14 @@
    ],
    "logline": "",
    "source": "chat (Discord #draft)",
+   "hook": "",
+   "has_hook": false,
+   "hook_signals": {
+    "frame1": false,
+    "question": false,
+    "motion": false
+   },
+   "hook_score": 0,
    "beats": [
     {
      "n": 1,
@@ -723,6 +764,14 @@
    ],
    "logline": "",
    "source": "chat (Discord #draft)",
+   "hook": "",
+   "has_hook": false,
+   "hook_signals": {
+    "frame1": false,
+    "question": false,
+    "motion": false
+   },
+   "hook_score": 0,
    "beats": [
     {
      "n": 1,
@@ -843,6 +892,14 @@
    ],
    "logline": "",
    "source": "chat (Discord #draft)",
+   "hook": "",
+   "has_hook": false,
+   "hook_signals": {
+    "frame1": false,
+    "question": false,
+    "motion": false
+   },
+   "hook_score": 0,
    "beats": [
     {
      "n": 1,
@@ -969,6 +1026,14 @@
    ],
    "logline": "",
    "source": "chat (Discord #draft)",
+   "hook": "",
+   "has_hook": false,
+   "hook_signals": {
+    "frame1": false,
+    "question": false,
+    "motion": false
+   },
+   "hook_score": 0,
    "beats": [
     {
      "n": 1,
@@ -1095,6 +1160,14 @@
    ],
    "logline": "",
    "source": "chat (Discord #draft)",
+   "hook": "",
+   "has_hook": false,
+   "hook_signals": {
+    "frame1": false,
+    "question": false,
+    "motion": false
+   },
+   "hook_score": 0,
    "beats": [
     {
      "n": 1,
@@ -1221,6 +1294,14 @@
    ],
    "logline": "",
    "source": "chat (Discord #draft)",
+   "hook": "",
+   "has_hook": false,
+   "hook_signals": {
+    "frame1": false,
+    "question": false,
+    "motion": false
+   },
+   "hook_score": 0,
    "beats": [
     {
      "n": 1,
@@ -1353,6 +1434,14 @@
    ],
    "logline": "",
    "source": "chat (Discord #draft)",
+   "hook": "",
+   "has_hook": false,
+   "hook_signals": {
+    "frame1": false,
+    "question": false,
+    "motion": false
+   },
+   "hook_score": 0,
    "beats": [
     {
      "n": 1,
@@ -1485,6 +1574,14 @@
    ],
    "logline": "",
    "source": "chat (Discord #draft)",
+   "hook": "",
+   "has_hook": false,
+   "hook_signals": {
+    "frame1": false,
+    "question": false,
+    "motion": false
+   },
+   "hook_score": 0,
    "beats": [
     {
      "n": 1,
@@ -1617,6 +1714,14 @@
    ],
    "logline": "",
    "source": "chat (Discord #draft)",
+   "hook": "",
+   "has_hook": false,
+   "hook_signals": {
+    "frame1": false,
+    "question": false,
+    "motion": false
+   },
+   "hook_score": 0,
    "beats": [
     {
      "n": 1,
@@ -1755,6 +1860,14 @@
    ],
    "logline": "",
    "source": "chat (Discord #draft)",
+   "hook": "",
+   "has_hook": false,
+   "hook_signals": {
+    "frame1": false,
+    "question": false,
+    "motion": false
+   },
+   "hook_score": 0,
    "beats": [
     {
      "n": 1,
@@ -1881,6 +1994,14 @@
    ],
    "logline": "",
    "source": "chat (Discord #draft)",
+   "hook": "",
+   "has_hook": false,
+   "hook_signals": {
+    "frame1": false,
+    "question": false,
+    "motion": false
+   },
+   "hook_score": 0,
    "beats": [
     {
      "n": 1,
@@ -2007,6 +2128,14 @@
    ],
    "logline": "",
    "source": "chat (Discord #draft)",
+   "hook": "",
+   "has_hook": false,
+   "hook_signals": {
+    "frame1": false,
+    "question": false,
+    "motion": false
+   },
+   "hook_score": 0,
    "beats": [
     {
      "n": 1,
@@ -2145,6 +2274,14 @@
    ],
    "logline": "",
    "source": "chat (Discord #draft)",
+   "hook": "",
+   "has_hook": false,
+   "hook_signals": {
+    "frame1": false,
+    "question": false,
+    "motion": false
+   },
+   "hook_score": 0,
    "beats": [
     {
      "n": 1,

@@ -39,7 +39,7 @@ DRAFTS_DIR = ROOT / "drafts"
 sys.path.insert(0, str(ROOT / "tools"))
 
 STATUSES = ("draft", "ongoing", "done")
-TEXT_KEYS = ("title", "status", "date", "updated", "series", "lane", "format", "setting", "logline", "source")
+TEXT_KEYS = ("title", "status", "date", "updated", "series", "lane", "format", "setting", "logline", "hook", "source")
 LIST_KEYS = ("characters", "tags")
 
 
@@ -149,6 +149,7 @@ def cmd_add(args) -> int:
         "duration": args.duration,
         "setting": args.setting,
         "logline": args.logline,
+        "hook": args.hook,
         "source": args.source,
         "characters": to_list(args.characters),
         "tags": to_list(args.tags),
@@ -242,6 +243,7 @@ def main() -> int:
     a.add_argument("--duration", default=None)
     a.add_argument("--setting", default="")
     a.add_argument("--logline", default="")
+    a.add_argument("--hook", default="")
     a.add_argument("--source", default="")
     a.add_argument("--characters", default="")
     a.add_argument("--tags", default="")

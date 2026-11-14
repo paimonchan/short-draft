@@ -7,6 +7,7 @@ series: "Cha Sirin smol"
 format: "9:16"
 setting: "Rumah Sirin (pintu depan, lantai kayu)"
 logline: "Sirin mencari sandalnya dengan kepala saja, dan ternyata sandal itu sedang diinjak kakinya sendiri."
+hook: "Frame 1: satu sandal di kaki kanan, kaki kiri telanjang, dan dia sudah mulai memutar kepala mencari — pertanyaan: sandal satunya ke mana?"
 source: "agent (usulan + riset docs/01/02/05 story-draft)"
 duration: 15
 characters: [Cha Sirin]

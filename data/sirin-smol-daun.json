@@ -21,6 +21,14 @@
  ],
  "logline": "",
  "source": "chat (Discord #draft)",
+ "hook": "",
+ "has_hook": false,
+ "hook_signals": {
+  "frame1": false,
+  "question": false,
+  "motion": false
+ },
+ "hook_score": 0,
  "beats": [
   {
    "n": 1,

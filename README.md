@@ -91,10 +91,34 @@ duration: 15           # target durasi klip (detik), boleh kosong
 setting: "Rumah Sirin (kamar mandi, sofa, meja)"
 characters: [Cha Sirin]
 logline: ""
+hook: "Frame 1: ... — pertanyaan: ...?"   # apa yang sudah terjadi di frame pertama
 source: "chat"
 tags: [sirin, smol, komedi]
 ---
 ```
+
+### `hook` — satu baris, isinya frame pertama
+
+`hook` bukan ringkasan cerita. Isinya: **apa yang sudah terjadi di detik 0** (mid-failure,
+bukan setup) + pertanyaan yang bikin orang berhenti scroll. Dasar aturannya ada di lane
+story-draft (`docs/05-hook-retensi.md`).
+
+Rubrik 5 cek yang dipakai di halaman draft:
+
+1. muka karakter ada di frame pertama
+2. premis kebaca tanpa penjelasan
+3. ada pertanyaan yang belum dijawab di frame 1
+4. masih jalan kalau dimute (caption yang bawa pertanyaannya)
+5. beda dari frame 1 episode lain (novelty)
+
+Web menghitung **isyarat hook** dari teksnya (heuristik, bukan penilaian mutu): menyebut
+frame pertama, memuat pertanyaan, dan memuat gerak. Papan menampilkan baris `🎣 <hook>`
+di tiap baris, satu statistik `🎣 ada hook`, dan chip filter `🎣 hook kosong N` untuk
+melihat draft mana yang belum punya hook.
+
+`3/3` bukan target wajib. Hook yang murni pertanyaan (frame pertama diam, pertanyaannya
+yang bekerja) wajar dapat `2/3`; yang penting isinya bukan setup — bukan "orang berjalan
+masuk lalu mulai bicara".
 
 Aturan penting:
 

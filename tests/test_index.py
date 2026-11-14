@@ -67,10 +67,28 @@ class TestShortDraft(unittest.TestCase):
         meta2, body2 = bi.split_front("---\ntitle: \"belum ditutup\n")
         self.assertIsNone(meta2, "frontmatter tidak tertutup harus dianggap rusak")
 
+    def test_hook_isyarat(self):
+        # heuristik isyarat hook: teks -> sinyal (bukan penilaian mutu)
+        self.assertTrue(bi.HOOK_FRAME1_RE.search("Frame 1: es krim sudah menggantung di cone"))
+        self.assertTrue(bi.HOOK_QUESTION_RE.search("sandal satunya ke mana?"))
+        self.assertTrue(bi.HOOK_QUESTION_RE.search("kok bisa"))
+        self.assertFalse(bi.HOOK_QUESTION_RE.search("sirin berdiri diam saja"))
+        self.assertTrue(bi.HOOK_MOTION_RE.search("tetesan es krim menetes di hoodie"))
+        self.assertFalse(bi.HOOK_MOTION_RE.search("sirin berdiri diam saja"))
+        for e in self.entries:
+            with self.subTest(slug=e["slug"]):
+                self.assertEqual(e["has_hook"], bool(e["hook"].strip()))
+                self.assertEqual(e["hook_score"], sum(1 for ok in e["hook_signals"].values() if ok))
+                self.assertLessEqual(e["hook_score"], 3)
+                self.assertEqual(set(e["hook_signals"]), {"frame1", "question", "motion"})
+                if e["has_hook"]:
+                    self.assertLessEqual(len(e["hook"]), 400, "hook kepanjangan untuk satu baris")
+
     def test_index_json_konsisten(self):
         idx = json.loads((ROOT / "index.json").read_text(encoding="utf-8"))
         self.assertEqual(idx["count"], len(self.entries))
         self.assertEqual(idx["beats"], sum(e["beats_count"] for e in self.entries))
+        self.assertEqual(idx["hooks"], sum(1 for e in self.entries if e["has_hook"]))
         self.assertEqual(sum(idx["statuses"].values()), idx["count"])
         light_keys = {"notes", "raw", "body"}
         for e in idx["entries"]:

@@ -7,6 +7,7 @@ series: "Cha Sirin smol"
 format: "9:16"
 setting: "Rumah Sirin (ruang tengah, lantai kayu)"
 logline: "Es krimnya meleleh lebih cepat daripada kemampuan Sirin menjilatnya; dia memilih tidak melakukan apa pun, dan hasilnya justru sempurna."
+hook: "Frame 1: gumpalan es krim sudah menggantung di pinggir cone dan satu tetesan sudah lengket di hoodie-nya — pertanyaan: berapa lama lagi sebelum jatuh?"
 source: "agent (usulan + riset docs/01/02/05 story-draft)"
 duration: 15
 characters: [Cha Sirin]
