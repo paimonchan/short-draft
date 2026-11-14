@@ -1,0 +1,141 @@
+{
+ "slug": "sirin-smol-sikatan",
+ "title": "Sirin smol and sikatan",
+ "status": "draft",
+ "status_raw": "draft",
+ "date": "2026-10-31",
+ "updated": "2026-11-14",
+ "series": "Cha Sirin smol",
+ "lane": "cha_sirin_sikatan_01",
+ "format": "9:16",
+ "duration": null,
+ "setting": "Rumah Sirin (kamar mandi, cermin)",
+ "characters": [
+  "Cha Sirin"
+ ],
+ "tags": [
+  "sirin",
+  "smol",
+  "komedi",
+  "sikat-gigi"
+ ],
+ "logline": "",
+ "source": "chat (Discord #draft)",
+ "beats": [
+  {
+   "n": 1,
+   "text": "sirin mendobrak pintu dengan muka bodohnya tapi tetap imut",
+   "camera": false,
+   "words": 9
+  },
+  {
+   "n": 2,
+   "text": "sirin mengambil sikat dan pasta",
+   "camera": false,
+   "words": 5
+  },
+  {
+   "n": 3,
+   "text": "sirin menuangkan pasta",
+   "camera": false,
+   "words": 3
+  },
+  {
+   "n": 4,
+   "text": "sirin sikat gigi di cermin",
+   "camera": false,
+   "words": 5
+  },
+  {
+   "n": 5,
+   "text": "POV mendekat di atas sirin",
+   "camera": true,
+   "words": 5
+  },
+  {
+   "n": 6,
+   "text": "sirin mendongak",
+   "camera": false,
+   "words": 2
+  }
+ ],
+ "beats_count": 6,
+ "camera_beats": 1,
+ "words": 29,
+ "preview": "sirin mendobrak pintu dengan muka bodohnya tapi tetap imut",
+ "has_notes": false,
+ "has_frontmatter": true,
+ "ready": 8,
+ "ready_total": 9,
+ "checks": [
+  {
+   "id": "title",
+   "label": "Judul terisi",
+   "note": "judul yang muncul di papan",
+   "ok": true,
+   "value": "Sirin smol and sikatan"
+  },
+  {
+   "id": "status",
+   "label": "Status valid",
+   "note": "draft / ongoing / done",
+   "ok": true,
+   "value": "draft"
+  },
+  {
+   "id": "beats",
+   "label": "Minimal 3 beat",
+   "note": "satu beat ≈ satu aksi di depan kamera",
+   "ok": true,
+   "value": 6
+  },
+  {
+   "id": "camera",
+   "label": "Ada arahan kamera/POV",
+   "note": "biar bisa dipetakan jadi shot",
+   "ok": true,
+   "value": 1
+  },
+  {
+   "id": "setting",
+   "label": "Setting terisi",
+   "note": "tempat kejadian",
+   "ok": true,
+   "value": "Rumah Sirin (kamar mandi, cermin)"
+  },
+  {
+   "id": "tags",
+   "label": "Minimal 1 tag",
+   "note": "buat filter di papan",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "format",
+   "label": "Format terisi",
+   "note": "9:16 buat shorts, 16:9 buat biasa",
+   "ok": true,
+   "value": "9:16"
+  },
+  {
+   "id": "duration",
+   "label": "Durasi target",
+   "note": "perkiraan total durasi klip (detik)",
+   "ok": false,
+   "value": "-"
+  },
+  {
+   "id": "lane",
+   "label": "Lane produksi",
+   "note": "nama lane di repo produksi, kalau ada",
+   "ok": true,
+   "value": "cha_sirin_sikatan_01"
+  }
+ ],
+ "path": "drafts/sirin-smol-sikatan/draft.md",
+ "notes_path": "",
+ "data": "data/sirin-smol-sikatan.json",
+ "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-sikatan/draft.md",
+ "notes": "",
+ "raw": "---\ntitle: \"Sirin smol and sikatan\"\nstatus: \"draft\"\ndate: \"2026-10-31\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_sikatan_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (kamar mandi, cermin)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, sikat-gigi]\n---\n\n- sirin mendobrak pintu dengan muka bodohnya tapi tetap imut\n- sirin mengambil sikat dan pasta\n- sirin menuangkan pasta\n- sirin sikat gigi di cermin\n- POV mendekat di atas sirin\n- sirin mendongak\n"
+}

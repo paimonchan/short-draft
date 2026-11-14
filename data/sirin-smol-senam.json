@@ -1,0 +1,147 @@
+{
+ "slug": "sirin-smol-senam",
+ "title": "Sirin smol senam",
+ "status": "draft",
+ "status_raw": "draft",
+ "date": "2026-10-11",
+ "updated": "2026-11-14",
+ "series": "Cha Sirin smol",
+ "lane": "cha_sirin_stretch_01",
+ "format": "9:16",
+ "duration": null,
+ "setting": "Depan rumah",
+ "characters": [
+  "Cha Sirin"
+ ],
+ "tags": [
+  "sirin",
+  "smol",
+  "komedi",
+  "senam"
+ ],
+ "logline": "",
+ "source": "chat (Discord #draft)",
+ "beats": [
+  {
+   "n": 1,
+   "text": "sirin keluar dari rumah sambil membanting pintu, dengan muka bodohnya dan kelihatan lesu",
+   "camera": false,
+   "words": 13
+  },
+  {
+   "n": 2,
+   "text": "POV lalu mendekat, sudutnya seperti biasa ada di atas",
+   "camera": true,
+   "words": 9
+  },
+  {
+   "n": 3,
+   "text": "lalu sirin mulai menghirup napas dalam-dalam dan mulai senam dengan peregangan neck left & right",
+   "camera": false,
+   "words": 15
+  },
+  {
+   "n": 4,
+   "text": "dilanjut dengan bridge stretch, kamera berputar menyamping di atas (seperti kamera pada sirin pat, mungkin ortogonal view)",
+   "camera": true,
+   "words": 17
+  },
+  {
+   "n": 5,
+   "text": "dilanjut peregangan kaki, kamera berputar ke belakang sirin",
+   "camera": true,
+   "words": 8
+  },
+  {
+   "n": 6,
+   "text": "lalu sirin tidak kuat dan jatuh ke belakang ala komedi anime",
+   "camera": false,
+   "words": 11
+  },
+  {
+   "n": 7,
+   "text": "dan dengan muka bodohnya tapi imut menghadap ke atas, ke arah POV, sambil terlentang",
+   "camera": true,
+   "words": 14
+  }
+ ],
+ "beats_count": 7,
+ "camera_beats": 4,
+ "words": 87,
+ "preview": "sirin keluar dari rumah sambil membanting pintu, dengan muka bodohnya dan kelihatan lesu",
+ "has_notes": false,
+ "has_frontmatter": true,
+ "ready": 8,
+ "ready_total": 9,
+ "checks": [
+  {
+   "id": "title",
+   "label": "Judul terisi",
+   "note": "judul yang muncul di papan",
+   "ok": true,
+   "value": "Sirin smol senam"
+  },
+  {
+   "id": "status",
+   "label": "Status valid",
+   "note": "draft / ongoing / done",
+   "ok": true,
+   "value": "draft"
+  },
+  {
+   "id": "beats",
+   "label": "Minimal 3 beat",
+   "note": "satu beat ≈ satu aksi di depan kamera",
+   "ok": true,
+   "value": 7
+  },
+  {
+   "id": "camera",
+   "label": "Ada arahan kamera/POV",
+   "note": "biar bisa dipetakan jadi shot",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "setting",
+   "label": "Setting terisi",
+   "note": "tempat kejadian",
+   "ok": true,
+   "value": "Depan rumah"
+  },
+  {
+   "id": "tags",
+   "label": "Minimal 1 tag",
+   "note": "buat filter di papan",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "format",
+   "label": "Format terisi",
+   "note": "9:16 buat shorts, 16:9 buat biasa",
+   "ok": true,
+   "value": "9:16"
+  },
+  {
+   "id": "duration",
+   "label": "Durasi target",
+   "note": "perkiraan total durasi klip (detik)",
+   "ok": false,
+   "value": "-"
+  },
+  {
+   "id": "lane",
+   "label": "Lane produksi",
+   "note": "nama lane di repo produksi, kalau ada",
+   "ok": true,
+   "value": "cha_sirin_stretch_01"
+  }
+ ],
+ "path": "drafts/sirin-smol-senam/draft.md",
+ "notes_path": "",
+ "data": "data/sirin-smol-senam.json",
+ "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-senam/draft.md",
+ "notes": "",
+ "raw": "---\ntitle: \"Sirin smol senam\"\nstatus: \"draft\"\ndate: \"2026-10-11\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_stretch_01\"\nformat: \"9:16\"\nsetting: \"Depan rumah\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, senam]\n---\n\n- sirin keluar dari rumah sambil membanting pintu, dengan muka bodohnya dan kelihatan lesu\n- POV lalu mendekat, sudutnya seperti biasa ada di atas\n- lalu sirin mulai menghirup napas dalam-dalam dan mulai senam dengan peregangan neck left & right\n- dilanjut dengan bridge stretch, kamera berputar menyamping di atas (seperti kamera pada sirin pat, mungkin ortogonal view)\n- dilanjut peregangan kaki, kamera berputar ke belakang sirin\n- lalu sirin tidak kuat dan jatuh ke belakang ala komedi anime\n- dan dengan muka bodohnya tapi imut menghadap ke atas, ke arah POV, sambil terlentang\n"
+}

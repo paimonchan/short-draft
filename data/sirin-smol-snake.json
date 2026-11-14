@@ -1,0 +1,129 @@
+{
+ "slug": "sirin-smol-snake",
+ "title": "Sirin smol and Snake",
+ "status": "draft",
+ "status_raw": "draft",
+ "date": "2026-10-28",
+ "updated": "2026-11-14",
+ "series": "Cha Sirin smol",
+ "lane": "cha_sirin_snake_01",
+ "format": "9:16",
+ "duration": null,
+ "setting": "Rumah Sirin (toilet, ruang tengah)",
+ "characters": [
+  "Cha Sirin"
+ ],
+ "tags": [
+  "sirin",
+  "smol",
+  "komedi",
+  "ular"
+ ],
+ "logline": "",
+ "source": "chat (Discord #draft)",
+ "beats": [
+  {
+   "n": 1,
+   "text": "sirin mendobrak pintu dari toilet dengan muka bodohnya tapi tetap imut",
+   "camera": false,
+   "words": 11
+  },
+  {
+   "n": 2,
+   "text": "sirin lalu menuju POV, dan POV masih ada di sisi atas sirin",
+   "camera": true,
+   "words": 12
+  },
+  {
+   "n": 3,
+   "text": "sirin lalu tengkurep",
+   "camera": false,
+   "words": 3
+  },
+  {
+   "n": 4,
+   "text": "sirin kemudian memperagakan gerakan mengeliat ular dengan muka bodohnya tapi tetap imut",
+   "camera": false,
+   "words": 12
+  }
+ ],
+ "beats_count": 4,
+ "camera_beats": 1,
+ "words": 38,
+ "preview": "sirin mendobrak pintu dari toilet dengan muka bodohnya tapi tetap imut",
+ "has_notes": false,
+ "has_frontmatter": true,
+ "ready": 8,
+ "ready_total": 9,
+ "checks": [
+  {
+   "id": "title",
+   "label": "Judul terisi",
+   "note": "judul yang muncul di papan",
+   "ok": true,
+   "value": "Sirin smol and Snake"
+  },
+  {
+   "id": "status",
+   "label": "Status valid",
+   "note": "draft / ongoing / done",
+   "ok": true,
+   "value": "draft"
+  },
+  {
+   "id": "beats",
+   "label": "Minimal 3 beat",
+   "note": "satu beat ≈ satu aksi di depan kamera",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "camera",
+   "label": "Ada arahan kamera/POV",
+   "note": "biar bisa dipetakan jadi shot",
+   "ok": true,
+   "value": 1
+  },
+  {
+   "id": "setting",
+   "label": "Setting terisi",
+   "note": "tempat kejadian",
+   "ok": true,
+   "value": "Rumah Sirin (toilet, ruang tengah)"
+  },
+  {
+   "id": "tags",
+   "label": "Minimal 1 tag",
+   "note": "buat filter di papan",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "id": "format",
+   "label": "Format terisi",
+   "note": "9:16 buat shorts, 16:9 buat biasa",
+   "ok": true,
+   "value": "9:16"
+  },
+  {
+   "id": "duration",
+   "label": "Durasi target",
+   "note": "perkiraan total durasi klip (detik)",
+   "ok": false,
+   "value": "-"
+  },
+  {
+   "id": "lane",
+   "label": "Lane produksi",
+   "note": "nama lane di repo produksi, kalau ada",
+   "ok": true,
+   "value": "cha_sirin_snake_01"
+  }
+ ],
+ "path": "drafts/sirin-smol-snake/draft.md",
+ "notes_path": "",
+ "data": "data/sirin-smol-snake.json",
+ "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-snake/draft.md",
+ "notes": "",
+ "raw": "---\ntitle: \"Sirin smol and Snake\"\nstatus: \"draft\"\ndate: \"2026-10-28\"\nupdated: \"2026-11-14\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_snake_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (toilet, ruang tengah)\"\nsource: \"chat (Discord #draft)\"\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, ular]\n---\n\n- sirin mendobrak pintu dari toilet dengan muka bodohnya tapi tetap imut\n- sirin lalu menuju POV, dan POV masih ada di sisi atas sirin\n- sirin lalu tengkurep\n- sirin kemudian memperagakan gerakan mengeliat ular dengan muka bodohnya tapi tetap imut\n"
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="id" data-theme="dark" data-density="normal">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Short Draft, draft pendek untuk video AI (MiniMax H3)</title>
+<meta name="description" content="Papan draft pendek: satu draft cuma beberapa beat, ada status produksinya (draft / ongoing / done), dan teksnya bisa dicopas kapan saja.">
+<meta name="theme-color" content="#0a0c0f">
+<meta name="color-scheme" content="dark light">
+<link rel="canonical" href="https://paimonchan.github.io/short-draft/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Short Draft">
+<meta property="og:description" content="Draft pendek untuk video AI (MiniMax H3): beat mentah, status produksi, teks bisa dicopas.">
+<meta property="og:url" content="https://paimonchan.github.io/short-draft/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23e0a33e'/><text x='16' y='23' font-size='19' font-family='system-ui' font-weight='bold' text-anchor='middle' fill='%231a1206'>S</text></svg>">
+<link rel="stylesheet" href="assets/style.css?v=1">
+</head>
+<body>
+<div class="prog" id="prog" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#/">
+      <span class="mark" aria-hidden="true">S</span>
+      <span>Short Draft<small id="brand-sub">draft pendek → video AI</small></span>
+    </a>
+    <div class="spacer"></div>
+    <div class="search">
+      <span class="ico" aria-hidden="true">⌕</span>
+      <input id="q" type="search" placeholder="cari judul, beat, tag, setting…" aria-label="Cari draft" autocomplete="off" spellcheck="false">
+      <kbd>/</kbd>
+    </div>
+    <button class="iconbtn js-density" id="density-btn" type="button" title="Rapatkan / longgarkan tata letak (d)" aria-label="Kepadatan tata letak" aria-pressed="false">◲ normal</button>
+    <button class="iconbtn" id="theme" type="button" title="Ganti terang/gelap (t)" aria-label="Ganti tema">◐</button>
+    <a class="iconbtn" href="https://github.com/paimonchan/short-draft" target="_blank" rel="noopener" title="Repo GitHub" aria-label="Repo GitHub">GH</a>
+  </div>
+</header>
+
+<main class="wrap" id="app">
+  <div class="loading">Memuat…</div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span id="foot-left">Short Draft, draft pendek untuk video AI</span>
+    <span class="mono" id="foot-right"></span>
+  </div>
+</footer>
+
+<noscript>
+  <div class="wrap" style="padding:24px 0 60px">
+    <h1>Short Draft</h1>
+    <p>Web ini butuh JavaScript. Draft-nya bisa dibaca langsung di repo:
+      <a href="https://github.com/paimonchan/short-draft">github.com/paimonchan/short-draft</a>.</p>
+    <p>Struktur: <code>drafts/&lt;slug&gt;/draft.md</code> (+ <code>notes.md</code>).</p>
+  </div>
+</noscript>
+
+<script src="assets/app.js?v=1" defer></script>
+</body>
+</html>
