@@ -93,3 +93,16 @@ dengan satu gerak kecil yang khas (angkat bahu kecil) lalu dia kembali ke keadaa
 - kaus kaki **cream**
 - sandal jepit, satu pasang
 - status `ongoing` = lane produksi di repo produksi sudah ada (`cha_sirin_<objek>_01`)
+
+## Cara dokumen ini di-update
+
+Dokumen ini hidup. Tiap kali ada draft yang dirombak (versi baru, render gagal, atau render
+yang akhirnya kena), aturannya naik ke sini — jangan cuma ditinggal di `notes.md` draft itu.
+
+- **Sebelum menulis draft baru: baca dokumen ini dulu.** Ini urutan wajibnya, bukan opsional.
+- Aturan baru ditulis sebagai perintah + alasannya, dan alasannya menyebut buktinya: draft
+  mana, versi berapa, apa yang gagal di render.
+- Kalau aturan lama ternyata salah, **jangan dihapus** — tulis versi barunya dan sebut yang
+  lama sudah tidak dipakai, biar nggak diusulkan ulang.
+- Aturan yang cuma berlaku untuk satu objek (bukan umum) tetap di `notes.md` draft itu.
+- Versi awal dokumen ini datang dari 3 draft: `eskrim` (v4), `jaket` (v5), `sandal` (v3).

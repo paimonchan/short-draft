@@ -43,6 +43,9 @@ frontmatter `lane`). Kalau `lane` kosong, draft-nya masih `draft`.
 
 ## Aturan produksi
 
+> **Sebelum nulis draft baru: baca `docs/aturan-produksi.md` dulu.** Dokumen itu hidup —
+> hasil rombak render, dan akan terus bertambah tiap kali draft dirombak.
+
 `docs/aturan-produksi.md` — aturan yang **lahir dari render nyata**, hasil rombak 3 draft
 pertama. Ringkasnya:
 
