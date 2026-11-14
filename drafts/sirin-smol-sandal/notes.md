@@ -1,41 +1,50 @@
-# Catatan produksi · Sirin smol and sandal
+# Catatan produksi - Sirin smol and sandal
 
-Hook (0–2,2 dtk): muka Sirin + satu sandal di kaki (satu kaki telanjang) sudah
-kebaca di frame pertama. Pertanyaannya ke penonton: sandal satunya ke mana? Itu
-pertanyaan visual, bukan dialog — dan itu jawabannya sendiri di beat 4.
+Lane produksi: `cha_sirin_sandal_01`.
 
-Running gag (3 kemunculan): sandal yang sama (1) tidak ada di kaki,
-(2) dicari cuma dengan putaran kepala, (3) ternyata sedang diinjak kakinya
-sendiri.
+## Perubahan draft (2026-11-14, v2)
 
-Button (callback): dia memakainya dan jalan keluar dengan muka + langkah yang
-sama seperti frame pertama — loop-nya mulus, dan leluconnya "selesai tanpa
-usaha berarti".
+Draft awal menulis `badannya tidak bergerak sama sekali` saat mencari sandal, lalu
+`dia mengangkat kakinya` tanpa menyebut seberapa tinggi. Dua pola ini bermasalah:
 
-Peta beat → segmen (~5 dtk/segmen, 3 segmen ≈ 15 dtk):
-1. beat 1–2 (berdiri + menunduk) · 2. beat 3–4 (cari dengan kepala + reveal
-sandal diinjak) · 3. beat 5–6 (jatuhkan + pakai + keluar).
+- "tidak bergerak sama sekali" = instruksi diam -> H3 memangkas gerakan seluruh klip.
+- "mengangkat kaki" tanpa batas -> model bisa mengangkat lutut setinggi pinggang (kejadian nyata
+  di lane eskrim: kaki terangkat seperti senam).
 
-Batasan H3 yang dipegang (docs/02 story-draft):
-- Reveal-nya **satu objek masuk ke frame yang sudah ada** (sandal di kaki), bukan
-  shot baru. Jangan minta kamera memutar ke bawah untuk memperlihatkan kaki —
-  itu gerak besar, model akan cut. Cukup geser kecil menyamping.
-- Maks 1 gerak kamera kecil per segmen; framing ladder maks 1 level per segmen.
+Aturan yang sekarang dipakai:
+
+- **Dia bergerak terus**: berputar sedikit mengikuti arah pandang, mengangkat **tumit** (bukan
+  lutut) sehingga sandal di bawahnya bergeser.
+- **Reveal tanpa gerak kamera besar**: sandal sudah terlihat sejak frame pertama di bawah kaki
+  kirinya; kamera hanya bergeser kecil. Jangan minta kamera memutar ke bawah.
+- **Angkat kaki minimal**: hanya cukup untuk membuat sandal jatuh, lalu telapak kaki digeser masuk.
+- **Tidak ada negasi berulang** (`tidak bergerak sama sekali`).
+- Kamera selalu bergerak: ikut berputar sedikit, turun saat dia menunduk, naik saat keluar pintu.
+
+## Peta beat -> segmen (~2,5 dtk/segmen, 6 segmen = 15 dtk)
+
+1. berdiri di pintu, satu sandal dipakai, satunya di bawah kaki kiri
+2. menunduk, putar kepala kiri, badan ikut berputar
+3. putar kepala kanan, angkat tumit kiri sedikit -> sandal bergeser
+4. menunduk lagi, akhirnya melihat sandal di bawah telapaknya
+5. angkat kaki sedikit, sandal jatuh, geser telapak masuk tanpa membungkuk
+6. buka pintu, jalan keluar dengan muka sama seperti frame pertama
+
+## Batasan H3 yang dipegang
+
+- Satu lokasi, satu take, maks 1 gerak kamera kecil per segmen.
 - Jangan tulis kosakata shot-type (`zoom`, `close-up`, `cut to`).
-- Kontak harus eksplisit: kaki kiri **menekan** sandal, sandal jatuh, kaki masuk
-  ke sandal (aturan "kontak ≠ cut").
-- Gerak kepala (cari kiri-kanan) itu gerak karakter, bukan gerak kamera — dua-duanya
-  jangan dibuat sekaligus dalam satu segmen.
+- Jangan tulis kata freeze.
+- Kontak eksplisit: telapak kaki **menekan** sandal, sandal **jatuh rata**, kaki **masuk** ke sandal.
+- Gerak kepala (cari kiri-kanan) = gerak karakter, bukan gerak kamera - jangan dua-duanya sekaligus.
 
-Opsi potong (kalau harus ≤10 dtk): buang beat 3, langsung dari menunduk ke reveal
-sandal diinjak; payoff tetap di detik ~7.
+## Opsi caption post-produksi (4-7 kata)
 
-Opsi caption post-produksi (4–7 kata, teks di luar frame render):
 1. "sandalnya ada di kakinya sendiri"
 2. "cari: cuma pakai kepala"
-3. "usaha: satu lompatan kecil"
+3. "usaha: satu tumit"
 
-Aset: sandal (dua buah, satu dipakai satu diinjak — geometri jelas biar kebaca
-dari atas), pintu depan, lantai kayu. Semua ref satu geometri kamera dengan take.
+## Aset
 
-Lane produksi: **belum ada** (calon nama: `cha_sirin_sandal_01`).
+`E:\Sanctuary\Cha Sirin Sandal 01\` - world entryway + look cari sandal (POV atas, dua kaki + muka
+dalam satu frame).
