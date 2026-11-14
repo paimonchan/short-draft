@@ -2,38 +2,40 @@
 
 Lane produksi: `cha_sirin_jaket_01`.
 
-## Perubahan draft (2026-11-14, v3)
+## Riwayat revisi draft
 
-Render `00001` menunjukkan masalah baru: **resleting dibuka-tutup berkali-kali**. Urutannya
-tutup (0-4 dtk) -> buka (4-6) -> tutup (6-8) -> buka lebar (8-12) -> tutup lagi (12-15).
-Penyebabnya: prompt v2 menulis tarikan gagal, tarikan cepat, **lalu ditutup lagi** - H3 membaca
-pola itu sebagai siklus berulang, bukan urutan sekali jalan.
+**v1:** Sirin berdiri diam, badan terangkat saat menarik resleting -> minim gerak.
 
-Aturan yang sekarang dipakai:
+**v2:** Dia berjalan sambil menarik. Tapi render `00001` menunjukkan **resleting dibuka-tutup
+berkali-kali** (tutup 0-4s, buka 4-6s, tutup 6-8s, buka lebar 8-12s, tutup lagi 12-15s).
 
-- **Satu arah saja: buka, lalu selesai.** Tidak ada adegan menutup kembali.
-- Tarikan yang gagal ditulis sebagai **tarikan yang tidak menggerakkan zipper**, bukan "buka lalu tutup".
-- Hanya **satu tarikan keras** di payoff (bukan dua kali berturut-turut) supaya tidak jadi loop.
-- Setelah kebuka, jaket **tetap terbuka sampai frame terakhir**; dia shrug dan jalan pergi.
+**v3:** Satu arah saja - buka sekali, jaket dibiarkan terbuka. Freeze hilang (mean motion 7.89,
+low 1%), tapi render `00002` menemukan dua masalah baru:
+
+1. Kepala **menunduk lama** 5-10 dtk, muka tertutup rambut.
+2. Dari POV atas, hoodie **tertutup vs terbuka nyaris tidak beda** - dua-duanya garis hitam,
+   jadi payoff "kebuka" tidak terbaca.
+
+## Aturan final (v4)
+
+- **Satu arah: buka sekali, tidak pernah ditutup.** Jangan tulis siklus buka-tutup.
+- **Muka selalu terangkat ke lensa.** Kalau perlu cek zipper, cukup `chin dip` beberapa senti,
+  jangan tunduk penuh dan jangan sampai rambut menutupi muka.
+- **Hoodie harus kebaca sebagai DUA PANEL**, bukan satu objek hitam:
+  - tertutup = `one narrow black line` dari leher ke pinggang, kerah putih cuma sliver di atas
+  - terbuka = `wide open V` yang memperlihatkan kemeja putih + dasi dari kerah sampai pinggang
+- Payoff = **satu tarikan keras** (bukan dua) supaya tidak jadi loop.
 - Kedua kaki menapak; usaha ditandai condong ke belakang, bukan badan terangkat.
+- Kamera selalu bergerak (ikut jalan -> turun saat berhenti -> naik saat jalan pergi).
 
 ## Peta beat -> segmen (~2,5 dtk/segmen, 6 segmen = 15 dtk)
 
-1. berjalan, tangan sudah di tarikan
-2. tarik pertama gagal sambil jalan, tangan jatuh
-3. berhenti, tarik dua tangan, badan condong ke belakang
-4. menunduk lihat resleting, satu tarikan kuat
-5. resleting kebuka sampai pinggang, dia melirik ke dalam jaketnya
-6. jaket dibiarkan terbuka, shrug, angkat dagu, jalan pergi
-
-## Batasan H3 yang dipegang
-
-- Satu lokasi, satu take, maks 1 gerak kamera kecil per segmen.
-- Jangan tulis kosakata shot-type (`zoom`, `close-up`, `cut to`).
-- Jangan tulis kata freeze (`holds`, `stops`, `stays`, `does not move`).
-- **Jangan tulis siklus buka-tutup** - model akan mengulanginya sepanjang klip.
-- Kontak eksplisit: jari mencengkeram tarikan, kain mengumpul di pinggang, zipper kebuka sampai pinggang.
-- Jaket tidak boleh menutup muka.
+1. berjalan, hoodie tertutup satu garis, tangan di tarikan
+2. tarik pertama gagal sambil jalan
+3. berhenti, tarik dua tangan, badan condong ke belakang, muka tetap ke POV
+4. chin dip sedikit, tatap tarikan, angkat dagu lagi
+5. satu tarikan keras -> dua panel robek terbuka jadi V lebar (kemeja + dasi kelihatan)
+6. jaket dibiarkan menganga, shrug, jalan pergi
 
 ## Opsi caption post-produksi (4-7 kata)
 
@@ -43,5 +45,5 @@ Aturan yang sekarang dipakai:
 
 ## Aset
 
-`E:\Sanctuary\Cha Sirin Jaket 01\` - world ruang tengah + look tarik resleting (POV atas).
-Zero prop baru: jaket zip adalah aset identitas Sirin.
+`E:\Sanctuary\Cha Sirin Jaket 01\` - world ruang tengah + look tarik resleting dengan **hoodie
+terbuka V** (supaya target visual payoff jelas untuk model).

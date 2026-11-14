@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-14 18:54",
+ "generated": "2026-11-14 19:38",
  "repo": "paimonchan/short-draft",
  "count": 17,
  "beats": 97,
- "camera_beats": 37,
- "words": 1192,
+ "camera_beats": 39,
+ "words": 1224,
  "hooks": 3,
  "statuses": {
   "draft": 0,
@@ -208,9 +208,9 @@
     "komedi",
     "jaket"
    ],
-   "logline": "Resleting jaketnya macet; Sirin menarik sambil terus berjalan, berhasil membukanya sekali, lalu membiarkan jaketnya terbuka dan pergi begitu saja.",
+   "logline": "Resleting jaketnya macet; Sirin menarik sambil terus berjalan, berhasil membukanya sekali, lalu membiarkan jaketnya menganga dan pergi begitu saja.",
    "source": "agent (usulan + riset docs/01/02/05 story-draft)",
-   "hook": "Frame 1: dia sudah berjalan dengan tangan kanan mencengkeram tarikan resleting yang macet dan hoodie tertutup rapat sampai leher - pertanyaan: kebuka nggak?",
+   "hook": "Frame 1: dia sudah berjalan dengan hoodie tertutup satu garis hitam dari leher ke pinggang dan tangan kanan di tarikan resleting - pertanyaan: kebuka nggak?",
    "has_hook": true,
    "hook_signals": {
     "frame1": true,
@@ -221,45 +221,45 @@
    "beats": [
     {
      "n": 1,
-     "text": "POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi rug, hoodie zip tertutup rapat sampai leher, tangan kanannya sudah memegang tarikan resleting, ahoge-nya bergoyang tiap langkah",
+     "text": "POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi rug, hoodie zip tertutup rapat dalam satu garis hitam sempit dari leher ke pinggang, kerah putih cuma kelihatan sedikit di atas, tangan kanannya sudah memegang tarikan resleting di dada",
      "camera": true,
-     "words": 30
+     "words": 42
     },
     {
      "n": 2,
-     "text": "sambil tetap berjalan dia menarik resletingnya ke bawah sekali, resletingnya tidak bergerak, tangannya jatuh kembali ke samping badan",
+     "text": "sambil tetap berjalan dia menarik resletingnya ke bawah sekali, kedua panel depan tetap rapat, tangannya jatuh kembali ke samping badan",
      "camera": false,
-     "words": 18
+     "words": 20
     },
     {
      "n": 3,
-     "text": "sirin melambat lalu berhenti dengan kedua kaki menapak, mencoba lagi dengan dua tangan sambil mencondongkan badan ke belakang, kain jaketnya mengumpul di pinggang",
-     "camera": false,
-     "words": 23
+     "text": "sirin melambat lalu berhenti dengan kedua kaki menapak, mencoba lagi dengan dua tangan sambil mencondongkan badan ke belakang, wajahnya tetap terangkat ke arah POV",
+     "camera": true,
+     "words": 24
     },
     {
      "n": 4,
-     "text": "masih dengan kedua kaki menapak, dia menunduk menatap resletingnya sebentar, lalu menariknya sekali dengan kuat",
-     "camera": false,
-     "words": 15
+     "text": "sirin menunduk sedikit saja - hanya beberapa senti - menatap tarikan di tangannya sebentar, lalu mengangkat dagu kembali ke POV sambil berkedip pelan",
+     "camera": true,
+     "words": 23
     },
     {
      "n": 5,
-     "text": "resletingnya kebuka sekaligus sampai pinggang dengan satu bunyi panjang, jaketnya menganga memperlihatkan kemeja putih dan dasi, dia melirik ke dalam jaketnya sendiri",
+     "text": "dia menarik sekali dengan kuat, kedua panel depan jaketnya robek terbuka sampai pinggang dan menganga lebar membentuk V, memperlihatkan kemeja putih dan dasi hitamnya dari kerah sampai pinggang, rambutnya terayun",
      "camera": false,
-     "words": 22
+     "words": 30
     },
     {
      "n": 6,
-     "text": "sirin membiarkan jaketnya tetap terbuka, memberi satu angkat bahu kecil sambil mengangkat dagu ke arah POV, lalu melanjutkan jalannya dengan jaket terbuka dan tangan bebas",
+     "text": "sirin membiarkan jaketnya tetap menganga, memberi satu angkat bahu kecil dengan wajah tetap terangkat ke POV, lalu melanjutkan jalannya dengan kedua panel jaket terayun di sisinya",
      "camera": true,
-     "words": 25
+     "words": 26
     }
    ],
    "beats_count": 6,
-   "camera_beats": 2,
-   "words": 133,
-   "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi rug, hoodie zip tertutup rapat sampai leher, tangan kanannya sudah memegang tarikan resleting, ahoge",
+   "camera_beats": 4,
+   "words": 165,
+   "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi rug, hoodie zip tertutup rapat dalam satu garis hitam sempit dari leher ke pinggang, kerah putih cum",
    "has_notes": true,
    "has_frontmatter": true,
    "ready": 8,
@@ -291,7 +291,7 @@
      "label": "Ada arahan kamera/POV",
      "note": "biar bisa dipetakan jadi shot",
      "ok": true,
-     "value": 2
+     "value": 4
     },
     {
      "id": "setting",
