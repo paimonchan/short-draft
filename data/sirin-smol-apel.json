@@ -32,45 +32,45 @@
  "beats": [
   {
    "n": 1,
-   "text": "POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu dengan kantung belanjaan dipegang rendah di samping kirinya, dan satu apel merah sudah menggelinding setengah langkah di depan sepatu kanannya; muka bodohnya dan malas, ahoge-nya lurus",
+   "text": "POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, lengan kanannya mengayun bebas, kantung belanjaan di tangan kiri dipegang rendah dan ikut mengayun, satu apel merah menggelinding setengah langkah di depan sepatu kanannya; muka bodohnya malas, ahoge-nya lurus",
    "camera": true,
-   "words": 45
+   "words": 48
   },
   {
    "n": 2,
-   "text": "apelnya kehilangan kecepatan dan goyah di sela papan; sirin tidak mengubah irama jalannya - dia terus melangkah heel, toe, heel, toe sambil menutup jarak, dagunya turun beberapa senti saja supaya matanya jatuh ke apel, muka tetap terbuka ke POV",
-   "camera": true,
-   "words": 39
+   "text": "apelnya kehilangan kecepatan dan goyah di sela papan; sirin tidak mengubah irama jalannya - dia terus melangkah heel, toe, heel, toe sambil menutup jarak, kedua lengannya mengayun, dagunya turun beberapa senti saja supaya matanya jatuh ke apel",
+   "camera": false,
+   "words": 37
   },
   {
    "n": 3,
-   "text": "masih sambil berjalan, dia mengayunkan ujung sepatu kanannya ke depan dan menyambar apelnya di tengah langkah, apelnya melesat pergi dua langkah lalu berhenti; kaki kanannya mendarat rata, kaki kirinya terangkat dan mendarat lagi, iramanya tidak melambat",
+   "text": "masih sambil berjalan, dia mengayunkan ujung sepatu kanannya ke depan dan menyambar apelnya di tengah langkah, apelnya melesat pergi dua langkah lalu berhenti; kaki kanannya mendarat, kaki kirinya terangkat dan mendarat lagi, iramanya tidak melambat, kedua lengannya mengayun lebar",
    "camera": false,
-   "words": 36
-  },
-  {
-   "n": 4,
-   "text": "apelnya bergeser sedikit ke kanan dan melambat; tanpa memutus langkah sirin mengambil satu langkah kecil menyamping ke kiri lalu satu langkah maju, jadi dia melewati apelnya tepat di samping pinggangnya; matanya turun sebentar, rambutnya terayun, mukanya balik ke POV",
-   "camera": true,
    "words": 39
   },
   {
-   "n": 5,
-   "text": "sirin terus berjalan dengan irama yang sama, lalu menoleh ke belakang lewat bahu kanannya untuk melihat apel yang tertinggal di lantai - rambutnya menyapu bahu, satu kedipan pelan - lalu mukanya balik ke POV dengan mulut garis datar, langkahnya tidak pernah goyah",
+   "n": 4,
+   "text": "apelnya bergeser sedikit ke kanan; tanpa memutus langkah sirin mengambil satu langkah kecil menyamping lalu satu langkah maju, seluruh badannya ikut berputar sedikit, jadi dia melewati apelnya tepat di samping pinggangnya; matanya turun sebentar, rambutnya terayun, mukanya balik ke POV",
    "camera": true,
-   "words": 42
+   "words": 40
+  },
+  {
+   "n": 5,
+   "text": "sirin terus berjalan dengan irama yang sama, lalu menoleh ke belakang lewat bahu kanannya untuk melihat apel yang tertinggal di lantai - rambutnya menyapu bahu, satu kedipan pelan - lalu mukanya balik ke POV, langkahnya tidak pernah goyah, lengannya tetap mengayun",
+   "camera": true,
+   "words": 41
   },
   {
    "n": 6,
-   "text": "dagunya terangkat ke POV, dia memberi satu angkat bahu kecil yang membuat ahoge-nya memantul, lalu meneruskan jalannya dengan langkah dan muka yang persis sama seperti frame pertama; apelnya tertinggal di lantai di belakangnya",
+   "text": "dagunya terangkat ke POV, dia memberi satu angkat bahu kecil di antara dua langkah yang membuat ahoge-nya memantul, lalu meneruskan jalannya dengan langkah dan muka yang persis sama seperti frame pertama; apelnya tertinggal di lantai di belakangnya, kamera terus bergerak mundur mengikutinya sampai frame terakhir",
    "camera": true,
-   "words": 33
+   "words": 45
   }
  ],
  "beats_count": 6,
- "camera_beats": 5,
- "words": 234,
- "preview": "POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu dengan kantung belanjaan dipegang rendah di samping kirinya, dan sa",
+ "camera_beats": 4,
+ "words": 250,
+ "preview": "POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, lengan kanannya mengayun bebas, kantung belanjaan di tangan kiri d",
  "has_notes": true,
  "has_frontmatter": true,
  "ready": 8,
@@ -102,7 +102,7 @@
    "label": "Ada arahan kamera/POV",
    "note": "biar bisa dipetakan jadi shot",
    "ok": true,
-   "value": 5
+   "value": 4
   },
   {
    "id": "setting",
@@ -138,5 +138,5 @@
  "data": "data/sirin-smol-apel.json",
  "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-apel/draft.md",
  "notes": "# Catatan produksi - Sirin smol and apel\n\nLane produksi: **`cha_sirin_apel_01`** — template siap (2026-11-15).\n\nDraft ini ditulis pakai `docs/aturan-produksi.md` (aturan hasil rombak eskrim v4 / jaket v5 / sandal v3).\n\n## Hook (frame 1)\n\nTangan kirinya sudah memegang kantung belanjaan **rendah di samping badan** (aturan yang sama\ndipakai di es krim: prop yang dipegang rendah tetap kebaca dari POV atas), dan apelnya **sudah**\nmenggelinding di lantai dua langkah di depan kakinya. Pertanyaannya visual: dia berhenti buat\nambil, nggak? Jawabannya baru di beat 5: tidak.\n\n## Running gag (3 kemunculan)\n\nApel yang kabur: (1) menggelinding di depan kakinya sejak frame pertama, (2) didorong sekali lalu\nmenggelinding lagi, (3) ditinggal di lantai sampai dia keluar dari frame.\n\n## Button\n\nSetelah dua kali gagal \"menangkap\", dia tidak mengambil apelnya sama sekali - cuma angkat bahu\nkecil lalu lanjut jalan dengan muka dan langkah yang sama seperti frame pertama.\n\n## Peta beat -> segmen (~2,5 dtk/segmen, 6 segmen = 15 dtk)\n\n1. beat 1 - berjalan, apel menggelinding di depan (kamera ikut jalan)\n2. beat 2 - apel berhenti, dia ikut berhenti, kaki menapak, chin dip\n3. beat 3 - dorongan pertama dengan ujung kaki, apel jalan lagi\n4. beat 4 - apel berhenti lagi, dia menatap; kamera turun sedikit\n5. beat 5 - dia mendekat dua langkah, tetap tidak mengambil\n6. beat 6 - dagu terangkat, angkat bahu, lanjut jalan; kamera naik lagi\n\n## Aturan yang dipegang\n\n- **Objek kebaca dari POV atas**: apelnya ada di lantai **di depan** kakinya, bukan di bawah\n  badan - jadi kebaca sejak frame pertama sampai akhir.\n- **Tanpa aksi mulut**: apel tidak digigit, tidak dijilat, tidak diangkat ke muka.\n- **Tanpa instruksi diam**: dia berjalan hampir sepanjang klip; saat berhenti pun tetap\n  berdiri, bukan freeze.\n- **Kaki menapak**, dan satu-satunya gerak kaki adalah dorongan ujung kaki kanan (minim, sama\n  seperti goyangan kaki di draft sandal).\n- **Muka tetap ke lensa**: untuk melihat apelnya cukup chin dip beberapa senti, tidak menunduk\n  penuh.\n- **Satu arah, payoff sekali**: satu dorongan, bukan tendangan berkali-kali.\n- **Kamera selalu bergerak**: ikut jalan -> turun saat dia berhenti -> naik lagi saat lanjut.\n- Jangan tulis negasi berulang dan jangan tulis kosakata shot-type.\n\n## Batasan H3 yang dipegang\n\nSatu lokasi, satu take kontinu, maks 1 gerak kamera kecil per segmen. Kontak eksplisit: ujung\nkaki kanan **mendorong** apel, apel **menggelinding** dan **berhenti**.\n\n## Opsi potong (kalau harus <=10 dtk)\n\nBuang beat 4, langsung dari dorongan pertama ke dia mendekat dan tidak mengambil apelnya.\n\n## Opsi caption post-produksi (4-7 kata)\n\n1. \"apelnya jalan sendiri\"\n2. \"ditendang, ditinggal\"\n3. \"usaha: dua langkah\"\n\n## Aset\n\nWorld ruang tengah + lantai kayu polos, kantung belanjaan, satu apel. Semua ref satu geometri\nkamera dengan take (POV atas ~50 derajat).\n\n## Risiko / belum terbukti\n\n- Apel menggelinding itu bola kecil yang bergerak: kalau model bikin apelnya berhenti-mulai\n  sendiri atau berubah bentuk, ganti jadi benda **kotak** (mis. kardus kecil) supaya geraknya\n  lebih mudah dibaca - tapi jangan taruh di bawah badan.\n- Kantung belanjaan tidak boleh dibesarkan: kalau menutupi badannya dari atas, dia kalah kebaca\n  dan seluruh hook-nya hilang.\n\n## Status produksi (2026-11-15)\n\nLane `cha_sirin_apel_01` sudah dibuild di repo produksi: **5 template** (turbo 8-step + nolora\n20-step + pika8 PikaFlex 8-step HD + refine HD + audiorefine), prompt NOBGM **12.726** char,\n544x960 / 15 dtk / NO-BGM, model Singularity V1.3 int8 + video VAE int8.\n\n**Geometri kamera (keputusan penting):** render `eskrim` `00005` membuktikan kameranya ada **DI\nDEPAN** dia (muka selalu terlihat, lantai depan kaki di bawah frame) — bukan di belakang seperti\nyang ditulis lane lama. Jadi take ini ditulis eksplisit: *\"the camera is a taller person drifting\nBACKWARDS in front of her, tilted down at roughly fifty degrees\"*, dan semua arah ditulis relatif\nke tubuhnya: apel menggelinding **di depan sepatu kanan**, paper bag dipegang **rendah di samping\npaha kiri**.\n\n**Kenapa paper bag:** prop yang dipegang rendah tetap kebaca dari POV atas (aturan yang sama\ndengan es krim), tapi tidak boleh besar — kalau menutupi badan, hook-nya hilang.\n\n**Belum dirender.**",
- "raw": "---\ntitle: \"Sirin smol and apel\"\nstatus: \"ongoing\"\ndate: \"2026-11-15\"\nupdated: \"2026-11-15\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_apel_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (ruang tengah, lantai kayu)\"\nlogline: \"Apelnya menggelinding di depan sepatunya; Sirin tidak pernah berhenti berjalan - dia menyambar apelnya dengan ujung sepatu di tengah langkah, melewatinya dengan satu langkah menyamping, lalu menoleh ke belakang sekali dan melanjutkan jalannya.\"\nhook: \"Frame 1: dia berjalan dengan kantung belanjaan dipegang rendah di samping badannya, dan satu apel sudah menggelinding di lantai dua langkah di depan kakinya - pertanyaan: dia berhenti buat ambil, nggak?\"\nsource: \"agent (aturan: docs/aturan-produksi.md)\"\nduration: 15\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, apel]\n---\n\n- POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu dengan kantung belanjaan dipegang rendah di samping kirinya, dan satu apel merah sudah menggelinding setengah langkah di depan sepatu kanannya; muka bodohnya dan malas, ahoge-nya lurus\n- apelnya kehilangan kecepatan dan goyah di sela papan; sirin tidak mengubah irama jalannya - dia terus melangkah heel, toe, heel, toe sambil menutup jarak, dagunya turun beberapa senti saja supaya matanya jatuh ke apel, muka tetap terbuka ke POV\n- masih sambil berjalan, dia mengayunkan ujung sepatu kanannya ke depan dan menyambar apelnya di tengah langkah, apelnya melesat pergi dua langkah lalu berhenti; kaki kanannya mendarat rata, kaki kirinya terangkat dan mendarat lagi, iramanya tidak melambat\n- apelnya bergeser sedikit ke kanan dan melambat; tanpa memutus langkah sirin mengambil satu langkah kecil menyamping ke kiri lalu satu langkah maju, jadi dia melewati apelnya tepat di samping pinggangnya; matanya turun sebentar, rambutnya terayun, mukanya balik ke POV\n- sirin terus berjalan dengan irama yang sama, lalu menoleh ke belakang lewat bahu kanannya untuk melihat apel yang tertinggal di lantai - rambutnya menyapu bahu, satu kedipan pelan - lalu mukanya balik ke POV dengan mulut garis datar, langkahnya tidak pernah goyah\n- dagunya terangkat ke POV, dia memberi satu angkat bahu kecil yang membuat ahoge-nya memantul, lalu meneruskan jalannya dengan langkah dan muka yang persis sama seperti frame pertama; apelnya tertinggal di lantai di belakangnya\n"
+ "raw": "---\ntitle: \"Sirin smol and apel\"\nstatus: \"ongoing\"\ndate: \"2026-11-15\"\nupdated: \"2026-11-15\"\nseries: \"Cha Sirin smol\"\nlane: \"cha_sirin_apel_01\"\nformat: \"9:16\"\nsetting: \"Rumah Sirin (ruang tengah, lantai kayu)\"\nlogline: \"Apelnya menggelinding di depan sepatunya; Sirin tidak pernah berhenti berjalan - dia menyambar apelnya dengan ujung sepatu di tengah langkah, melewatinya dengan satu langkah menyamping, lalu menoleh ke belakang sekali dan melanjutkan jalannya.\"\nhook: \"Frame 1: dia berjalan dengan kantung belanjaan dipegang rendah di samping badannya, dan satu apel sudah menggelinding di lantai dua langkah di depan kakinya - pertanyaan: dia berhenti buat ambil, nggak?\"\nsource: \"agent (aturan: docs/aturan-produksi.md)\"\nduration: 15\ncharacters: [Cha Sirin]\ntags: [sirin, smol, komedi, apel]\n---\n\n- POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, lengan kanannya mengayun bebas, kantung belanjaan di tangan kiri dipegang rendah dan ikut mengayun, satu apel merah menggelinding setengah langkah di depan sepatu kanannya; muka bodohnya malas, ahoge-nya lurus\n- apelnya kehilangan kecepatan dan goyah di sela papan; sirin tidak mengubah irama jalannya - dia terus melangkah heel, toe, heel, toe sambil menutup jarak, kedua lengannya mengayun, dagunya turun beberapa senti saja supaya matanya jatuh ke apel\n- masih sambil berjalan, dia mengayunkan ujung sepatu kanannya ke depan dan menyambar apelnya di tengah langkah, apelnya melesat pergi dua langkah lalu berhenti; kaki kanannya mendarat, kaki kirinya terangkat dan mendarat lagi, iramanya tidak melambat, kedua lengannya mengayun lebar\n- apelnya bergeser sedikit ke kanan; tanpa memutus langkah sirin mengambil satu langkah kecil menyamping lalu satu langkah maju, seluruh badannya ikut berputar sedikit, jadi dia melewati apelnya tepat di samping pinggangnya; matanya turun sebentar, rambutnya terayun, mukanya balik ke POV\n- sirin terus berjalan dengan irama yang sama, lalu menoleh ke belakang lewat bahu kanannya untuk melihat apel yang tertinggal di lantai - rambutnya menyapu bahu, satu kedipan pelan - lalu mukanya balik ke POV, langkahnya tidak pernah goyah, lengannya tetap mengayun\n- dagunya terangkat ke POV, dia memberi satu angkat bahu kecil di antara dua langkah yang membuat ahoge-nya memantul, lalu meneruskan jalannya dengan langkah dan muka yang persis sama seperti frame pertama; apelnya tertinggal di lantai di belakangnya, kamera terus bergerak mundur mengikutinya sampai frame terakhir\n"
 }

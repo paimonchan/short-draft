@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-15 11:47",
+ "generated": "2026-11-15 12:10",
  "repo": "paimonchan/short-draft",
  "count": 19,
  "beats": 109,
- "camera_beats": 49,
- "words": 1667,
+ "camera_beats": 48,
+ "words": 1711,
  "hooks": 5,
  "statuses": {
   "draft": 0,
@@ -83,45 +83,45 @@
    "beats": [
     {
      "n": 1,
-     "text": "POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu dengan kantung belanjaan dipegang rendah di samping kirinya, dan satu apel merah sudah menggelinding setengah langkah di depan sepatu kanannya; muka bodohnya dan malas, ahoge-nya lurus",
+     "text": "POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, lengan kanannya mengayun bebas, kantung belanjaan di tangan kiri dipegang rendah dan ikut mengayun, satu apel merah menggelinding setengah langkah di depan sepatu kanannya; muka bodohnya malas, ahoge-nya lurus",
      "camera": true,
-     "words": 45
+     "words": 48
     },
     {
      "n": 2,
-     "text": "apelnya kehilangan kecepatan dan goyah di sela papan; sirin tidak mengubah irama jalannya - dia terus melangkah heel, toe, heel, toe sambil menutup jarak, dagunya turun beberapa senti saja supaya matanya jatuh ke apel, muka tetap terbuka ke POV",
-     "camera": true,
-     "words": 39
+     "text": "apelnya kehilangan kecepatan dan goyah di sela papan; sirin tidak mengubah irama jalannya - dia terus melangkah heel, toe, heel, toe sambil menutup jarak, kedua lengannya mengayun, dagunya turun beberapa senti saja supaya matanya jatuh ke apel",
+     "camera": false,
+     "words": 37
     },
     {
      "n": 3,
-     "text": "masih sambil berjalan, dia mengayunkan ujung sepatu kanannya ke depan dan menyambar apelnya di tengah langkah, apelnya melesat pergi dua langkah lalu berhenti; kaki kanannya mendarat rata, kaki kirinya terangkat dan mendarat lagi, iramanya tidak melambat",
+     "text": "masih sambil berjalan, dia mengayunkan ujung sepatu kanannya ke depan dan menyambar apelnya di tengah langkah, apelnya melesat pergi dua langkah lalu berhenti; kaki kanannya mendarat, kaki kirinya terangkat dan mendarat lagi, iramanya tidak melambat, kedua lengannya mengayun lebar",
      "camera": false,
-     "words": 36
-    },
-    {
-     "n": 4,
-     "text": "apelnya bergeser sedikit ke kanan dan melambat; tanpa memutus langkah sirin mengambil satu langkah kecil menyamping ke kiri lalu satu langkah maju, jadi dia melewati apelnya tepat di samping pinggangnya; matanya turun sebentar, rambutnya terayun, mukanya balik ke POV",
-     "camera": true,
      "words": 39
     },
     {
-     "n": 5,
-     "text": "sirin terus berjalan dengan irama yang sama, lalu menoleh ke belakang lewat bahu kanannya untuk melihat apel yang tertinggal di lantai - rambutnya menyapu bahu, satu kedipan pelan - lalu mukanya balik ke POV dengan mulut garis datar, langkahnya tidak pernah goyah",
+     "n": 4,
+     "text": "apelnya bergeser sedikit ke kanan; tanpa memutus langkah sirin mengambil satu langkah kecil menyamping lalu satu langkah maju, seluruh badannya ikut berputar sedikit, jadi dia melewati apelnya tepat di samping pinggangnya; matanya turun sebentar, rambutnya terayun, mukanya balik ke POV",
      "camera": true,
-     "words": 42
+     "words": 40
+    },
+    {
+     "n": 5,
+     "text": "sirin terus berjalan dengan irama yang sama, lalu menoleh ke belakang lewat bahu kanannya untuk melihat apel yang tertinggal di lantai - rambutnya menyapu bahu, satu kedipan pelan - lalu mukanya balik ke POV, langkahnya tidak pernah goyah, lengannya tetap mengayun",
+     "camera": true,
+     "words": 41
     },
     {
      "n": 6,
-     "text": "dagunya terangkat ke POV, dia memberi satu angkat bahu kecil yang membuat ahoge-nya memantul, lalu meneruskan jalannya dengan langkah dan muka yang persis sama seperti frame pertama; apelnya tertinggal di lantai di belakangnya",
+     "text": "dagunya terangkat ke POV, dia memberi satu angkat bahu kecil di antara dua langkah yang membuat ahoge-nya memantul, lalu meneruskan jalannya dengan langkah dan muka yang persis sama seperti frame pertama; apelnya tertinggal di lantai di belakangnya, kamera terus bergerak mundur mengikutinya sampai frame terakhir",
      "camera": true,
-     "words": 33
+     "words": 45
     }
    ],
    "beats_count": 6,
-   "camera_beats": 5,
-   "words": 234,
-   "preview": "POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu dengan kantung belanjaan dipegang rendah di samping kirinya, dan sa",
+   "camera_beats": 4,
+   "words": 250,
+   "preview": "POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, lengan kanannya mengayun bebas, kantung belanjaan di tangan kiri d",
    "has_notes": true,
    "has_frontmatter": true,
    "ready": 8,
@@ -153,7 +153,7 @@
      "label": "Ada arahan kamera/POV",
      "note": "biar bisa dipetakan jadi shot",
      "ok": true,
-     "value": 5
+     "value": 4
     },
     {
      "id": "setting",
@@ -223,45 +223,45 @@
    "beats": [
     {
      "n": 1,
-     "text": "POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, gulungan tisu dipegang rendah di samping badannya, dan strip tisunya sudah menyeret di lantai satu langkah di belakang tumitnya, memanjang sejengkal tiap langkah",
+     "text": "POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, lengan kanannya mengayun bebas, gulungan tisu di tangan kiri dipegang rendah dan ikut mengayun, strip tisunya sudah menyeret di lantai satu langkah di belakang tumitnya dan memanjang sejengkal tiap langkah",
      "camera": true,
-     "words": 42
+     "words": 49
     },
     {
      "n": 2,
-     "text": "sirin tetap berjalan dengan langkah yang sama dan stripnya makin panjang, lalu dia melirik ke belakang lewat bahu kirinya sekali, rambutnya menyapu punggung, lalu mukanya balik ke POV tanpa mengubah irama",
+     "text": "sirin tetap berjalan dengan langkah yang sama sambil menoleh ke belakang lewat bahu kirinya untuk melirik stripnya, rambutnya menyapu punggung lalu kembali ke bahunya, dan mukanya balik ke POV tanpa mengubah irama; lengannya tetap mengayun",
      "camera": true,
-     "words": 31
+     "words": 35
     },
     {
      "n": 3,
-     "text": "dia melirik ke belakang sekali lagi dan kali ini matanya jatuh ke stripnya, dagunya turun beberapa senti, satu alis terangkat sedikit saat dia sadar betapa panjang ekornya",
+     "text": "dia melirik ke belakang sekali lagi dan kali ini matanya jatuh ke stripnya, dagunya turun beberapa senti, satu alis terangkat sedikit saat dia sadar betapa panjang ekornya; dia tetap melangkah heel, toe, heel, toe sepanjang lirikan itu",
      "camera": false,
-     "words": 27
+     "words": 37
     },
     {
      "n": 4,
-     "text": "sirin memutar seluruh badannya setengah ke belakang lewat dua langkah kecil (bukan berputar di tempat), mukanya tiga per empat, rambutnya terayun, ujung stripnya masih jauh di belakang di lantai",
+     "text": "sirin menapakkan satu langkah lalu memutar seluruh badannya setengah ke belakang di atas langkah itu (tanpa berhenti dulu), rambutnya terayun, tangannya ikut berputar membawa gulungannya; tanpa jeda dia menarik stripnya sekali dengan kuat sampai putus, dan hentakan baliknya mendorong badannya satu langkah kecil ke belakang",
      "camera": true,
-     "words": 29
+     "words": 45
     },
     {
      "n": 5,
-     "text": "dia menarik stripnya sekali dengan kuat, stripnya putus dengan bunyi kecil, badan sirin terdorong satu langkah ke belakang dan gulungannya berputar sekali di tangannya lalu berhenti dengan ujung robek pendek menggantung",
+     "text": "sirin memutar badannya balik ke depan lewat dua langkah kecil, dagunya terangkat ke POV, memberi satu angkat bahu kecil, dan ujung robek pendek di gulungannya ikut bergoyang",
      "camera": true,
-     "words": 31
+     "words": 27
     },
     {
      "n": 6,
-     "text": "sirin memutar badannya balik ke depan lewat dua langkah kecil, dagunya terangkat ke POV, memberi satu angkat bahu kecil, lalu melanjutkan jalannya dengan langkah dan muka yang persis sama seperti frame pertama; strip yang putus tetap rata di lantai di belakangnya",
+     "text": "dia meneruskan jalannya dengan langkah dan muka yang persis sama seperti frame pertama, lengan kanannya mengayun lagi, sementara strip yang putus tetap rata di lantai di belakangnya dan kamera terus bergerak mundur mengikutinya sampai frame terakhir",
      "camera": true,
-     "words": 41
+     "words": 36
     }
    ],
    "beats_count": 6,
    "camera_beats": 5,
-   "words": 201,
-   "preview": "POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, gulungan tisu dipegang rendah di samping badannya, dan strip tisun",
+   "words": 229,
+   "preview": "POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, lengan kanannya mengayun bebas, gulungan tisu di tangan kiri dipeg",
    "has_notes": true,
    "has_frontmatter": true,
    "ready": 8,

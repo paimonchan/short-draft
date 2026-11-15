@@ -64,15 +64,43 @@ memutar **pergelangan kaki** sekali. Untuk mencari, dia **memutar badan**, bukan
 Jaket versi v3 menunduk 5-10 detik dan mukanya ketutup rambut. Kalau perlu cek objek, cukup
 `chin dip` beberapa senti, lalu dagu **terangkat** kembali ke POV.
 
-## 8. Kaki menapak sepanjang take
+## 8. Kaki berjalan, bukan dipaku (REVISI 2026-11-15)
 
-Tidak ada angkat kaki, tidak ada jongkok, tidak ada membungkuk. Berat badan tetap di kedua kaki.
+> **Versi lama (sudah tidak dipakai):** *"Kaki menapak sepanjang take. Tidak ada angkat kaki, tidak ada
+> jongkok, tidak ada membungkuk. Berat badan tetap di kedua kaki."*
 
-## 9. Kamera selalu bergerak
+Aturan itu ditulis untuk membunuh bug *"angkat lutut setinggi pinggang seperti senam"* — tapi sasarannya
+kelewat luas. Dia ikut membunuh **langkah, putaran badan, langkah menyamping, dan sepakan**. Hasilnya:
+`apel` v1 menulis `both feet planted` di **tiga beat berturut-turut**, dan render-nya keluar dengan dia
+**berdiri diam 7,4 detik** (2,4s → 9,8s). Itu terasa sebagai freeze parah.
 
-Ikut jalan pada segmen pertama → **turun sedikit** saat dia berhenti → **naik lagi** saat dia
-melanjutkan jalan. Tidak ada frame statis, tapi tetap maksimal **1 gerak kamera kecil per
-segmen** (gerak besar bikin model cut).
+**Versi baru:** kaki **dipakai** untuk berjalan, melangkah menyamping, memutar badan, dan menyepak ringan.
+Yang tetap dilarang cuma tiga: **mengangkat kaki sampai setinggi lutut/pinggang** (bug senam), **jongkok
+dalam**, dan **membungkuk sampai kepala di bawah pinggang**.
+
+## 9. Kamera bergerak — besar drift BUKAN penyebab cut (REVISI 2026-11-15)
+
+> **Versi lama (sudah tidak dipakai):** *"maksimal 1 gerak kamera kecil per segmen (gerak besar bikin model cut)"*.
+
+Itu salah kaprah. Yang bikin "cut" adalah **lompatan** — pindah posisi mendadak, `zoom`, `cut to`. Bukan
+**besarnya** drift. Buktinya dari render sendiri (pergeseran background per frame, skala 136×240):
+
+| Clip | drift kamera | parity | cut? |
+|---|---|---|---|
+| `bike` | **20,9** | 1,01 | tidak |
+| `pigeon` | **11,2** | 1,01 | tidak |
+| `sand` | **10,1** | 1,00 | tidak |
+| `ghost` | **8,7** | 1.10 | tidak |
+| `apel` v1 | **2,9** | 1,16 | — tapi **freeze** |
+| `tisu` v1 | **3,8** | 1,72 | — dan **freeze** |
+
+Jadi lane yang kameranya **paling jauh bergerak** justru yang **paling tidak** terasa cut. Sebaliknya dua
+lane yang kameranya "sopan" (2,9 / 3,8) yang dikeluhkan freeze.
+
+**Versi baru:** kamera boleh **drift jauh** — maju, mundur, naik, turun, geser — asalkan **kontinu**: satu
+gerak fisik yang mengalir, tanpa lompatan. Minimal **satu gerak kamera nyata per segmen**. Dilarang menulis
+kalimat seperti *"holds its closer angle, drifting only softly"* — itu bukan kamera bergerak, itu kamera
+parkir.
 
 ## 10. Bahasa draft
 

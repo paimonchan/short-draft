@@ -15,9 +15,9 @@ characters: [Cha Sirin]
 tags: [sirin, smol, komedi, tisu]
 ---
 
-- POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, gulungan tisu dipegang rendah di samping badannya, dan strip tisunya sudah menyeret di lantai satu langkah di belakang tumitnya, memanjang sejengkal tiap langkah
-- sirin tetap berjalan dengan langkah yang sama dan stripnya makin panjang, lalu dia melirik ke belakang lewat bahu kirinya sekali, rambutnya menyapu punggung, lalu mukanya balik ke POV tanpa mengubah irama
-- dia melirik ke belakang sekali lagi dan kali ini matanya jatuh ke stripnya, dagunya turun beberapa senti, satu alis terangkat sedikit saat dia sadar betapa panjang ekornya
-- sirin memutar seluruh badannya setengah ke belakang lewat dua langkah kecil (bukan berputar di tempat), mukanya tiga per empat, rambutnya terayun, ujung stripnya masih jauh di belakang di lantai
-- dia menarik stripnya sekali dengan kuat, stripnya putus dengan bunyi kecil, badan sirin terdorong satu langkah ke belakang dan gulungannya berputar sekali di tangannya lalu berhenti dengan ujung robek pendek menggantung
-- sirin memutar badannya balik ke depan lewat dua langkah kecil, dagunya terangkat ke POV, memberi satu angkat bahu kecil, lalu melanjutkan jalannya dengan langkah dan muka yang persis sama seperti frame pertama; strip yang putus tetap rata di lantai di belakangnya
+- POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, lengan kanannya mengayun bebas, gulungan tisu di tangan kiri dipegang rendah dan ikut mengayun, strip tisunya sudah menyeret di lantai satu langkah di belakang tumitnya dan memanjang sejengkal tiap langkah
+- sirin tetap berjalan dengan langkah yang sama sambil menoleh ke belakang lewat bahu kirinya untuk melirik stripnya, rambutnya menyapu punggung lalu kembali ke bahunya, dan mukanya balik ke POV tanpa mengubah irama; lengannya tetap mengayun
+- dia melirik ke belakang sekali lagi dan kali ini matanya jatuh ke stripnya, dagunya turun beberapa senti, satu alis terangkat sedikit saat dia sadar betapa panjang ekornya; dia tetap melangkah heel, toe, heel, toe sepanjang lirikan itu
+- sirin menapakkan satu langkah lalu memutar seluruh badannya setengah ke belakang di atas langkah itu (tanpa berhenti dulu), rambutnya terayun, tangannya ikut berputar membawa gulungannya; tanpa jeda dia menarik stripnya sekali dengan kuat sampai putus, dan hentakan baliknya mendorong badannya satu langkah kecil ke belakang
+- sirin memutar badannya balik ke depan lewat dua langkah kecil, dagunya terangkat ke POV, memberi satu angkat bahu kecil, dan ujung robek pendek di gulungannya ikut bergoyang
+- dia meneruskan jalannya dengan langkah dan muka yang persis sama seperti frame pertama, lengan kanannya mengayun lagi, sementara strip yang putus tetap rata di lantai di belakangnya dan kamera terus bergerak mundur mengikutinya sampai frame terakhir
