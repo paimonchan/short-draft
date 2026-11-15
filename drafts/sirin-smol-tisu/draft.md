@@ -7,7 +7,7 @@ series: "Cha Sirin smol"
 lane: "cha_sirin_tisu_01"
 format: "9:16"
 setting: "Rumah Sirin (ruang tengah, lantai kayu)"
-logline: "Strip tisunya menyeret di lantai selama dia berjalan; Sirin berhenti, memutar badan, menariknya sekali sampai putus, lalu meninggalkan stripnya di lantai."
+logline: "Stripping tisu di gulungannya menyeret di lantai selama dia berjalan; Sirin melirik ke belakang dua kali sambil tetap jalan, lalu berhenti sebentar untuk memutar badan dan menariknya sekali sampai putus, kemudian melanjutkan jalan dengan ujung robek menggantung di gulungannya."
 hook: "Frame 1: dia berjalan dengan gulungan tisu dipegang rendah di samping badannya, dan strip tisunya sudah menyeret di lantai satu langkah di belakang kakinya - pertanyaan: sadar nggak?"
 source: "agent (aturan: docs/aturan-produksi.md)"
 duration: 15
@@ -15,9 +15,9 @@ characters: [Cha Sirin]
 tags: [sirin, smol, komedi, tisu]
 ---
 
-- POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, gulungan tisu dipegang rendah di samping badannya, dan satu strip tisunya sudah menyeret di lantai satu langkah di belakang kakinya; muka bodohnya dan malas, ahoge-nya lurus
-- sirin terus berjalan dengan langkah yang sama dan strip tisunya makin panjang menyeret di lantai, kepalanya tetap mengarah ke POV
-- sirin melambat dan berhenti dengan kedua kaki menapak, lalu memutar badannya setengah ke belakang untuk melihat strip tisu di lantainya
-- kamera bergeser sedikit mengikuti putaran badannya; sirin menunduk hanya beberapa senti menatap strip tisu yang menyeret di lantai, gulungan tisunya tetap di tangan kirinya
-- sirin menarik strip tisunya sekali dengan kuat, stripnya putus di tangannya dan jatuh rata ke lantai, gulungan tisunya tetap menggantung di tangan kirinya
-- kamera naik lagi saat sirin memutar badannya kembali ke depan POV, memberi satu angkat bahu kecil, lalu melanjutkan jalannya dengan langkah dan muka yang persis sama seperti frame pertama, strip tisu yang putus tetap tinggal di lantai
+- POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, gulungan tisu dipegang rendah di samping badannya, dan strip tisunya sudah menyeret di lantai satu langkah di belakang tumitnya, memanjang sejengkal tiap langkah
+- sirin tetap berjalan dengan langkah yang sama dan stripnya makin panjang, lalu dia melirik ke belakang lewat bahu kirinya sekali, rambutnya menyapu punggung, lalu mukanya balik ke POV tanpa mengubah irama
+- dia melirik ke belakang sekali lagi dan kali ini matanya jatuh ke stripnya, dagunya turun beberapa senti, satu alis terangkat sedikit saat dia sadar betapa panjang ekornya
+- sirin memutar seluruh badannya setengah ke belakang lewat dua langkah kecil (bukan berputar di tempat), mukanya tiga per empat, rambutnya terayun, ujung stripnya masih jauh di belakang di lantai
+- dia menarik stripnya sekali dengan kuat, stripnya putus dengan bunyi kecil, badan sirin terdorong satu langkah ke belakang dan gulungannya berputar sekali di tangannya lalu berhenti dengan ujung robek pendek menggantung
+- sirin memutar badannya balik ke depan lewat dua langkah kecil, dagunya terangkat ke POV, memberi satu angkat bahu kecil, lalu melanjutkan jalannya dengan langkah dan muka yang persis sama seperti frame pertama; strip yang putus tetap rata di lantai di belakangnya
