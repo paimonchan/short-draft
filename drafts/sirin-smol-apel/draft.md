@@ -1,9 +1,10 @@
 ---
 title: "Sirin smol and apel"
-status: "draft"
+status: "ongoing"
 date: "2026-11-15"
 updated: "2026-11-15"
 series: "Cha Sirin smol"
+lane: "cha_sirin_apel_01"
 format: "9:16"
 setting: "Rumah Sirin (ruang tengah, lantai kayu)"
 logline: "Apelnya menggelinding di depan kakinya; Sirin berhenti, mendorongnya sekali dengan ujung kaki, lalu membiarkannya di lantai dan lanjut jalan."

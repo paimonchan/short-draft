@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15 10:36",
+ "generated": "2026-11-15 09:51",
  "repo": "paimonchan/short-draft",
  "count": 19,
  "beats": 109,
@@ -7,8 +7,8 @@
  "words": 1556,
  "hooks": 5,
  "statuses": {
-  "draft": 2,
-  "ongoing": 0,
+  "draft": 0,
+  "ongoing": 2,
   "done": 17
  },
  "status_order": [
@@ -52,12 +52,12 @@
   {
    "slug": "sirin-smol-apel",
    "title": "Sirin smol and apel",
-   "status": "draft",
-   "status_raw": "draft",
+   "status": "ongoing",
+   "status_raw": "ongoing",
    "date": "2026-11-15",
    "updated": "2026-11-15",
    "series": "Cha Sirin smol",
-   "lane": "",
+   "lane": "cha_sirin_apel_01",
    "format": "9:16",
    "duration": 15,
    "setting": "Rumah Sirin (ruang tengah, lantai kayu)",
@@ -124,7 +124,7 @@
    "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu dengan kantung belanjaan dipegang rendah di samping badannya, dan satu apel sudah mengge",
    "has_notes": true,
    "has_frontmatter": true,
-   "ready": 7,
+   "ready": 8,
    "ready_total": 8,
    "checks": [
     {
@@ -139,7 +139,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "draft"
+     "value": "ongoing"
     },
     {
      "id": "beats",
@@ -180,8 +180,8 @@
      "id": "lane",
      "label": "Lane produksi",
      "note": "nama lane di repo produksi, kalau ada",
-     "ok": false,
-     "value": "-"
+     "ok": true,
+     "value": "cha_sirin_apel_01"
     }
    ],
    "path": "drafts/sirin-smol-apel/draft.md",
@@ -192,12 +192,12 @@
   {
    "slug": "sirin-smol-tisu",
    "title": "Sirin smol and tisu",
-   "status": "draft",
-   "status_raw": "draft",
+   "status": "ongoing",
+   "status_raw": "ongoing",
    "date": "2026-11-15",
    "updated": "2026-11-15",
    "series": "Cha Sirin smol",
-   "lane": "",
+   "lane": "cha_sirin_tisu_01",
    "format": "9:16",
    "duration": 15,
    "setting": "Rumah Sirin (ruang tengah, lantai kayu)",
@@ -264,7 +264,7 @@
    "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, gulungan tisu dipegang rendah di samping badannya, dan satu strip tisunya sudah menyere",
    "has_notes": true,
    "has_frontmatter": true,
-   "ready": 7,
+   "ready": 8,
    "ready_total": 8,
    "checks": [
     {
@@ -279,7 +279,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "draft"
+     "value": "ongoing"
     },
     {
      "id": "beats",
@@ -320,8 +320,8 @@
      "id": "lane",
      "label": "Lane produksi",
      "note": "nama lane di repo produksi, kalau ada",
-     "ok": false,
-     "value": "-"
+     "ok": true,
+     "value": "cha_sirin_tisu_01"
     }
    ],
    "path": "drafts/sirin-smol-tisu/draft.md",

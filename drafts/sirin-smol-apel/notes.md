@@ -1,6 +1,6 @@
 # Catatan produksi - Sirin smol and apel
 
-Lane produksi: **belum ada** (calon nama: `cha_sirin_apel_01`).
+Lane produksi: **`cha_sirin_apel_01`** — template siap (2026-11-15).
 
 Draft ini ditulis pakai `docs/aturan-produksi.md` (aturan hasil rombak eskrim v4 / jaket v5 / sandal v3).
 
@@ -72,3 +72,21 @@ kamera dengan take (POV atas ~50 derajat).
   lebih mudah dibaca - tapi jangan taruh di bawah badan.
 - Kantung belanjaan tidak boleh dibesarkan: kalau menutupi badannya dari atas, dia kalah kebaca
   dan seluruh hook-nya hilang.
+
+## Status produksi (2026-11-15)
+
+Lane `cha_sirin_apel_01` sudah dibuild di repo produksi: **5 template** (turbo 8-step + nolora
+20-step + pika8 PikaFlex 8-step HD + refine HD + audiorefine), prompt NOBGM **12.726** char,
+544x960 / 15 dtk / NO-BGM, model Singularity V1.3 int8 + video VAE int8.
+
+**Geometri kamera (keputusan penting):** render `eskrim` `00005` membuktikan kameranya ada **DI
+DEPAN** dia (muka selalu terlihat, lantai depan kaki di bawah frame) — bukan di belakang seperti
+yang ditulis lane lama. Jadi take ini ditulis eksplisit: *"the camera is a taller person drifting
+BACKWARDS in front of her, tilted down at roughly fifty degrees"*, dan semua arah ditulis relatif
+ke tubuhnya: apel menggelinding **di depan sepatu kanan**, paper bag dipegang **rendah di samping
+paha kiri**.
+
+**Kenapa paper bag:** prop yang dipegang rendah tetap kebaca dari POV atas (aturan yang sama
+dengan es krim), tapi tidak boleh besar — kalau menutupi badan, hook-nya hilang.
+
+**Belum dirender.**

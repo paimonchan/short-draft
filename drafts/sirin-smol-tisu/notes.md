@@ -1,6 +1,6 @@
 # Catatan produksi - Sirin smol and tisu
 
-Lane produksi: **belum ada** (calon nama: `cha_sirin_tisu_01`).
+Lane produksi: **`cha_sirin_tisu_01`** — template siap (2026-11-15).
 
 Draft ini ditulis pakai `docs/aturan-produksi.md` (aturan hasil rombak eskrim v4 / jaket v5 / sandal v3).
 
@@ -73,3 +73,21 @@ dengan take (POV atas ~50 derajat).
   menyeret di lantai di belakang kakinya).
 - Jangan menambah gulungan kedua atau tisu berserakan: satu objek kontinu lebih aman daripada
   banyak lembar kecil (pelajaran draft lalat yang gugur: objek kecil bergerak = artefak).
+
+## Status produksi (2026-11-15)
+
+Lane `cha_sirin_tisu_01` sudah dibuild di repo produksi: **5 template** (turbo 8-step + nolora
+20-step + pika8 PikaFlex 8-step HD + refine HD + audiorefine), prompt NOBGM **12.786** char,
+544x960 / 15 dtk / NO-BGM, model Singularity V1.3 int8 + video VAE int8.
+
+**Geometri kamera:** sama seperti lane `apel` — kamera **DI DEPAN** dia (pelajaran render `eskrim`
+`00005`), bukan di belakang. Arah ditulis relatif ke tubuhnya: strip tisu menyeret di lantai
+**belakang tumitnya**, roll di tangan **kiri**.
+
+**Look ref digenerate 2x:** versi pertama menaruh strip di **depan** kaki (fisikanya salah — dia
+akan menginjak tisunya sendiri); versi v2 menaruhnya di belakang tumit, sesuai naskah.
+
+**Fisika tarikan dikoreksi:** strip sudah rata di lantai, jadi setelah putus stripnya **slip dan
+tetap rata** — bukan jatuh dari udara. Satu tarikan, bukan tarik berkali-kali.
+
+**Belum dirender.**

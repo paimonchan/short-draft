@@ -1,9 +1,10 @@
 ---
 title: "Sirin smol and tisu"
-status: "draft"
+status: "ongoing"
 date: "2026-11-15"
 updated: "2026-11-15"
 series: "Cha Sirin smol"
+lane: "cha_sirin_tisu_01"
 format: "9:16"
 setting: "Rumah Sirin (ruang tengah, lantai kayu)"
 logline: "Strip tisunya menyeret di lantai selama dia berjalan; Sirin berhenti, memutar badan, menariknya sekali sampai putus, lalu meninggalkan stripnya di lantai."
