@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-15 10:10",
+ "generated": "2026-11-15 10:36",
  "repo": "paimonchan/short-draft",
- "count": 17,
- "beats": 97,
- "camera_beats": 39,
- "words": 1232,
- "hooks": 3,
+ "count": 19,
+ "beats": 109,
+ "camera_beats": 47,
+ "words": 1556,
+ "hooks": 5,
  "statuses": {
-  "draft": 0,
+  "draft": 2,
   "ongoing": 0,
   "done": 17
  },
@@ -28,6 +28,7 @@
   "komedi",
   "sirin",
   "smol",
+  "apel",
   "cermin",
   "cookie",
   "cuci-baju",
@@ -44,9 +45,290 @@
   "sikat-gigi",
   "snack",
   "tangga",
+  "tisu",
   "ular"
  ],
  "entries": [
+  {
+   "slug": "sirin-smol-apel",
+   "title": "Sirin smol and apel",
+   "status": "draft",
+   "status_raw": "draft",
+   "date": "2026-11-15",
+   "updated": "2026-11-15",
+   "series": "Cha Sirin smol",
+   "lane": "",
+   "format": "9:16",
+   "duration": 15,
+   "setting": "Rumah Sirin (ruang tengah, lantai kayu)",
+   "characters": [
+    "Cha Sirin"
+   ],
+   "tags": [
+    "sirin",
+    "smol",
+    "komedi",
+    "apel"
+   ],
+   "logline": "Apelnya menggelinding di depan kakinya; Sirin berhenti, mendorongnya sekali dengan ujung kaki, lalu membiarkannya di lantai dan lanjut jalan.",
+   "source": "agent (aturan: docs/aturan-produksi.md)",
+   "hook": "Frame 1: dia berjalan dengan kantung belanjaan dipegang rendah di samping badannya, dan satu apel sudah menggelinding di lantai dua langkah di depan kakinya - pertanyaan: dia berhenti buat ambil, nggak?",
+   "has_hook": true,
+   "hook_signals": {
+    "frame1": true,
+    "question": true,
+    "motion": true
+   },
+   "hook_score": 3,
+   "beats": [
+    {
+     "n": 1,
+     "text": "POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu dengan kantung belanjaan dipegang rendah di samping badannya, dan satu apel sudah menggelinding di lantai dua langkah di depan kakinya; muka bodohnya dan malas, ahoge-nya lurus",
+     "camera": true,
+     "words": 41
+    },
+    {
+     "n": 2,
+     "text": "apelnya menggelinding pelan lalu berhenti; sirin melambat dan berhenti dengan kedua kaki menapak, dagunya turun beberapa senti saja untuk melihat apel di lantainya",
+     "camera": false,
+     "words": 23
+    },
+    {
+     "n": 3,
+     "text": "sirin menggeser ujung kaki kanannya ke apelnya dan mendorongnya sekali dengan kuat, apelnya menggelinding lagi dua langkah lalu berhenti",
+     "camera": false,
+     "words": 19
+    },
+    {
+     "n": 4,
+     "text": "kamera turun sedikit saat sirin tetap berdiri di tempatnya menatap apel di depannya, dagunya masih sedikit turun dan bahunya tidak bergerak",
+     "camera": true,
+     "words": 21
+    },
+    {
+     "n": 5,
+     "text": "sirin melangkah dua langkah mendekat lalu berhenti tepat di samping apelnya, tanpa membungkuk dan tanpa mengambil apelnya dari lantai",
+     "camera": true,
+     "words": 19
+    },
+    {
+     "n": 6,
+     "text": "kamera naik lagi saat sirin melanjutkan jalannya; dia mengangkat dagunya ke arah POV, memberi satu angkat bahu kecil, dan melanjutkan jalan dengan langkah dan muka yang persis sama seperti frame pertama, apelnya tetap tinggal di lantai",
+     "camera": true,
+     "words": 36
+    }
+   ],
+   "beats_count": 6,
+   "camera_beats": 4,
+   "words": 159,
+   "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu dengan kantung belanjaan dipegang rendah di samping badannya, dan satu apel sudah mengge",
+   "has_notes": true,
+   "has_frontmatter": true,
+   "ready": 7,
+   "ready_total": 8,
+   "checks": [
+    {
+     "id": "title",
+     "label": "Judul terisi",
+     "note": "judul yang muncul di papan",
+     "ok": true,
+     "value": "Sirin smol and apel"
+    },
+    {
+     "id": "status",
+     "label": "Status valid",
+     "note": "draft / ongoing / done",
+     "ok": true,
+     "value": "draft"
+    },
+    {
+     "id": "beats",
+     "label": "Minimal 3 beat",
+     "note": "satu beat ≈ satu aksi di depan kamera",
+     "ok": true,
+     "value": 6
+    },
+    {
+     "id": "camera",
+     "label": "Ada arahan kamera/POV",
+     "note": "biar bisa dipetakan jadi shot",
+     "ok": true,
+     "value": 4
+    },
+    {
+     "id": "setting",
+     "label": "Setting terisi",
+     "note": "tempat kejadian",
+     "ok": true,
+     "value": "Rumah Sirin (ruang tengah, lantai kayu)"
+    },
+    {
+     "id": "tags",
+     "label": "Minimal 1 tag",
+     "note": "buat filter di papan",
+     "ok": true,
+     "value": 4
+    },
+    {
+     "id": "format",
+     "label": "Format terisi",
+     "note": "9:16 buat shorts, 16:9 buat biasa",
+     "ok": true,
+     "value": "9:16"
+    },
+    {
+     "id": "lane",
+     "label": "Lane produksi",
+     "note": "nama lane di repo produksi, kalau ada",
+     "ok": false,
+     "value": "-"
+    }
+   ],
+   "path": "drafts/sirin-smol-apel/draft.md",
+   "notes_path": "drafts/sirin-smol-apel/notes.md",
+   "data": "data/sirin-smol-apel.json",
+   "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-apel/draft.md"
+  },
+  {
+   "slug": "sirin-smol-tisu",
+   "title": "Sirin smol and tisu",
+   "status": "draft",
+   "status_raw": "draft",
+   "date": "2026-11-15",
+   "updated": "2026-11-15",
+   "series": "Cha Sirin smol",
+   "lane": "",
+   "format": "9:16",
+   "duration": 15,
+   "setting": "Rumah Sirin (ruang tengah, lantai kayu)",
+   "characters": [
+    "Cha Sirin"
+   ],
+   "tags": [
+    "sirin",
+    "smol",
+    "komedi",
+    "tisu"
+   ],
+   "logline": "Strip tisunya menyeret di lantai selama dia berjalan; Sirin berhenti, memutar badan, menariknya sekali sampai putus, lalu meninggalkan stripnya di lantai.",
+   "source": "agent (aturan: docs/aturan-produksi.md)",
+   "hook": "Frame 1: dia berjalan dengan gulungan tisu dipegang rendah di samping badannya, dan strip tisunya sudah menyeret di lantai satu langkah di belakang kakinya - pertanyaan: sadar nggak?",
+   "has_hook": true,
+   "hook_signals": {
+    "frame1": true,
+    "question": true,
+    "motion": true
+   },
+   "hook_score": 3,
+   "beats": [
+    {
+     "n": 1,
+     "text": "POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, gulungan tisu dipegang rendah di samping badannya, dan satu strip tisunya sudah menyeret di lantai satu langkah di belakang kakinya; muka bodohnya dan malas, ahoge-nya lurus",
+     "camera": true,
+     "words": 41
+    },
+    {
+     "n": 2,
+     "text": "sirin terus berjalan dengan langkah yang sama dan strip tisunya makin panjang menyeret di lantai, kepalanya tetap mengarah ke POV",
+     "camera": true,
+     "words": 20
+    },
+    {
+     "n": 3,
+     "text": "sirin melambat dan berhenti dengan kedua kaki menapak, lalu memutar badannya setengah ke belakang untuk melihat strip tisu di lantainya",
+     "camera": false,
+     "words": 20
+    },
+    {
+     "n": 4,
+     "text": "kamera bergeser sedikit mengikuti putaran badannya; sirin menunduk hanya beberapa senti menatap strip tisu yang menyeret di lantai, gulungan tisunya tetap di tangan kirinya",
+     "camera": true,
+     "words": 24
+    },
+    {
+     "n": 5,
+     "text": "sirin menarik strip tisunya sekali dengan kuat, stripnya putus di tangannya dan jatuh rata ke lantai, gulungan tisunya tetap menggantung di tangan kirinya",
+     "camera": false,
+     "words": 23
+    },
+    {
+     "n": 6,
+     "text": "kamera naik lagi saat sirin memutar badannya kembali ke depan POV, memberi satu angkat bahu kecil, lalu melanjutkan jalannya dengan langkah dan muka yang persis sama seperti frame pertama, strip tisu yang putus tetap tinggal di lantai",
+     "camera": true,
+     "words": 37
+    }
+   ],
+   "beats_count": 6,
+   "camera_beats": 4,
+   "words": 165,
+   "preview": "POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, gulungan tisu dipegang rendah di samping badannya, dan satu strip tisunya sudah menyere",
+   "has_notes": true,
+   "has_frontmatter": true,
+   "ready": 7,
+   "ready_total": 8,
+   "checks": [
+    {
+     "id": "title",
+     "label": "Judul terisi",
+     "note": "judul yang muncul di papan",
+     "ok": true,
+     "value": "Sirin smol and tisu"
+    },
+    {
+     "id": "status",
+     "label": "Status valid",
+     "note": "draft / ongoing / done",
+     "ok": true,
+     "value": "draft"
+    },
+    {
+     "id": "beats",
+     "label": "Minimal 3 beat",
+     "note": "satu beat ≈ satu aksi di depan kamera",
+     "ok": true,
+     "value": 6
+    },
+    {
+     "id": "camera",
+     "label": "Ada arahan kamera/POV",
+     "note": "biar bisa dipetakan jadi shot",
+     "ok": true,
+     "value": 4
+    },
+    {
+     "id": "setting",
+     "label": "Setting terisi",
+     "note": "tempat kejadian",
+     "ok": true,
+     "value": "Rumah Sirin (ruang tengah, lantai kayu)"
+    },
+    {
+     "id": "tags",
+     "label": "Minimal 1 tag",
+     "note": "buat filter di papan",
+     "ok": true,
+     "value": 4
+    },
+    {
+     "id": "format",
+     "label": "Format terisi",
+     "note": "9:16 buat shorts, 16:9 buat biasa",
+     "ok": true,
+     "value": "9:16"
+    },
+    {
+     "id": "lane",
+     "label": "Lane produksi",
+     "note": "nama lane di repo produksi, kalau ada",
+     "ok": false,
+     "value": "-"
+    }
+   ],
+   "path": "drafts/sirin-smol-tisu/draft.md",
+   "notes_path": "drafts/sirin-smol-tisu/notes.md",
+   "data": "data/sirin-smol-tisu.json",
+   "url": "https://github.com/paimonchan/short-draft/blob/main/drafts/sirin-smol-tisu/draft.md"
+  },
   {
    "slug": "sirin-smol-eskrim",
    "title": "Sirin smol and es krim",

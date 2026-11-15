@@ -66,7 +66,7 @@ HOOK_QUESTION_RE = re.compile(
 HOOK_MOTION_RE = re.compile(
     r"gerak|bergerak|berjalan|melangkah|menapak|melintas|jatuh|mendarat|menetes|menggantung|"
     r"menarik|berputar|memutar|menoleh|melirik|masuk frame|meluncur|ketimbun|menyelip|"
-    r"mengumpul|bergetar|terangkat|menganga",
+    r"mengumpul|bergetar|terangkat|menganga|menyeret|menggelinding|mengalir|tumpah",
     re.I,
 )
 

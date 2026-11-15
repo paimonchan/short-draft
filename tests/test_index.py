@@ -80,6 +80,8 @@ class TestShortDraft(unittest.TestCase):
         self.assertFalse(bi.HOOK_QUESTION_RE.search("sirin berdiri diam saja"))
         self.assertTrue(bi.HOOK_MOTION_RE.search("tetesan es krim menetes di hoodie"))
         self.assertTrue(bi.HOOK_MOTION_RE.search("dia berjalan dengan hoodie tertutup penuh"))
+        self.assertTrue(bi.HOOK_MOTION_RE.search("strip tisunya menyeret di lantai"))
+        self.assertTrue(bi.HOOK_MOTION_RE.search("apel sudah menggelinding di lantai"))
         self.assertFalse(bi.HOOK_MOTION_RE.search("sirin berdiri diam saja"))
         for e in self.entries:
             with self.subTest(slug=e["slug"]):
