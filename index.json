@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14 21:16",
+ "generated": "2026-11-15 10:03",
  "repo": "paimonchan/short-draft",
  "count": 17,
  "beats": 97,
@@ -8,8 +8,8 @@
  "hooks": 3,
  "statuses": {
   "draft": 0,
-  "ongoing": 3,
-  "done": 14
+  "ongoing": 0,
+  "done": 17
  },
  "status_order": [
   "draft",
@@ -50,10 +50,10 @@
   {
    "slug": "sirin-smol-eskrim",
    "title": "Sirin smol and es krim",
-   "status": "ongoing",
-   "status_raw": "ongoing",
+   "status": "done",
+   "status_raw": "done",
    "date": "2026-11-14",
-   "updated": "2026-11-14",
+   "updated": "2026-11-15",
    "series": "Cha Sirin smol",
    "lane": "cha_sirin_eskrim_01",
    "format": "9:16",
@@ -137,7 +137,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "ongoing"
+     "value": "done"
     },
     {
      "id": "beats",
@@ -190,10 +190,10 @@
   {
    "slug": "sirin-smol-jaket",
    "title": "Sirin smol and jaket",
-   "status": "ongoing",
-   "status_raw": "ongoing",
+   "status": "done",
+   "status_raw": "done",
    "date": "2026-11-14",
-   "updated": "2026-11-14",
+   "updated": "2026-11-15",
    "series": "Cha Sirin smol",
    "lane": "cha_sirin_jaket_01",
    "format": "9:16",
@@ -277,7 +277,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "ongoing"
+     "value": "done"
     },
     {
      "id": "beats",
@@ -330,10 +330,10 @@
   {
    "slug": "sirin-smol-sandal",
    "title": "Sirin smol and sandal",
-   "status": "ongoing",
-   "status_raw": "ongoing",
+   "status": "done",
+   "status_raw": "done",
    "date": "2026-11-14",
-   "updated": "2026-11-14",
+   "updated": "2026-11-15",
    "series": "Cha Sirin smol",
    "lane": "cha_sirin_sandal_01",
    "format": "9:16",
@@ -417,7 +417,7 @@
      "label": "Status valid",
      "note": "draft / ongoing / done",
      "ok": true,
-     "value": "ongoing"
+     "value": "done"
     },
     {
      "id": "beats",

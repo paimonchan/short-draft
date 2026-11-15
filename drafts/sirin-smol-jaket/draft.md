@@ -1,8 +1,8 @@
 ---
 title: "Sirin smol and jaket"
-status: "ongoing"
+status: "done"
 date: "2026-11-14"
-updated: "2026-11-14"
+updated: "2026-11-15"
 series: "Cha Sirin smol"
 lane: "cha_sirin_jaket_01"
 format: "9:16"
