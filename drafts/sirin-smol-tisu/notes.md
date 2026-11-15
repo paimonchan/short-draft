@@ -90,4 +90,46 @@ akan menginjak tisunya sendiri); versi v2 menaruhnya di belakang tumit, sesuai n
 **Fisika tarikan dikoreksi:** strip sudah rata di lantai, jadi setelah putus stripnya **slip dan
 tetap rata** — bukan jatuh dari udara. Satu tarikan, bukan tarik berkali-kali.
 
-**Belum dirender.**
+**Sudah dirender (v3): gerak naik, tapi patah-patah masih ada — dan ternyata bukan prompt.**
+
+## Render v3 (2026-11-15) - diagnosis "masih patah-patah"
+
+| Metrik | v2 (render 00002) | v3 (render 00003 pika8) | v3 (nolora 20-step) | ghost (pembanding) |
+|---|---|---|---|---|
+| silhouette change | 1,36x | **1,62x** | **2,21x** | 2,85x |
+| cam travel | 4,88 | **5,63** | **7,26** | 8,71 |
+| parity | 1,46 | **2,18** | **2,21** | 1,10 |
+
+- **Perbaikan gerak BERHASIL**: silhouette dan cam travel naik ~50-60% dibanding v2.
+- **Tapi `parity` makin buruk** -> ada artefak lain.
+
+### Akarnya: satu frame ditahan tiap 4 frame (artefak decode)
+
+- Pola: 1 dari tiap 4 frame **hampir identik** dengan frame sebelumnya (selisih ~0,8/255 di ~1% piksel).
+  Seluruh frame ikut beku, termasuk rak buku dan jendela -> bukan objek yang diam.
+- **Bukan prompt:** tiga prompt berbeda (v1/v2/v3) menghasilkan pola period-4 yang sama.
+- **Bukan sampler:** pika8 8-step dan nolora 20-step sama-sama 12%.
+- **Bukan template:** `sandal`/`sand`/`snack`/`ghost`/`bike` semuanya bersih (94-99%).
+- **Bukti paling kuat:** latent pass-1-nya **bersih** (min/avg 92%, sama dengan sandal 91%), tapi video
+  hasil decode-nya 12% -> artefak lahir di **VAE decode**.
+
+### Penanganan
+
+`custom/scripts/fix_h3_cadence.py` (di repo produksi): deteksi period + kelas beku, buang frame beku,
+re-time ke durasi asli dengan optical-flow interpolation.
+
+Hasil: parity **2,23 -> 1,17**, frame `<1.0` **21% -> 0%**. Output `..._smooth.mp4`.
+
+Cek: `py -3.10 custom/scripts/fix_h3_cadence.py <video> --detect`.
+
+### Pelajaran untuk draft berikutnya
+
+Kalau render terasa patah-patah, **ukur dulu** sebelum mengubah naskah:
+
+```
+period 4, class 12%  -> artefak decode, pakai fix_h3_cadence.py
+parity ~1,0 tapi mean rendah -> geraknya memang kecil, perbaiki beat
+parity 1,5-2,0 tanpa period -> gerak timpang, tambah lokomosi
+```
+
+Jangan buang waktu menulis ulang prompt kalau `--detect` sudah bilang periodik.
