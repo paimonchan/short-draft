@@ -33,6 +33,11 @@ class TestShortDraft(unittest.TestCase):
                 self.assertIn(e["status_raw"], bi.STATUSES)
                 self.assertTrue(e["format"], "format kosong (9:16 / 16:9)")
 
+    def test_komentar_html_bukan_beat(self):
+        body = "<!--\n- catatan: ini bukan beat\n* juga bukan\n-->\n- beat asli satu\n- beat asli dua\n"
+        beats = bi.beats_from(body)
+        self.assertEqual([b["text"] for b in beats], ["beat asli satu", "beat asli dua"])
+
     def test_beat_terisi_dan_berurutan(self):
         for e in self.entries:
             with self.subTest(slug=e["slug"]):

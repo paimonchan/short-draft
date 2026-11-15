@@ -83,9 +83,17 @@ segmen** (gerak besar bikin model cut).
 
 ## 11. Bentuk klip
 
-Satu lokasi, satu take kontinu, 6 beat ≈ 15 detik (~2,5 detik per segmen). Tiap draft berakhir
-dengan satu gerak kecil yang khas (angkat bahu kecil) lalu dia kembali ke keadaan semula
-(muka dan langkah yang sama seperti frame pertama).
+Bentuk yang sudah terbukti: **satu lokasi, satu take kontinu, 6 beat ≈ 15 detik** (~2,5 detik per
+segmen). Tiap draft berakhir dengan satu gerak kecil yang khas (angkat bahu kecil) lalu dia
+kembali ke keadaan semula (muka dan langkah yang sama seperti frame pertama).
+
+Varian yang disiapkan di `templates/` (aturannya sama semua, belum pernah dirender — perlakukan
+sebagai usulan sampai ada hasil render pertama):
+
+- **loop pendek** — 4 beat, ~9 dtk, frame terakhir = frame pertama; jangan ada gerak yang bikin
+  penonton sadar klipnya habis.
+- **dua segmen** — 12 beat, ~30 dtk, pindah tempat sekali; perpindahan ditulis sebagai gerak
+  fisik (buka pintu lalu masuk), bukan kosakata shot-type, dan tetap satu take.
 
 ## 12. Hal kanon yang sudah kepakai
 

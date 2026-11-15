@@ -121,7 +121,12 @@ def is_camera(text: str) -> bool:
 
 
 def beats_from(body: str) -> list:
-    """Butir list di body = beat. Kalau tidak ada list, ambil baris non-heading."""
+    """Butir list di body = beat. Kalau tidak ada list, ambil baris non-heading.
+
+    Blok komentar HTML (<!-- ... -->) dibuang dulu: komentar di template/draft nggak boleh
+    jadi beat.
+    """
+    body = re.sub(r"<!--.*?-->", "", body, flags=re.S)
     bullets = [m.group(1).strip() for m in (BEAT_RE.match(l) for l in body.split("\n")) if m]
     if not bullets:
         bullets = [

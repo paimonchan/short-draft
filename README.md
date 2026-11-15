@@ -19,7 +19,10 @@ short-draft/
 ├── drafts/<slug>/draft.md    ← frontmatter + daftar beat (satu beat per baris list)
 ├── drafts/<slug>/notes.md    ← opsional: catatan produksi
 ├── docs/aturan-produksi.md   ← aturan hasil render (dipakai semua draft berikutnya)
-├── templates/draft-template.md
+├── templates/
+│   ├── draft-template.md        ← bentuk default: 6 beat, ~15 dtk, 1 lokasi
+│   ├── draft-template-loop.md   ← loop pendek: 4 beat, ~9 dtk, frame akhir = frame awal
+│   └── draft-template-2-segmen.md ← dua segmen: 12 beat, ~30 dtk, pindah tempat sekali
 ├── tools/build_index.py      ← drafts/**/draft.md → index.json + data/
 ├── tools/drafts.py           ← CLI: add / status / edit / beat / list
 ├── assets/                   ← web (zero-build: HTML/CSS/JS vanilla)
@@ -57,6 +60,18 @@ pertama. Ringkasnya:
 - kamera selalu bergerak, tapi maksimal 1 gerak kamera kecil per segmen
 
 Template draft baru sudah memuat ringkasan ini sebagai komentar.
+
+## Bentuk draft
+
+Tiga bentuk, semuanya di `templates/`:
+
+- **default** (`draft-template.md`) — 6 beat, ~15 dtk, satu lokasi, satu take. Ini satu-satunya
+  bentuk yang sudah pernah dirender.
+- **loop pendek** (`draft-template-loop.md`) — 4 beat, ~9 dtk, frame terakhir = frame pertama.
+- **dua segmen** (`draft-template-2-segmen.md`) — 12 beat, ~30 dtk, pindah tempat sekali.
+
+Dua yang terakhir **belum pernah dirender** — aturan produksinya sama, tapi perlakukan sebagai
+usulan sampai ada hasil render pertama.
 
 ## Nambah / ngubah draft
 
