@@ -7,7 +7,7 @@ series: "Cha Sirin smol"
 lane: "cha_sirin_apel_01"
 format: "9:16"
 setting: "Rumah Sirin (ruang tengah, lantai kayu)"
-logline: "Apelnya menggelinding di depan kakinya; Sirin berhenti, mendorongnya sekali dengan ujung kaki, lalu membiarkannya di lantai dan lanjut jalan."
+logline: "Apelnya menggelinding di depan sepatunya; Sirin tidak pernah berhenti berjalan - dia menyambar apelnya dengan ujung sepatu di tengah langkah, melewatinya dengan satu langkah menyamping, lalu menoleh ke belakang sekali dan melanjutkan jalannya."
 hook: "Frame 1: dia berjalan dengan kantung belanjaan dipegang rendah di samping badannya, dan satu apel sudah menggelinding di lantai dua langkah di depan kakinya - pertanyaan: dia berhenti buat ambil, nggak?"
 source: "agent (aturan: docs/aturan-produksi.md)"
 duration: 15
@@ -15,9 +15,9 @@ characters: [Cha Sirin]
 tags: [sirin, smol, komedi, apel]
 ---
 
-- POV sudah ada di atas sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu dengan kantung belanjaan dipegang rendah di samping badannya, dan satu apel sudah menggelinding di lantai dua langkah di depan kakinya; muka bodohnya dan malas, ahoge-nya lurus
-- apelnya menggelinding pelan lalu berhenti di sela papan; sirin melambat dan berhenti dengan kedua kaki menapak, dagunya turun beberapa senti saja untuk melihat apel di lantainya
-- sirin menggeser ujung sepatu kanannya ke apelnya dan mendorongnya sekali dengan kuat, apelnya menggelinding lagi dua langkah lalu berhenti
-- kamera turun sedikit saat sirin berhenti di tempatnya menatap apel di depannya, dagunya masih sedikit turun, tangannya tetap rendah di samping badan dan kantungnya bergoyang pelan
-- sirin melangkah dua langkah mendekat lalu berhenti tepat di samping apelnya, tangannya tetap di samping badan, dan apelnya tetap di lantai
-- kamera naik lagi saat sirin melanjutkan jalannya; dia mengangkat dagunya ke arah POV, memberi satu angkat bahu kecil, dan melanjutkan jalan dengan langkah dan muka yang persis sama seperti frame pertama, apelnya tertinggal di lantai di belakangnya
+- POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu dengan kantung belanjaan dipegang rendah di samping kirinya, dan satu apel merah sudah menggelinding setengah langkah di depan sepatu kanannya; muka bodohnya dan malas, ahoge-nya lurus
+- apelnya kehilangan kecepatan dan goyah di sela papan; sirin tidak mengubah irama jalannya - dia terus melangkah heel, toe, heel, toe sambil menutup jarak, dagunya turun beberapa senti saja supaya matanya jatuh ke apel, muka tetap terbuka ke POV
+- masih sambil berjalan, dia mengayunkan ujung sepatu kanannya ke depan dan menyambar apelnya di tengah langkah, apelnya melesat pergi dua langkah lalu berhenti; kaki kanannya mendarat rata, kaki kirinya terangkat dan mendarat lagi, iramanya tidak melambat
+- apelnya bergeser sedikit ke kanan dan melambat; tanpa memutus langkah sirin mengambil satu langkah kecil menyamping ke kiri lalu satu langkah maju, jadi dia melewati apelnya tepat di samping pinggangnya; matanya turun sebentar, rambutnya terayun, mukanya balik ke POV
+- sirin terus berjalan dengan irama yang sama, lalu menoleh ke belakang lewat bahu kanannya untuk melihat apel yang tertinggal di lantai - rambutnya menyapu bahu, satu kedipan pelan - lalu mukanya balik ke POV dengan mulut garis datar, langkahnya tidak pernah goyah
+- dagunya terangkat ke POV, dia memberi satu angkat bahu kecil yang membuat ahoge-nya memantul, lalu meneruskan jalannya dengan langkah dan muka yang persis sama seperti frame pertama; apelnya tertinggal di lantai di belakangnya
