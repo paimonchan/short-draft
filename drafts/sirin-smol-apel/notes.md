@@ -76,7 +76,7 @@ kamera dengan take (POV atas ~50 derajat).
 ## Status produksi (2026-11-15)
 
 Lane `cha_sirin_apel_01` sudah dibuild di repo produksi: **5 template** (turbo 8-step + nolora
-20-step + pika8 PikaFlex 8-step HD + refine HD + audiorefine), prompt NOBGM **12.726** char,
+20-step + pika8 PikaFlex 8-step HD + refine HD + audiorefine), prompt NOBGM **13.882** char (v3),
 544x960 / 15 dtk / NO-BGM, model Singularity V1.3 int8 + video VAE int8.
 
 **Geometri kamera (keputusan penting):** render `eskrim` `00005` membuktikan kameranya ada **DI
@@ -89,4 +89,12 @@ paha kiri**.
 **Kenapa paper bag:** prop yang dipegang rendah tetap kebaca dari POV atas (aturan yang sama
 dengan es krim), tapi tidak boleh besar — kalau menutupi badan, hook-nya hilang.
 
-**Belum dirender.**
+**Sudah dirender (v1, `00001`): dia BERDIRI DIAM 7,4 detik** (2,4s → 9,8s) - tiga beat berturut
+ditulis `settles to a halt` / `still planted` / `both feet planted`. Rata-rata klip kelihatan sehat
+(parity 1,16) tapi per-window ketahuan: blok 2,4-9,8s mean-nya cuma 3,3-3,8 vs 5,4 di beat jalan.
+
+**Fix v2:** dia **berjalan dari frame pertama sampai terakhir** - apel menyusul, nudge dilakukan di
+tengah langkah, apel dilewati dengan langkah menyamping. **Fix v3:** kamera drift jauh + lengan
+mengayun, untuk menaikkan gerak badan (silhouette 1,55x → target ≥2,0x seperti lane lain).
+
+**Belum dirender (v3).**

@@ -2,7 +2,7 @@
 title: "Sirin smol and tisu"
 status: "ongoing"
 date: "2026-11-15"
-updated: "2026-11-15"
+updated: "2026-11-18"
 series: "Cha Sirin smol"
 lane: "cha_sirin_tisu_01"
 format: "9:16"
@@ -15,9 +15,9 @@ characters: [Cha Sirin]
 tags: [sirin, smol, komedi, tisu]
 ---
 
-- POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, lengan kanannya mengayun bebas, gulungan tisu di tangan kiri dipegang rendah dan ikut mengayun, strip tisunya sudah menyeret di lantai satu langkah di belakang tumitnya dan memanjang sejengkal tiap langkah
-- sirin tetap berjalan dengan langkah yang sama sambil menoleh ke belakang lewat bahu kirinya untuk melirik stripnya, rambutnya menyapu punggung lalu kembali ke bahunya, dan mukanya balik ke POV tanpa mengubah irama; lengannya tetap mengayun
-- dia melirik ke belakang sekali lagi dan kali ini matanya jatuh ke stripnya, dagunya turun beberapa senti, satu alis terangkat sedikit saat dia sadar betapa panjang ekornya; dia tetap melangkah heel, toe, heel, toe sepanjang lirikan itu
-- sirin menapakkan satu langkah lalu memutar seluruh badannya setengah ke belakang di atas langkah itu (tanpa berhenti dulu), rambutnya terayun, tangannya ikut berputar membawa gulungannya; tanpa jeda dia menarik stripnya sekali dengan kuat sampai putus, dan hentakan baliknya mendorong badannya satu langkah kecil ke belakang
-- sirin memutar badannya balik ke depan lewat dua langkah kecil, dagunya terangkat ke POV, memberi satu angkat bahu kecil, dan ujung robek pendek di gulungannya ikut bergoyang
+- POV sudah ada di atas dan sedikit di depan sirin sejak frame pertama: sirin berjalan pelan melintasi lantai kayu, lengan kanannya mengayun bebas, gulungan tisu di tangan kiri dipegang rendah dan ikut mengayun; strip tisunya menyeret di lantai belakang tumitnya, lalu ujungnya NYANGKUT di pergelangan kaki kanannya dan menegang
+- sirin menghentikan satu kakinya dan menggoyangkannya dua kali; stripnya lepas dan terlempar menyamping di lantai jadi gulungan putih panjang, kaus kakinya kembali menapak, kedua lengannya naik sedikit untuk keseimbangan
+- sirin memutar seluruh badannya satu putaran penuh di atas langkah kecilnya untuk melihat ke mana stripnya pergi - rambut dan roknya berkibar, gulungan di tangannya terayun lebar, dagunya menyusuri strip yang melengkung di lantai lalu kembali ke POV
+- sirin menyamping, menekuk lututnya sedikit, dan memungut stripnya dengan dua tangan; tangannya berjalan sepanjang kertas sampai kencang, lalu dia menariknya dengan dua lengan - kertasnya putus dengan bunyi kecil dan hentakan baliknya mendorong badannya dua langkah ke belakang, kedua tangan terbang ke atas
+- sirin menangkap keseimbangannya di langkah kedua, menurunkan tangannya, melihat strip yang putus di lantai, lalu merapikan hoodie-nya dengan satu tangan dan menyibak rambutnya dari bahu dengan tangan lain, dagunya terangkat ke POV
 - dia meneruskan jalannya dengan langkah dan muka yang persis sama seperti frame pertama, lengan kanannya mengayun lagi, sementara strip yang putus tetap rata di lantai di belakangnya dan kamera terus bergerak mundur mengikutinya sampai frame terakhir

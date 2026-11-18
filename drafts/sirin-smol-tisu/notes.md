@@ -74,62 +74,51 @@ dengan take (POV atas ~50 derajat).
 - Jangan menambah gulungan kedua atau tisu berserakan: satu objek kontinu lebih aman daripada
   banyak lembar kecil (pelajaran draft lalat yang gugur: objek kecil bergerak = artefak).
 
-## Status produksi (2026-11-15)
+## Status produksi (2026-11-15, diperbarui 2026-11-18)
 
-Lane `cha_sirin_tisu_01` sudah dibuild di repo produksi: **5 template** (turbo 8-step + nolora
-20-step + pika8 PikaFlex 8-step HD + refine HD + audiorefine), prompt NOBGM **12.786** char,
-544x960 / 15 dtk / NO-BGM, model Singularity V1.3 int8 + video VAE int8.
+Lane `cha_sirin_tisu_01` sudah dibuild: **5 template** (turbo 8-step + nolora 20-step + pika8
+PikaFlex 8-step HD + refine HD + audiorefine), 544x960 / 15 dtk / NO-BGM, model Singularity V1.3
+int8 + video VAE int8. Prompt terkini **13.244** char (v4).
 
-**Geometri kamera:** sama seperti lane `apel` — kamera **DI DEPAN** dia (pelajaran render `eskrim`
-`00005`), bukan di belakang. Arah ditulis relatif ke tubuhnya: strip tisu menyeret di lantai
-**belakang tumitnya**, roll di tangan **kiri**.
+**Geometri kamera:** kamera **DI DEPAN** dia (pelajaran render `eskrim` `00005`), bukan di belakang.
+Arah ditulis relatif ke tubuhnya: strip menyeret di lantai **belakang tumitnya**, roll di tangan
+**kiri**.
 
 **Look ref digenerate 2x:** versi pertama menaruh strip di **depan** kaki (fisikanya salah — dia
-akan menginjak tisunya sendiri); versi v2 menaruhnya di belakang tumit, sesuai naskah.
+akan menginjak tisunya sendiri); versi v2 menaruhnya di belakang tumit.
 
-**Fisika tarikan dikoreksi:** strip sudah rata di lantai, jadi setelah putus stripnya **slip dan
-tetap rata** — bukan jatuh dari udara. Satu tarikan, bukan tarik berkali-kali.
+## Riwayat render & apa yang benar-benar salah
 
-**Sudah dirender (v3): gerak naik, tapi patah-patah masih ada — dan ternyata bukan prompt.**
+| Versi | Hasil render | Temuan |
+|---|---|---|
+| v1 | `00001` | dead-zone 8-9s (berdiri menatap strip 2,6 dtk), parity 1,69 |
+| v2 | `00002` | dead-zone dihapus, parity 1,46 |
+| v3 | `00003`, nolora `00001` | gerak naik (silhouette 1,41→2,21x, cam travel 3,76→7,26) tapi **masih patah**, parity 2,18-2,21 |
+| v4 | belum dirender | **beat duplikat dihapus** — lihat di bawah |
 
-## Render v3 (2026-11-15) - diagnosis "masih patah-patah"
+### Kenapa v3 masih patah (diagnosis yang benar)
 
-| Metrik | v2 (render 00002) | v3 (render 00003 pika8) | v3 (nolora 20-step) | ghost (pembanding) |
-|---|---|---|---|---|
-| silhouette change | 1,36x | **1,62x** | **2,21x** | 2,85x |
-| cam travel | 4,88 | **5,63** | **7,26** | 8,71 |
-| parity | 1,46 | **2,18** | **2,21** | 1,10 |
+Aku sempat salah dua kali di sini, jadi urutan temuan ini penting:
 
-- **Perbaikan gerak BERHASIL**: silhouette dan cam travel naik ~50-60% dibanding v2.
-- **Tapi `parity` makin buruk** -> ada artefak lain.
+1. **Bukan kamera.** Aku sempat menyimpulkan "kamera drift jauh" sebagai obat. Bandingkan `ghost`
+   (parity 1,10, smooth): dia justru sering **menahan** kamera (`The camera holds above her`).
+2. **Bukan decode VAE.** Aku sempat bikin tool post-process `fix_h3_cadence.py` untuk membuang
+   frame beku. Tool itu **sudah dihapus** — salah sasaran.
+3. **Yang benar: BEAT DUPLIKAT di naskah.** v1-v3 punya struktur yang sama:
+   dua beat "lirik ke belakang" yang nyaris identik + beat 1 dan beat 6 sama-sama "jalan".
+   Model tidak punya apa pun untuk dianimasikan, jadi ia menahan frame.
 
-### Akarnya: satu frame ditahan tiap 4 frame (artefak decode)
+**Pembandingnya prompt `ghost`** (parity 1,10): tiap beat = aksi fisik yang mengubah siluet —
+pintu didobrak → selimut ditarik → **selimut menutupi kepala** (bentuk badan berubah total) →
+waddle mendekat → tangan hantu mengambang.
 
-- Pola: 1 dari tiap 4 frame **hampir identik** dengan frame sebelumnya (selisih ~0,8/255 di ~1% piksel).
-  Seluruh frame ikut beku, termasuk rak buku dan jendela -> bukan objek yang diam.
-- **Bukan prompt:** tiga prompt berbeda (v1/v2/v3) menghasilkan pola period-4 yang sama.
-- **Bukan sampler:** pika8 8-step dan nolora 20-step sama-sama 12%.
-- **Bukan template:** `sandal`/`sand`/`snack`/`ghost`/`bike` semuanya bersih (94-99%).
-- **Bukti paling kuat:** latent pass-1-nya **bersih** (min/avg 92%, sama dengan sandal 91%), tapi video
-  hasil decode-nya 12% -> artefak lahir di **VAE decode**.
+### Aturan yang lahir dari lane ini
 
-### Penanganan
+Setiap window **wajib** punya satu event fisik yang mengubah bentuk badan atau objek. Jangan
+pernah menulis dua beat yang isinya sama dengan redaksi berbeda.
 
-`custom/scripts/fix_h3_cadence.py` (di repo produksi): deteksi period + kelas beku, buang frame beku,
-re-time ke durasi asli dengan optical-flow interpolation.
+v4 mengikuti aturan itu: strip **nyangkut di pergelangan** → **goyang kaki** → **putar badan 360°**
+→ **pungut dua tangan + tarik sampai putus + terhuyung 2 langkah** → **rapikan hoodie** → jalan.
+Tidak ada judul beat yang berulang.
 
-Hasil: parity **2,23 -> 1,17**, frame `<1.0` **21% -> 0%**. Output `..._smooth.mp4`.
-
-Cek: `py -3.10 custom/scripts/fix_h3_cadence.py <video> --detect`.
-
-### Pelajaran untuk draft berikutnya
-
-Kalau render terasa patah-patah, **ukur dulu** sebelum mengubah naskah:
-
-```
-period 4, class 12%  -> artefak decode, pakai fix_h3_cadence.py
-parity ~1,0 tapi mean rendah -> geraknya memang kecil, perbaiki beat
-parity 1,5-2,0 tanpa period -> gerak timpang, tambah lokomosi
-```
-
-Jangan buang waktu menulis ulang prompt kalau `--detect` sudah bilang periodik.
+**Belum dirender (v4).**
