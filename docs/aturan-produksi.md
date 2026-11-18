@@ -130,6 +130,59 @@ sebagai usulan sampai ada hasil render pertama):
 - sandal jepit, satu pasang
 - status `ongoing` = lane produksi di repo produksi sudah ada (`cha_sirin_<objek>_01`)
 
+## 13. Kamera ada DI DEPAN dia, dan mundur
+
+Bukti: render `eskrim` `00005` — mukanya **selalu terlihat** dan lantai **di depan** kakinya ada di
+bawah frame. Jadi kameranya bukan "di atas badan", tapi **orang yang lebih tinggi berjalan mundur
+di depannya**, menunduk ~50 derajat.
+
+- Tulis geometrinya eksplisit: *"kamera = orang yang lebih tinggi **mundur di depan dia**, menunduk
+  ~50 derajat"*. Kalimat lama *"POV sudah ada di atas sirin"* terlalu kabur dan bikin arah salah.
+- Tulis semua arah **relatif ke tubuhnya**, bukan ke frame: apel menggelinding **di depan sepatu
+  kanan**, kantung dipegang **rendah di samping paha kiri**, strip menyeret **di belakang tumitnya**.
+- Kamera **terus bergerak mundur mengikutinya sampai frame terakhir** — jangan parkir di beat akhir.
+
+## 14. Jangan ada beat kembar — tiap window wajib satu event fisik
+
+Temuan paling mahal di lane `tisu` (v1–v3), dan dua hipotesis sebelumnya salah:
+
+1. **Bukan kamera.** `ghost` justru sering **menahan** kamera (`The camera holds above her`) dan
+   parity-nya tetap **1,10** (mulus). Drift jauh itu izin (rule 9), bukan kewajiban.
+2. **Bukan decode VAE.** Tool post-process `fix_h3_cadence.py` untuk membuang frame beku sudah
+   dihapus — sasarannya salah.
+3. **Yang benar: beat duplikat di naskah.** `tisu` v1–v3 punya **dua beat "lirik ke belakang" yang
+   nyaris identik**, plus beat 1 dan beat 6 dua-duanya "jalan". Model tidak punya apa pun untuk
+   dianimasikan, jadi ia menahan frame.
+
+Pembanding `ghost` (parity 1,10): tiap beat mengubah siluet — pintu didobrak → selimut ditarik →
+**selimut menutupi kepala** (bentuk badan berubah total) → jalan waddle mendekat → tangan hantu
+mengambang.
+
+**Aturan:** setiap window **wajib** punya satu event fisik yang **mengubah bentuk badan atau bentuk
+objeknya**. Jangan pernah menulis dua beat yang isinya sama dengan redaksi berbeda.
+
+Contoh rantai yang lolos (tisu v4): strip **nyangkut di pergelangan** → **goyang kaki** → **putar badan
+360°** → **pungut dua tangan + tarik sampai putus + terhuyung dua langkah** → **rapikan hoodie +
+sibak rambut** → jalan.
+
+## 15. Ukur per window, bukan rata-rata klip
+
+`apel` v1 rata-rata klipnya kelihatan sehat (parity 1,16) — tapi per window ketahuan: blok
+**2,4–9,8s mean-nya cuma 3,3–3,8** vs **5,4** di beat jalan → dia **berdiri diam 7,4 detik**.
+`tisu` v1 punya **dead-zone 8–9s** (berdiri menatap strip 2,6 detik).
+
+Aturan: sebelum merombak prompt, ukur **per blok/window**: window yang mean-nya jauh di bawah window
+lain = dead zone/freeze. Tambahan yang dipakai di lane ini: **silhouette ratio** (target ≥2,0x seperti
+lane lain) dan **cam travel**. Jangan menyimpulkan dari satu angka rata-rata klip.
+
+## 16. Cek fisika prop di look-ref
+
+Look-ref `tisu` versi pertama menaruh strip di **depan** kaki — fisika-nya salah, dia akan menginjak
+tisunya sendiri saat berjalan. Versi kedua menaruhnya **di belakang tumit**.
+
+Aturan: sebelum lane dipakai, periksa look-ref-nya secara fisika: apakah posisi prop bisa
+dipertahankan selama dia **berjalan**? Kalau tidak, prop-nya yang dipindah, bukan beat-nya.
+
 ## Cara dokumen ini di-update
 
 Dokumen ini hidup. Tiap kali ada draft yang dirombak (versi baru, render gagal, atau render
@@ -142,3 +195,4 @@ yang akhirnya kena), aturannya naik ke sini — jangan cuma ditinggal di `notes.
   lama sudah tidak dipakai, biar nggak diusulkan ulang.
 - Aturan yang cuma berlaku untuk satu objek (bukan umum) tetap di `notes.md` draft itu.
 - Versi awal dokumen ini datang dari 3 draft: `eskrim` (v4), `jaket` (v5), `sandal` (v3).
+- Revisi rule 8 dan 9 + aturan 13–16 datang dari lane `apel` dan `tisu` (2026-11-15 → 2026-11-18).

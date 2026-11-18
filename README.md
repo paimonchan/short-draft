@@ -49,15 +49,20 @@ frontmatter `lane`). Kalau `lane` kosong, draft-nya masih `draft`.
 > **Sebelum nulis draft baru: baca `docs/aturan-produksi.md` dulu.** Dokumen itu hidup —
 > hasil rombak render, dan akan terus bertambah tiap kali draft dirombak.
 
-`docs/aturan-produksi.md` — aturan yang **lahir dari render nyata**, hasil rombak 3 draft
-pertama. Ringkasnya:
+`docs/aturan-produksi.md` — aturan yang **lahir dari render nyata**, hasil rombak draft `eskrim`,
+`jaket`, `sandal`, lalu direvisi lagi dari lane `apel` dan `tisu`. Ringkasnya:
 
 - objek kunci harus terbaca dari **POV atas**; jangan taruh apa pun di bawah badan
 - **tidak ada aksi mulut** (H3 mendaur ulang gestur mulut + menggandakan prop)
-- **tidak ada instruksi diam**: badan bergerak terus (berjalan / berputar badan), kaki menapak
-- **satu arah saja**, payoff sekali (jangan buka-tutup berulang)
+- **tidak ada beat kembar**: tiap beat wajib satu event fisik yang mengubah bentuk badan/objeknya
+  (dua beat beda redaksi dengan isi sama = model menahan frame)
+- **kaki dipakai**: jalan, langkah menyamping, putar badan, sepakan ringan. Yang dilarang cuma
+  angkat kaki setinggi lutut, jongkok dalam, dan membungkuk sampai kepala di bawah pinggang
 - muka tetap terangkat ke lensa; kalau perlu lihat ke bawah cukup `chin dip` beberapa senti
-- kamera selalu bergerak, tapi maksimal 1 gerak kamera kecil per segmen
+- kamera = orang lebih tinggi yang **mundur di depan dia** (~50°) — drift jauh boleh, yang dilarang
+  lompatan; jangan parkir di beat akhir
+- kalau sudah ada render: ukur **per window**, bukan rata-rata klip (rata-rata sehat bisa
+  menyembunyikan 7 detik berdiri diam)
 
 Template draft baru sudah memuat ringkasan ini sebagai komentar.
 

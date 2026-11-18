@@ -22,9 +22,13 @@ kapan klipnya mulai.
 
 Aturan produksi tetap berlaku semua (docs/aturan-produksi.md):
 - objek kunci harus kebaca dari POV atas; jangan taruh apa pun di bawah badan
-- tanpa aksi mulut; tanpa instruksi diam; kaki menapak
-- satu arah saja, payoff sekali; muka tetap terangkat ke lensa
-- kamera selalu bergerak, maks 1 gerak kamera kecil per segmen
+- kamera = orang yang lebih tinggi MUNDUR DI DEPAN dia (~50 derajat), arah ditulis relatif ke
+  tubuhnya; drift jauh boleh, jangan parkir di beat akhir
+- tiap beat wajib satu event fisik yang mengubah bentuk badan/objek - jangan ada beat kembar
+- kaki DIPAKAI (jalan, langkah menyamping, putar badan, sepakan ringan); dilarang: angkat kaki
+  setinggi lutut, jongkok dalam, membungkuk sampai kepala di bawah pinggang
+- tanpa aksi mulut; tanpa instruksi diam / negasi berulang
+- satu arah saja, payoff sekali; muka tetap terangkat ke lensa (lihat ke bawah = chin dip)
 
 Khusus bentuk loop:
 - beat 4 wajib MENGEMBALIKAN keadaan ke persis beat 1 (gerak yang bisa nyambung mulus).

@@ -17,11 +17,17 @@ tags: []
 
 <!--
 Aturan singkat (lengkapnya: docs/aturan-produksi.md — semuanya hasil render gagal, bukan tebakan):
-- objek kunci harus terbaca dari POV atas; jangan taruh apa pun di bawah badan
-- tidak ada aksi mulut; tidak ada instruksi diam/freeze
-- badan bergerak terus (jalan / putar badan), kaki menapak, kamera selalu bergerak
-- satu arah saja, payoff sekali (jangan buka-tutup berulang)
-- kontak eksplisit; muka tetap terangkat ke lensa; kalau perlu lihat ke bawah cukup chin dip
+- objek kunci harus kebaca dari POV atas; jangan taruh apa pun di bawah badan
+- kamera = orang yang lebih tinggi MUNDUR DI DEPAN dia, menunduk ~50 derajat. Tulis semua arah
+  relatif ke tubuhnya (di depan sepatu kanan, di samping paha kiri). Drift jauh boleh - yang
+  dilarang lompatan; jangan parkir di beat akhir
+- tiap beat wajib satu event fisik yang mengubah bentuk badan atau bentuk objeknya.
+  Jangan ada beat kembar: dua beat beda redaksi dengan isi sama = model menahan frame (freeze)
+- kaki DIPAKAI: jalan, langkah menyamping, putar badan, sepakan ringan. Dilarang cuma: angkat kaki
+  setinggi lutut/pinggang, jongkok dalam, membungkuk sampai kepala di bawah pinggang
+- tidak ada aksi mulut; tidak ada instruksi diam / negasi berulang
+- muka tetap terangkat ke lensa; lihat ke bawah cukup chin dip beberapa senti
+- satu arah saja, payoff sekali; kontak ditulis eksplisit
 -->
 
 - beat pertama: satu baris = satu aksi yang kelihatan kamera
